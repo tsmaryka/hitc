@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/HITC/!svn/ver/1/public/javascripts/ckeditor/dev/builder
+END
+build.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/HITC/!svn/ver/1/public/javascripts/ckeditor/dev/builder/build.sh
+END
+build-config.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/HITC/!svn/ver/1/public/javascripts/ckeditor/dev/builder/build-config.js
+END

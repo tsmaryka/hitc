@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/HITC/!svn/ver/1/public/javascripts/ckeditor/dev/jslint
+END
+lint.sh
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/HITC/!svn/ver/1/public/javascripts/ckeditor/dev/jslint/lint.sh
+END
+lint.conf
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/HITC/!svn/ver/1/public/javascripts/ckeditor/dev/jslint/lint.conf
+END
+lint.bat
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/HITC/!svn/ver/1/public/javascripts/ckeditor/dev/jslint/lint.bat
+END

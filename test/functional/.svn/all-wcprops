@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/HITC/!svn/ver/1/test/functional
+END
+consent_texts_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/HITC/!svn/ver/1/test/functional/consent_texts_controller_test.rb
+END
+user_mailer_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/HITC/!svn/ver/1/test/functional/user_mailer_test.rb
+END
+front_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/HITC/!svn/ver/1/test/functional/front_controller_test.rb
+END

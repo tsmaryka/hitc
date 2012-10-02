@@ -1,0 +1,18 @@
+Feature: Create Account
+
+As a Visitor
+I want to join the community
+So that I can Access contextualized information and results and consider studies
+
+Scenario: Join Community
+
+Given I am an unauthenticated visitor
+When the user hits the "Join Community" button
+Then the system will display a sign up form
+And the system will display a General Profile Information form
+And the system will display a General Consent acceptance form
+
+
+
+
+

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/HITC/!svn/ver/1/db/migrate
+END
+20120921170239_initial_migration.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/HITC/!svn/ver/1/db/migrate/20120921170239_initial_migration.rb
+END
+20120924154653_hobo_migration_1.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/HITC/!svn/ver/1/db/migrate/20120924154653_hobo_migration_1.rb
+END
+20120927233449_hobo_migration_2.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/HITC/!svn/ver/1/db/migrate/20120927233449_hobo_migration_2.rb
+END

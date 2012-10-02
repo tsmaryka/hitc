@@ -1,0 +1,35 @@
+<!-- Global taglib - these tags are shared across all subsites -->
+
+<include src="rapid" gem="hobo"/>
+
+<include src="taglibs/auto/rapid/cards"/>
+<include src="taglibs/auto/rapid/pages"/>
+<include src="taglibs/auto/rapid/forms"/>
+
+<set-theme name="clean"/>
+
+<extend tag="page">
+  <old-page merge>
+    <footer:>
+      <a href="&admin_users_url" if="&current_user.administrator?">
+        <t key="hobo.admin.subsite_name">Admin</t>
+      </a>
+    </footer:>
+  </old-page>
+</extend>
+<extend tag="signup-form" for="User">
+	<old-signup-form merge>
+		<field-list: replace>
+ 			<field-list fields="name, email_address, password, password_confirmation"/>
+ 			<p>
+ 			<h2>General Consent</h2>
+ 			<%= ConsentText.find(:first, :conditions=> ["title = ?","General Consent"]).body.to_html %>
+ 			</p>
+ 			<field-list fields="general_consent_accepted">
+ 				<general-consent-accepted-label: replace>
+ 				<h3>I Accept:</h3>
+ 				</general-consent-accepted-label:>
+			</field-list>
+  	</field-list:>
+	</old-signup-form>
+</extend>

@@ -1,0 +1,77 @@
+10
+
+dir
+1
+https://svn.csc.uvic.ca/HITC/test
+https://svn.csc.uvic.ca/HITC
+
+
+
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8be0a557-81ca-0410-aade-88e2702be925
+
+fixtures
+dir
+
+unit
+dir
+
+test_helper.rb
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+2b8130eb4e1a65bce16e6e0fbe90d447
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+454
+
+performance
+dir
+
+functional
+dir
+
+integration
+dir
+

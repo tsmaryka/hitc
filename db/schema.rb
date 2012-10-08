@@ -10,7 +10,22 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120930215405) do
+ActiveRecord::Schema.define(:version => 20121007233753) do
+
+  create_table "community_members", :force => true do |t|
+    t.string   "street_address"
+    t.string   "city"
+    t.string   "province"
+    t.string   "postal_code"
+    t.string   "phone"
+    t.string   "primary_language"
+    t.date     "date_of_birth"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "user_id"
+  end
+
+  add_index "community_members", ["user_id"], :name => "index_community_members_on_user_id"
 
   create_table "consent_texts", :force => true do |t|
     t.string   "title"
@@ -20,7 +35,7 @@ ActiveRecord::Schema.define(:version => 20120930215405) do
   end
 
   create_table "consents", :force => true do |t|
-    t.date     "date",            :default => '2012-09-30'
+    t.date     "date",            :default => '2012-10-07'
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "user_id"

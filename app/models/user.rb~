@@ -9,6 +9,8 @@ class User < ActiveRecord::Base
     timestamps
     user_type enum_string(:community, :research, :manager, :referee), :default => :community
     general_consent_accepted :boolean, :required, :default => false
+    #contact info
+    
   end
   
   has_many :consents, :dependent => :destroy

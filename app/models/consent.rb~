@@ -3,7 +3,7 @@ class Consent < ActiveRecord::Base
   hobo_model # Don't put anything above this
 
   fields do
-    date :date
+    date :date, :required, :default => :now
     timestamps
   end
   

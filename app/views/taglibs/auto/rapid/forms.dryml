@@ -1,5 +1,17 @@
 <!-- AUTOMATICALLY GENERATED FILE - DO NOT EDIT -->
 
+<def tag="form" for="CommunityMember">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="street_address, city, province, postal_code, phone, primary_language, date_of_birth, user" param/>
+    <div param="actions">
+      <submit label="#{ht 'community_member.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
 <def tag="form" for="ConsentText">
   <form merge param="default">
     <error-messages param/>

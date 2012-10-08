@@ -5,11 +5,131 @@
 <def tag="main-nav">
   <navigation class="main-nav" merge-attrs param="default">
     <nav-item href="#{base_url}/">Home</nav-item>
+    <nav-item with="&CommunityMember"><ht key="community_member.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
     <nav-item with="&Consent"><ht key="consent.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
     <nav-item with="&ConsentText"><ht key="consent_text.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
-    <nav-item with="&User"><ht key="user.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
   </navigation>
 </def>
+
+
+
+
+<!-- ====== CommunityMember Pages ====== -->
+
+<def tag="index-page" for="CommunityMember">
+  <page merge title="#{ht 'community_member.index.title', :default=>[model.model_name.human(:count=>100)] }">
+    <body: class="index-page community-member" param/>
+
+    <content: param>
+      <header param="content-header">
+        <h2 param="heading">
+          <ht key="community_member.index.heading">
+            <model-name-human model="&model"/>
+          </ht>
+        </h2>
+
+        <p param="count" if>
+          <ht key="community_member.collection.count" count="&collection_count">
+            <count summary/>
+          </ht>
+        </p>
+      </header>
+
+      <section param="content-body">
+        <a action="new" to="&model" param="new-link">
+          <ht key="community_member.actions.new">New Community member</ht>
+        </a>
+
+        <page-nav param="top-page-nav"/>
+
+        <collection param/>
+
+        <page-nav param="bottom-page-nav"/>
+
+
+      </section>
+    </content:>
+  </page>
+</def>
+
+
+<def tag="new-page" for="CommunityMember">
+  <page merge title="#{ht 'community_member.new.title', :default=>[' New Community member'] }">
+    <body: class="new-page community-member" param/>
+
+    <content: param>
+      <section param="content-header">
+        <h2 param="heading">
+          <ht key="community_member.new.heading">
+            New Community member
+          </ht>
+        </h2>
+      </section>
+
+      <section param="content-body">
+        <form param>
+          <submit: label="#{ht 'community_member.actions.create', :default=>['Create Community member']}"/>
+        </form>
+      </section>
+    </content:>
+  </page>
+</def>
+
+
+<def tag="show-page" for="CommunityMember">
+  <page merge title="#{ht 'community_member.show.title', :default=>['Community member'], :name => name(:no_wrapper => true) }">
+
+    <body: class="show-page community-member" param/>
+
+    <content: param>
+          <header param="content-header">
+            <h2 param="heading">
+              <ht key="community_member.show.heading" name="#{name(:no_wrapper => true)}">
+                Community member <name/>
+              </ht>
+            </h2>
+
+            <record-flags fields="" param/>
+
+            <a action="edit" if="&can_edit?" param="edit-link">
+              <ht key="community_member.actions.edit" name="#{name(:no_wrapper => true)}">
+                Edit Community member
+              </ht>
+            </a>
+          </header>
+
+          <section param="content-body">
+            <field-list fields="street_address, city, province, postal_code, phone, primary_language, date_of_birth, user" param/>
+          </section>
+    </content:>
+
+  </page>
+</def>
+
+
+<def tag="edit-page" for="CommunityMember">
+  <page merge title="#{ht 'community_member.edit.title', :default=>['Edit Community member'], :name => name(:no_wrapper => true) }">
+
+    <body: class="edit-page community-member" param/>
+
+    <content:>
+      <section param="content-header">
+        <h2 param="heading">
+          <ht key="community_member.edit.heading" name="#{name(:no_wrapper => true)}">
+            Edit Community member
+          </ht>
+        </h2>
+        <delete-button label="#{ht 'community_member.actions.delete', :default=>['Remove This Community member']}" param/>
+      </section>
+
+      <section param="content-body">
+        <form param/>
+      </section>
+    </content:>
+
+  </page>
+</def>
+
 
 
 

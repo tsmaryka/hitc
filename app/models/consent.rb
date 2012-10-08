@@ -13,15 +13,15 @@ class Consent < ActiveRecord::Base
   # --- Permissions --- #
 
   def create_permitted?
-    acting_user.administrator?
+    true
   end
 
   def update_permitted?
-    acting_user.administrator?
+    false
   end
 
   def destroy_permitted?
-    acting_user.administrator?
+    false
   end
 
   def view_permitted?(field)

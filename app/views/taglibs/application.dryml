@@ -17,6 +17,7 @@
     </footer:>
   </old-page>
 </extend>
+
 <extend tag="signup-form" for="User">
 	<old-signup-form merge>
 		<field-list: replace>
@@ -32,4 +33,30 @@
 			</field-list>
   	</field-list:>
 	</old-signup-form>
+</extend>
+
+<extend tag="activate-form" for="User">
+	<old-activate-form merge>
+		<after-actions:>
+			<after-submit uri="/community_members/new"/>
+		</after-actions:>
+	</old-activate-form>
+</extend>
+
+<extend tag="new-page" for="CommunityMember">
+	<old-new-page merge>
+		<heading:>Enter Personal Information</heading:>
+	</old-new-page>
+</extend>
+
+<extend tag="form" for="CommunityMember">
+  <old-form merge>
+		<field-list: replace>
+ 			<field-list fields="street_address, city, province, postal_code, phone, primary_language, date_of_birth"/>
+ 		</field-list:>
+ 		<actions: replace>
+ 			<submit label="Continue"/>
+ 			<after-submit uri="/consent/new"/>
+    </actions:>
+  </old-form>
 </extend>

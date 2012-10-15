@@ -38,15 +38,13 @@
 <extend tag="activate-form" for="User">
 	<old-activate-form merge>
 		<after-actions:>
-			<after-submit uri="/community_members/new"/>
+			<after-submit uri="/login"/>
 		</after-actions:>
 	</old-activate-form>
 </extend>
 
-<extend tag="new-page" for="CommunityMember">
-	<old-new-page merge>
-		<heading:>Enter Personal Information</heading:>
-	</old-new-page>
+<extend tag="input" for="date"> 
+   <old-input merge start-year="&1900"/> 
 </extend>
 
 <extend tag="form" for="CommunityMember">
@@ -56,7 +54,6 @@
  		</field-list:>
  		<actions: replace>
  			<submit label="Continue"/>
- 			<after-submit uri="/consent/new"/>
     </actions:>
   </old-form>
 </extend>

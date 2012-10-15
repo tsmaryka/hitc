@@ -9,12 +9,13 @@ class User < ActiveRecord::Base
     timestamps
     user_type enum_string(:community, :research, :manager, :referee), :default => :community
     general_consent_accepted :boolean, :required, :default => false
-    #contact info
-    
   end
   
+  has_many :study_invitations, :dependent => :destroy
+  has_many :studies, :through => :study_invitations
+  
   has_many :consents, :dependent => :destroy
-  has_many :consent_texts, :through => :consents, :accessible => true
+  has_many :consent_texts, :through => :consents
 
   # This gives admin rights and an :active state to the first sign-up.
   # Just remove it if you don't want that
@@ -44,8 +45,16 @@ class User < ActiveRecord::Base
      	consent.consent_text = ConsentText.find(:first, :conditions=> ["title = ?","General Consent"])
      	consent.save
     end
+  
+  #TODO create lifecycles for adding researchers, referees and managers
+  #  create :add_researcher, :available_to => "User",
+   # 	:params => [:name, :email_address, :password, :password_confirmation]
+  #  	:become => :inactive, :new_key => true do
+    	
 
-    transition :activate, { :inactive => :active }, :available_to => :key_holder
+    transition :activate, { :inactive => :active }, :available_to => :key_holder do
+    	acting_user = self
+    end
 
     transition :request_password_reset, { :inactive => :inactive }, :new_key => true do
       UserMailer.activation(self, lifecycle.key).deliver
@@ -62,6 +71,20 @@ class User < ActiveRecord::Base
 
   def signed_up?
     state=="active"
+  end
+  
+  #check if user has entered a community profile
+  def community_details_entered?
+  	
+  	if self.user_type != "community"
+  		puts "not community"
+  		return true
+  	end
+  	if CommunityMember.find(:first, :conditions=> ["user_id = ?", self]) != nil
+  		return true
+  	end
+  	return false
+  	
   end
 
   # --- Permissions --- #

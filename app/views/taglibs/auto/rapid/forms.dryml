@@ -15,7 +15,7 @@
 <def tag="form" for="ConsentText">
   <form merge param="default">
     <error-messages param/>
-    <field-list fields="title, body" param/>
+    <field-list fields="title, body, study" param/>
     <div param="actions">
       <submit label="#{ht 'consent_text.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
     </div>
@@ -36,10 +36,46 @@
 
 
 
+<def tag="form" for="Manager">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="user" param/>
+    <div param="actions">
+      <submit label="#{ht 'manager.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Researcher">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="user" param/>
+    <div param="actions">
+      <submit label="#{ht 'researcher.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="Study">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="title, body, study_invitations, study_ownerships" param/>
+    <div param="actions">
+      <submit label="#{ht 'study.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
 <def tag="form" for="User">
   <form merge param="default">
     <error-messages param/>
-    <field-list fields="name, email_address, administrator, user_type, general_consent_accepted, state, consent_texts" param/>
+    <field-list fields="name, email_address, administrator, user_type, general_consent_accepted, state" param/>
     <div param="actions">
       <submit label="#{ht 'user.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
     </div>

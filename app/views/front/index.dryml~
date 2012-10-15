@@ -1,0 +1,37 @@
+<page title="Home">
+
+  <body: class="front-page"/>
+
+  <content:>
+    <header class="content-header">
+      <h1>Welcome to <app-name/></h1>
+      <section class="welcome-message">
+      <% if !current_user.signed_up? -%>
+      	This is the Home Page for Heads in the Cloud. Please login or sign up to see more.
+      	<% if User.count == 0 -%>
+        	<h3 style="margin-top: 20px;">There are no user accounts - please provide the details of the site administrator</h3>
+     	 		<form with="&this || User.new" without-cancel>
+            <field-list: fields="name, email_address, password, password_confirmation"/>
+            <submit: label="Register Administrator"/>
+          </form>
+        <% end -%>
+      
+			<%else -%>
+		    <% if (current_user.community_details_entered?) -%>
+		      	<h3 style="margin-top: 20px;">Please enter your personal information:</h3>
+		      	<form with="&this || CommunityMember.new" without-cancel>
+		      		<field-list: fields="street_address, city, province, postal_code, phone, primary_language, date_of_birth"/>
+		      		<submit: label="Continue"/>
+		      	</form>
+		    <% else -%>
+		    
+		    <% end -%>
+		  <% end -%>
+      </section>
+    </header>
+
+    <section class="content-body">
+    </section>
+  </content:>
+
+</page>

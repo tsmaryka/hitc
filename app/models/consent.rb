@@ -13,19 +13,19 @@ class Consent < ActiveRecord::Base
   # --- Permissions --- #
 
   def create_permitted?
-    true
+    acting_user.signed_up?
   end
 
   def update_permitted?
-    false
+    acting_user.signed_up?
   end
 
   def destroy_permitted?
-    false
+    acting_user.signed_up?
   end
 
   def view_permitted?(field)
-    true
+    acting_user.signed_up?
   end
 
 end

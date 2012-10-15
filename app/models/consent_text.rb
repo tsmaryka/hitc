@@ -10,19 +10,20 @@ class ConsentText < ActiveRecord::Base
   
   has_many :consents
   has_many :users, :through => :consent
+  belongs_to :study, :accessible => true
 
   # --- Permissions --- #
 
   def create_permitted?
-    acting_user.administrator?
+    true
   end
 
   def update_permitted?
-    acting_user.administrator?
+    true
   end
 
   def destroy_permitted?
-    acting_user.administrator?
+    false
   end
 
   def view_permitted?(field)

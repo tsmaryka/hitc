@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/data
+END
+StringConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/data/StringConverter.java
+END
+IntegerProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/data/IntegerProperty.java
+END
+LongProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/data/LongProperty.java
+END
+Question.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/data/Question.java
+END
+Level.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/data/Level.java
+END
+StringProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/data/StringProperty.java
+END
+ObjectProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/data/ObjectProperty.java
+END
+Points.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/data/Points.java
+END
+Result.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/data/Result.java
+END
+DoubleProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/data/DoubleProperty.java
+END
+GenericProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/data/GenericProperty.java
+END
+DateProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/data/DateProperty.java
+END
+Rating.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/data/Rating.java
+END
+Timing.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/data/Timing.java
+END
+DataUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/data/DataUtils.java
+END
+Misc.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/data/Misc.java
+END

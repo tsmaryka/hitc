@@ -1,7 +1,7 @@
 10
 
 dir
-1
+16
 https://svn.csc.uvic.ca/HITC/public/javascripts
 https://svn.csc.uvic.ca/HITC
 
@@ -25,6 +25,74 @@ tsmaryka
 
 
 8be0a557-81ca-0410-aade-88e2702be925
+
+effects.js
+file
+
+
+
+
+2012-09-30T20:16:11.000000Z
+24be23f24f79ec026c733505a05573a3
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+38467
+
+blank.gif
+file
+
+
+
+
+2012-09-30T20:16:11.000000Z
+45becbb1ba3486fa9961b9c47614d2a0
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+48
 
 dryml-support.js
 file
@@ -402,72 +470,4 @@ tsmaryka
 
 
 4860
-
-effects.js
-file
-
-
-
-
-2012-09-30T20:16:11.000000Z
-24be23f24f79ec026c733505a05573a3
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-38467
-
-blank.gif
-file
-
-
-
-
-2012-09-30T20:16:11.000000Z
-45becbb1ba3486fa9961b9c47614d2a0
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-48
 

@@ -4,6 +4,6 @@ class StudiesController < ApplicationController
 
   auto_actions :all
   
-  auto_actions_for :consent_text, [:new, :create]
+  auto_actions_for :consent_texts, [:new, :create]
 
-end
+end	

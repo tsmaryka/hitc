@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/element
+END
+ExecutionStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/element/ExecutionStrategy.java
+END
+ElementTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/element/ElementTree.java
+END
+Element.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/element/Element.java
+END
+TemporaryElementSupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/element/TemporaryElementSupport.java
+END
+ElementSelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/element/ElementSelector.java
+END
+Initializable.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/element/Initializable.java
+END
+Executable.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/element/Executable.java
+END
+Node.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/element/Node.java
+END

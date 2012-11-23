@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/module/scheduler
+END
+DailyModuleScheduler.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/module/scheduler/DailyModuleScheduler.java
+END
+AbstractModuleScheduler.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/module/scheduler/AbstractModuleScheduler.java
+END
+AlwaysAllowModuleScheduler.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/module/scheduler/AlwaysAllowModuleScheduler.java
+END

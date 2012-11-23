@@ -1,0 +1,9 @@
+<%= @researcher.name %>,
+<br/>
+Your research account has been approved for <%= @app_name %>.
+<br/>
+Log in to <%= @app_name %> to use the platform.
+<br/>
+Thank you,
+<br/>
+The <%= @app_name %> team.

@@ -8,19 +8,37 @@
 
 <set-theme name="clean"/>
 
+<def tag="main-nav">
+  <navigation class="main-nav" merge-attrs param="default">
+    <nav-item href="#{base_url}/">Home</nav-item>
+    <nav-item with="&ConsentText" if="&current_user.is_manager?"><ht key="consent_text.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
+    <nav-item with="&CommunityMember" if="&current_user.is_researcher?"><ht key="community_member.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
+    <nav-item with="&Researcher" if="&current_user.is_manager?"><ht key="researcher.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
+    <nav-item with="&Study" if="&current_user.is_researcher?"><ht key="study.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
+    <nav-item with="&StudyInvitation" if="&current_user.is_community_member?"><ht key="study_invitation.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
+    <nav-item with="&StudyEnrollment" if="&current_user.is_community_member?"><ht key="study_enrollment.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
+    <nav-item with="&User" if="&current_user.is_manager?"><ht key="user.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
+  </navigation>
+</def>
+
 <extend tag="page">
   <old-page merge>
+  	<live-search: replace/>
     <footer:>
       <a href="&admin_users_url" if="&current_user.administrator?">
         <t key="hobo.admin.subsite_name">Admin</t>
       </a>
+      <a href="/users/signup_researcher" unless="&current_user.signed_up?">
+      	<t>Request Researcher Account</t>
+      </a>
     </footer:>
   </old-page>
 </extend>
+
 <extend tag="signup-form" for="User">
 	<old-signup-form merge>
 		<field-list: replace>
- 			<field-list fields="name, email_address, password, password_confirmation"/>
+ 			<field-list fields="email_address, password, password_confirmation"/>
  			<p>
  			<h2>General Consent</h2>
  			<%= ConsentText.find(:first, :conditions=> ["title = ?","General Consent"]).body.to_html %>
@@ -33,3 +51,80 @@
   	</field-list:>
 	</old-signup-form>
 </extend>
+
+<extend tag="signup-researcher-form" for="User">
+	<old-signup-researcher-form merge>
+		<field-list: replace>
+ 			<field-list fields="email_address, password, password_confirmation"/>
+ 			<input id="user[user_type]" type="hidden" value="researcher" name="user[user_type]"/>
+ 			<p>
+ 			<h2>Researcher Consent</h2>
+ 			<%= ConsentText.find(:first, :conditions=> ["title = ?","Researcher Consent"]).body.to_html %>
+ 			</p>
+ 			<field-list fields="general_consent_accepted">
+ 				<general-consent-accepted-label: replace>
+ 				<h3>I Accept:</h3>
+ 				</general-consent-accepted-label:>
+ 				<hidden-field: name="user_type" type="hidden" value="researcher" />
+			</field-list>
+  	</field-list:>
+  	<after-actions:>
+			<after-submit uri="/check_email"/>
+		</after-actions:>
+	</old-signup-researcher-form>
+</extend>
+
+<extend tag="activate-form" for="User">
+	<old-activate-form merge>
+		<after-actions:>
+			<after-submit uri="/login"/>
+		</after-actions:>
+	</old-activate-form>
+</extend>
+
+<extend tag="input" for="date"> 
+   <old-input merge start-year="&1900"/> 
+</extend>
+
+<extend tag="form" for="CommunityMember">
+  <old-form merge>
+		<field-list: replace>
+ 			<field-list fields="name, street_address, city, province, postal_code, phone, primary_language, date_of_birth"/>
+ 		</field-list:>
+ 		<actions: replace>
+ 			<submit label="Continue"/>
+    </actions:>
+  </old-form>
+</extend>
+
+<extend tag="index-page" for="Researcher">
+	<old-index-page: merge>
+		<content-header: after>
+		<h2>Researchers Pending Approval</h2>
+		<h2>Approved Researchers</h2>
+		</content-header:>
+		<!--
+		<collection: append>
+			<collection:researchers with="is_approved==true"></collection>
+		</collection:>
+		 -->
+	</old-index-page:>
+</extend>
+
+<extend tag="accept-invitation-form" for="StudyInvitation">
+	<div style="margin-left:50px;">
+	<h3> <%= this.study.title %> Consent Form</h3>
+	<%= this.study.consent_text.body.to_html %>
+	
+	<old-accept-invitation-form merge>
+		<field-list: replace>
+			<field-list fields="consent_accepted">
+				<consent-accepted-label: replace>
+		 				<h3>I Accept:</h3>
+		 		</consent-accepted-label:>
+	 		</field-list>
+ 		</field-list:>
+	</old-accept-invitation-form>
+	</div>
+</extend>
+

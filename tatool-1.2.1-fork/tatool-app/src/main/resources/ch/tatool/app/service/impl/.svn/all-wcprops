@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/resources/ch/tatool/app/service/impl
+END
+module.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/resources/ch/tatool/app/service/impl/module.hbm.xml
+END
+modulesession.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/resources/ch/tatool/app/service/impl/modulesession.hbm.xml
+END
+account-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/resources/ch/tatool/app/service/impl/account-context.xml
+END
+trial.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/resources/ch/tatool/app/service/impl/trial.hbm.xml
+END
+account.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/resources/ch/tatool/app/service/impl/account.hbm.xml
+END

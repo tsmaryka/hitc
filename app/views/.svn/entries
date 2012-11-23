@@ -1,14 +1,14 @@
 10
 
 dir
-1
+16
 https://svn.csc.uvic.ca/HITC/app/views
 https://svn.csc.uvic.ca/HITC
 
 
 
-2012-09-30T20:27:53.150972Z
-1
+2012-11-06T21:25:38.367938Z
+5
 tsmaryka
 
 
@@ -26,9 +26,6 @@ tsmaryka
 
 8be0a557-81ca-0410-aade-88e2702be925
 
-layouts
-dir
-
 taglibs
 dir
 
@@ -39,5 +36,24 @@ front
 dir
 
 admin
+dir
+
+community_members
+dir
+
+study_invitations
+dir
+
+layouts
+dir
+
+
+
+delete
+
+studies
+dir
+
+users
 dir
 

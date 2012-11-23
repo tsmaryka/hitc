@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 19
-/HITC/!svn/ver/1/db
+/HITC/!svn/ver/4/db
 END
 schema.rb
 K 25
 svn:wc:ra_dav:version-url
 V 29
-/HITC/!svn/ver/2/db/schema.rb
+/HITC/!svn/ver/4/db/schema.rb
 END
 test.sqlite3
 K 25

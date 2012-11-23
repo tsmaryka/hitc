@@ -1,29 +1,71 @@
 K 25
 svn:wc:ra_dav:version-url
 V 27
-/HITC/!svn/ver/1/app/models
+/HITC/!svn/ver/4/app/models
+END
+study_ownership.rb
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/HITC/!svn/ver/4/app/models/study_ownership.rb
 END
 guest.rb
 K 25
 svn:wc:ra_dav:version-url
 V 36
-/HITC/!svn/ver/1/app/models/guest.rb
+/HITC/!svn/ver/4/app/models/guest.rb
+END
+study_enrollment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/HITC/!svn/ver/4/app/models/study_enrollment.rb
+END
+study.rb
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/HITC/!svn/ver/4/app/models/study.rb
 END
 consent.rb
 K 25
 svn:wc:ra_dav:version-url
 V 38
-/HITC/!svn/ver/2/app/models/consent.rb
+/HITC/!svn/ver/4/app/models/consent.rb
+END
+manager.rb
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/HITC/!svn/ver/4/app/models/manager.rb
+END
+community_member.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/HITC/!svn/ver/4/app/models/community_member.rb
+END
+study_invitation.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/HITC/!svn/ver/4/app/models/study_invitation.rb
 END
 consent_text.rb
 K 25
 svn:wc:ra_dav:version-url
 V 43
-/HITC/!svn/ver/1/app/models/consent_text.rb
+/HITC/!svn/ver/4/app/models/consent_text.rb
 END
 user.rb
 K 25
 svn:wc:ra_dav:version-url
 V 35
-/HITC/!svn/ver/2/app/models/user.rb
+/HITC/!svn/ver/4/app/models/user.rb
+END
+researcher.rb
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/HITC/!svn/ver/4/app/models/researcher.rb
 END

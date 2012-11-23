@@ -1,0 +1,9 @@
+<%= @study_invitation.community_member.name %>,
+<br/><br/>
+You have been invited to a study on <%= @app_name %>.
+<br/>
+Log in to <%= @app_name %> to view this study and accept this invitation.
+<br/><br/>
+Thank you,
+<br/>
+The <%= @app_name %> team.

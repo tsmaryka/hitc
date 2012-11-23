@@ -1,0 +1,5 @@
+<show-page>
+	<heading: replace>
+	<h2><%= @this.name %></h2>
+	</heading:>
+</show-page>

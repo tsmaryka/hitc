@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/executable
+END
+ConfidenceRatingExecutable.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/executable/ConfidenceRatingExecutable.java
+END
+HTMLExecutable.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/executable/HTMLExecutable.java
+END
+BlockingAWTExecutable.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/executable/BlockingAWTExecutable.java
+END
+AbstractInstructionExecutable.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/executable/AbstractInstructionExecutable.java
+END
+QuestionnaireExecutable.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/executable/QuestionnaireExecutable.java
+END
+GenericContentExecutable.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/executable/GenericContentExecutable.java
+END
+AbstractHTMLExecutable.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/executable/AbstractHTMLExecutable.java
+END
+BlockingExecutable.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/executable/BlockingExecutable.java
+END
+ListInstructionExecutable.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/executable/ListInstructionExecutable.java
+END
+NonBlockingAWTExecutable.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/executable/NonBlockingAWTExecutable.java
+END
+ImageListInstructionExecutable.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/executable/ImageListInstructionExecutable.java
+END

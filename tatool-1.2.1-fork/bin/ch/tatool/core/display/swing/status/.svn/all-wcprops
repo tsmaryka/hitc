@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/display/swing/status
+END
+DefaultModuleStatusRegionConfigurator.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/display/swing/status/DefaultModuleStatusRegionConfigurator.java
+END
+StatusRegionUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/display/swing/status/StatusRegionUtil.java
+END
+StatusRegion.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/display/swing/status/StatusRegion.java
+END
+TextStatusPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/display/swing/status/TextStatusPanel.java
+END
+StatusRegionImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/display/swing/status/StatusRegionImpl.java
+END
+TextStatusPanel.form
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/display/swing/status/TextStatusPanel.form
+END
+StatusRegionConfigurator.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/display/swing/status/StatusRegionConfigurator.java
+END
+CorrectWrongStatusPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/display/swing/status/CorrectWrongStatusPanel.java
+END
+StatusPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/display/swing/status/StatusPanel.java
+END
+TimerStatusPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/display/swing/status/TimerStatusPanel.java
+END

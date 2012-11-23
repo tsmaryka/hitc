@@ -8,6 +8,9 @@ gem 'rails', '3.0.17'
 #gem 'sqlite3'
 gem 'pg'
 
+gem 'sendgrid'
+gem "time_diff", "~> 0.2.2"
+
 # Use unicorn as the web server
 # gem 'unicorn'
 

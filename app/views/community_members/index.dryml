@@ -1,0 +1,12 @@
+<index-page>
+<content-header: replace>
+<div class="header content-header">
+<h1 class="heading">Community Members</h1>
+</div>
+</content-header:>
+<collection: replace>
+<table-plus fields="this, age, province, city">
+	<empty-message:>No Community Members Available</empty-message:>
+</table-plus>
+</collection:>
+</index-page>

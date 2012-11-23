@@ -1,0 +1,8 @@
+<new-page merge>
+	<content-body>
+	<create-form>
+		<field-list replace>
+		</field-list>
+	</create-form>
+	</content-body>
+</new-page>

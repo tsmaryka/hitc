@@ -1,7 +1,7 @@
 10
 
 dir
-1
+16
 https://svn.csc.uvic.ca/HITC/public/javascripts/ckeditor/samples/assets/outputforflash
 https://svn.csc.uvic.ca/HITC
 
@@ -25,40 +25,6 @@ tsmaryka
 
 
 8be0a557-81ca-0410-aade-88e2702be925
-
-outputforflash.fla
-file
-
-
-
-
-2012-09-30T20:16:11.000000Z
-8fb373f8580dc2f95678ca861a1ba9af
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-85504
 
 swfobject.js
 file
@@ -127,4 +93,38 @@ has-props
 
 
 15571
+
+outputforflash.fla
+file
+
+
+
+
+2012-09-30T20:16:11.000000Z
+8fb373f8580dc2f95678ca861a1ba9af
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+85504
 

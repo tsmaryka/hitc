@@ -1,7 +1,7 @@
 10
 
 dir
-1
+16
 https://svn.csc.uvic.ca/HITC/public/javascripts/ckeditor/plugins/clipboard
 https://svn.csc.uvic.ca/HITC
 
@@ -25,6 +25,9 @@ tsmaryka
 
 
 8be0a557-81ca-0410-aade-88e2702be925
+
+samples
+dir
 
 plugin.js
 file
@@ -67,8 +70,5 @@ lang
 dir
 
 dialogs
-dir
-
-samples
 dir
 

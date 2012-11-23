@@ -1,0 +1,17 @@
+<page title="Account Created">
+
+  <body: class="front-page"/>
+
+  <content:>
+    <header class="content-header">
+      <h1>Welcome to <app-name/></h1>
+      <section class="welcome-message">
+      	Please check your email to activate your account.
+      </section>
+    </header>
+
+    <section class="content-body">
+    </section>
+  </content:>
+
+</page>

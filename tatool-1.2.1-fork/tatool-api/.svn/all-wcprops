@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/HITC/!svn/ver/16/tatool-1.2.1-fork/tatool-api
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/HITC/!svn/ver/11/tatool-1.2.1-fork/tatool-api/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/HITC/!svn/ver/11/tatool-1.2.1-fork/tatool-api/.project
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/HITC/!svn/ver/7/tatool-1.2.1-fork/tatool-api/pom.xml
+END

@@ -1,0 +1,16 @@
+<index-page>
+<content-header: replace>
+<div class="header content-header">
+<h1 class="heading">Your Enrolled Studies</h1>
+</div>
+</content-header:>
+<new-link: replace />
+<collection: replace>
+
+<table-plus fields="this" if="&current_user.community_member.is_enrolled_any">
+</table-plus>
+<p unless="&current_user.community_member.is_enrolled_any">
+	You are currently not enrolled in any studies
+</p>
+</collection:>
+</index-page>

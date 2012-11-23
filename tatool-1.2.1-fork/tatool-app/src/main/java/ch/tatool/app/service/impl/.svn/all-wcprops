@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/service/impl
+END
+ModuleServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/service/impl/ModuleServiceImpl.java
+END
+ModuleDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/service/impl/ModuleDAO.java
+END
+DataServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/service/impl/DataServiceImpl.java
+END
+ModuleSessionDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/service/impl/ModuleSessionDAO.java
+END
+UserAccountServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/service/impl/UserAccountServiceImpl.java
+END
+TrialDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/service/impl/TrialDAO.java
+END
+UserAccountDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/service/impl/UserAccountDAO.java
+END
+ModuleInfoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/service/impl/ModuleInfoImpl.java
+END

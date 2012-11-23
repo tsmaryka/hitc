@@ -1,0 +1,15 @@
+class StudyEnrollmentsController < ApplicationController
+
+  hobo_model_controller
+
+  auto_actions :all
+  
+  def launch	
+  	@study_enrollment = StudyEnrollment.find(params[:id])
+  	respond_to do |format|
+  		format.jnlp
+  	end
+  end
+  
+
+end

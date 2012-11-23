@@ -1,7 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
 V 23
-/HITC/!svn/ver/1/public
+/HITC/!svn/ver/5/public
+END
+robots.txt
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/HITC/!svn/ver/1/public/robots.txt
+END
+run.jnlp
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/HITC/!svn/ver/5/public/run.jnlp
 END
 500.html
 K 25
@@ -26,10 +38,4 @@ K 25
 svn:wc:ra_dav:version-url
 V 35
 /HITC/!svn/ver/1/public/favicon.ico
-END
-robots.txt
-K 25
-svn:wc:ra_dav:version-url
-V 34
-/HITC/!svn/ver/1/public/robots.txt
 END

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://localhost/tatool-online-1.2.1/jnlp" href="$outputFile">
+ <information>
+    <title>Tatool</title>
+    <vendor>Tatool</vendor>
+    <homepage href="http://www.tatool.ch/"/>
+    <description kind="one-line">tatool</description>
+    <description kind="short">Tatool is an open-source training and testing tool for psychological experiments.</description>
+    <description kind="tooltip">Tatool - Training and Testing Tool for psychological experiments</description>
+    <icon href="http://www.tatool.ch/img/icon1.png" kind="default"/>
+    <icon href="http://www.tatool.ch/img/splash.png" kind="splash"/>
+    <shortcut online="true">
+      <desktop/>
+      <menu submenu="Tatool"/>
+    </shortcut>
+    <offline-allowed/>
+ </information>
+ <security>
+    <all-permissions/>
+ </security>
+ <update check="timeout" policy="always"/>
+ <resources>
+    <j2se version="1.6+" initial-heap-size="32m" max-heap-size="128m" />
+    <property name="jnlp.versionEnabled" value="true"/>
+	  <property name="jnlp.packEnabled" value="true"/>
+    $dependencies
+ </resources>
+ <application-desc main-class="$mainClass">
+ </application-desc>
+</jnlp>

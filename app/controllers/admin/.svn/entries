@@ -1,7 +1,7 @@
 10
 
 dir
-1
+16
 https://svn.csc.uvic.ca/HITC/app/controllers/admin
 https://svn.csc.uvic.ca/HITC
 
@@ -25,40 +25,6 @@ tsmaryka
 
 
 8be0a557-81ca-0410-aade-88e2702be925
-
-users_controller.rb
-file
-
-
-
-
-2012-09-30T20:16:16.000000Z
-b57702782766018d82a6f704985b3d19
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-104
 
 admin_site_controller.rb
 file
@@ -93,4 +59,38 @@ tsmaryka
 
 
 213
+
+users_controller.rb
+file
+
+
+
+
+2012-09-30T20:16:16.000000Z
+b57702782766018d82a6f704985b3d19
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+104
 

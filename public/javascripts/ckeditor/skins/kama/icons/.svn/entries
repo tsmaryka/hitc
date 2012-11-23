@@ -1,7 +1,7 @@
 10
 
 dir
-1
+16
 https://svn.csc.uvic.ca/HITC/public/javascripts/ckeditor/skins/kama/icons
 https://svn.csc.uvic.ca/HITC
 
@@ -26,14 +26,14 @@ tsmaryka
 
 8be0a557-81ca-0410-aade-88e2702be925
 
-pagebreak-rtl.png
+iframe.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-76dac60a6049b3b2f04062483b9a03e2
+a65333cfd20d4cea168fc8ae99f2b459
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -58,483 +58,7 @@ has-props
 
 
 
-295
-
-find.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-498834f903a586848233b4d441a70b8b
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-340
-
-preview.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-e49244abb421eb9d6661e713887c6ebf
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-311
-
-outdent.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-8c13cd8cf8fa5ca78f067522c48e534c
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-957
-
-maximize.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-08ca42998b2f4637351225184cf1529c
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-315
-
-superscript.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-690691d8dbcd1df2a3b2a5d1083daab6
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-385
-
-table.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-6de9fadd639ac4951e99d6585cec7692
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-434
-
-docprops-rtl.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-fe4f4999168a505d5dc4e6366b0a426d
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-949
-
-bidirtl.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-d1c79b69b8dba434b9600d5c4c1aae98
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-927
-
-bidiltr.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-af7cac41fa635b9b1eb9109b9f29bc28
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-151
-
-pastefromword.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-016fec892c2f0227e4f40acce4b012db
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-532
-
-print.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-ddb99ba09dea062c42812ac03a29815b
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-293
-
-justifycenter.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-6911b5dbc7b9d955d45ca41167239c68
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-936
-
-templates.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-0c5c3685c74048271828de0aa46374c4
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-261
-
-smiley.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-e3b49793309c2d0fc78ae02dac96ba18
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-473
+1092
 
 form.png
 file
@@ -638,14 +162,14 @@ has-props
 
 419
 
-selectall.png
+creatediv.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-916d547239a7a1c359764cc442f77a5b
+e89756d40dbff26aec279068105d0a66
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -671,40 +195,6 @@ has-props
 
 
 975
-
-anchor-rtl.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-bfcaa5cca3a6fa52808a10a86bdd721f
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-977
 
 copy-rtl.png
 file
@@ -740,6 +230,74 @@ has-props
 
 965
 
+replace.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+4f7115f8abc0456131fcc6fd7d5575b6
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+951
+
+button.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+171d801e4f1b60ced606507f04a613d1
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+326
+
 textarea-rtl.png
 file
 
@@ -774,14 +332,14 @@ has-props
 
 443
 
-showblocks.png
+pagebreak-rtl.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-06dac7f81f0e3c4217f09b80f602a8c0
+76dac60a6049b3b2f04062483b9a03e2
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -806,16 +364,16 @@ has-props
 
 
 
-335
+295
 
-specialchar.png
+newpage.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-5417e49a6e48b253bb3af4a46eaf1cd6
+5d053da289ca99d3e825a01e1d53582e
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -840,211 +398,7 @@ has-props
 
 
 
-407
-
-imagebutton.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-18d380ba43bec58d3ad79510feb3f4c8
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-358
-
-select.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-4e0b92dc4c97c497587428beb49ba703
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-284
-
-indent-rtl.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-7d4ef6ccfbd97346b42c8e3b52f3461a
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-931
-
-pagebreak.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-98fc3b92e0afdf3a550faee5db50c2c1
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-433
-
-image.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-eb1152e98133a6b8822ceae71a5aaef7
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-587
-
-newpage-rtl.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-56175943cc39911a2e72d982bad5dbad
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-209
+221
 
 checkbox.png
 file
@@ -1079,6 +433,40 @@ has-props
 
 
 950
+
+table.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+6de9fadd639ac4951e99d6585cec7692
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+434
 
 redo-rtl.png
 file
@@ -1148,14 +536,14 @@ has-props
 
 979
 
-cut-rtl.png
+cut.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-7887895cc5e66d80a1d918050a27a634
+186e3d33282e8b1fe38661f2afaefa33
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -1180,7 +568,7 @@ has-props
 
 
 
-1042
+1043
 
 bulletedlist-rtl.png
 file
@@ -1216,14 +604,14 @@ has-props
 
 198
 
-radio.png
+print.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-3f772182bcbd878ba6b39c12a8ac906c
+ddb99ba09dea062c42812ac03a29815b
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -1248,16 +636,16 @@ has-props
 
 
 
-972
+293
 
-source-rtl.png
+pastefromword.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-fc3d40a0c6103f1a6e320ac4c294b5e6
+016fec892c2f0227e4f40acce4b012db
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -1282,7 +670,143 @@ has-props
 
 
 
-263
+532
+
+justifycenter.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+6911b5dbc7b9d955d45ca41167239c68
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+936
+
+templates.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+0c5c3685c74048271828de0aa46374c4
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+261
+
+hiddenfield.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+f558def34fa8764a04b68ba7d277c76b
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+561
+
+strike.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+33e1dd27f5455c950bbe8878d048a4ff
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+194
 
 undo.png
 file
@@ -1318,40 +842,6 @@ has-props
 
 397
 
-italic.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-f5a41a8395eccaeb6c16a635156ed789
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-363
-
 removeformat.png
 file
 
@@ -1385,6 +875,74 @@ has-props
 
 
 949
+
+blockquote.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+233c64770ee1912aa1bce586cfb92396
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+972
+
+selectall.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+916d547239a7a1c359764cc442f77a5b
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+975
 
 justifyblock.png
 file
@@ -1454,14 +1012,14 @@ has-props
 
 1001
 
-anchor.png
+showblocks-rtl.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-d12179dcf359735991cc2e9c2b24498d
+5ea98c141ada6ffa5b01a160a38caf72
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -1486,75 +1044,7 @@ has-props
 
 
 
-979
-
-paste-rtl.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-656d041c783ed774867cf5fea36b2850
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-991
-
-replace.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-4f7115f8abc0456131fcc6fd7d5575b6
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-951
+336
 
 textarea.png
 file
@@ -1590,14 +1080,14 @@ has-props
 
 426
 
-subscript.png
+select-rtl.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-ec30f89024a2785fa579a4aad05ab3de
+c3e30da07fc2a43ac750d8db1e1b7b86
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -1622,41 +1112,7 @@ has-props
 
 
 
-293
-
-pastetext-rtl.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-16be2e5e513402a91c77cc2c434d8caf
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1050
+292
 
 bold.png
 file
@@ -1692,14 +1148,14 @@ has-props
 
 371
 
-indent.png
+preview-rtl.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-f70c6ee24f29d4bfa0eeb3d8cc1f1485
+93162968faea749b5bf3f6607402a1a6
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -1724,16 +1180,16 @@ has-props
 
 
 
-961
+313
 
-horizontalrule.png
+pagebreak.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-c9d9e8af6216d6284f41e039298d74eb
+98fc3b92e0afdf3a550faee5db50c2c1
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -1758,16 +1214,16 @@ has-props
 
 
 
-406
+433
 
-scayt.png
+outdent-rtl.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-ffe579819e726d3ec65b711b84e293a2
+a5747caad41387f73e7520ac61f15344
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -1792,16 +1248,16 @@ has-props
 
 
 
-334
+928
 
-underline.png
+image.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-e4b122669f1b05f017c25dadad4c764f
+eb1152e98133a6b8822ceae71a5aaef7
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -1826,16 +1282,16 @@ has-props
 
 
 
-922
+587
 
-newpage.png
+bgcolor.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-5d053da289ca99d3e825a01e1d53582e
+276a5cca7d0497d01c653b39f32f795b
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -1860,7 +1316,7 @@ has-props
 
 
 
-221
+1045
 
 redo.png
 file
@@ -1929,40 +1385,6 @@ has-props
 
 
 936
-
-cut.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-186e3d33282e8b1fe38661f2afaefa33
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1043
 
 numberedlist-rtl.png
 file
@@ -2066,14 +1488,14 @@ has-props
 
 995
 
-flash.png
+radio.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-3906863f599c875f5bc420254c97d62a
+3f772182bcbd878ba6b39c12a8ac906c
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -2098,16 +1520,16 @@ has-props
 
 
 
-485
+972
 
-hiddenfield.png
+smiley.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-f558def34fa8764a04b68ba7d277c76b
+e3b49793309c2d0fc78ae02dac96ba18
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -2132,16 +1554,16 @@ has-props
 
 
 
-561
+473
 
-unlink.png
+justifyleft.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-d9e7c3565d3cd72779ff094db54f02d5
+882ba583da6051d088705489b117e82d
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -2166,16 +1588,16 @@ has-props
 
 
 
-1027
+936
 
-source.png
+anchor-rtl.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-0e54b947443fa4fa5e0bdece72d2e283
+bfcaa5cca3a6fa52808a10a86bdd721f
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -2200,16 +1622,16 @@ has-props
 
 
 
-382
+977
 
-iframe.png
+paste-rtl.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-a65333cfd20d4cea168fc8ae99f2b459
+656d041c783ed774867cf5fea36b2850
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -2234,16 +1656,16 @@ has-props
 
 
 
-1092
+991
 
-about.png
+subscript.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-24f344d2937ee1349561ee6df8033c56
+ec30f89024a2785fa579a4aad05ab3de
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -2268,16 +1690,16 @@ has-props
 
 
 
-386
+293
 
-button.png
+showblocks.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-171d801e4f1b60ced606507f04a613d1
+06dac7f81f0e3c4217f09b80f602a8c0
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -2302,75 +1724,7 @@ has-props
 
 
 
-326
-
-icons.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-c95409aa0037202b7f586b6b12ae02c6
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5598
-
-paste.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-591a3b6cc9b2d0dc4a1c9672faa7a35a
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1032
+335
 
 find-rtl.png
 file
@@ -2406,14 +1760,14 @@ has-props
 
 343
 
-preview-rtl.png
+select.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-93162968faea749b5bf3f6607402a1a6
+4e0b92dc4c97c497587428beb49ba703
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -2438,16 +1792,16 @@ has-props
 
 
 
-313
+284
 
-outdent-rtl.png
+pastetext-rtl.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-a5747caad41387f73e7520ac61f15344
+16be2e5e513402a91c77cc2c434d8caf
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -2472,16 +1826,16 @@ has-props
 
 
 
-928
+1050
 
-pastetext.png
+indent-rtl.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-dbbfd6676668cf76f5fe7bf21df55991
+7d4ef6ccfbd97346b42c8e3b52f3461a
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -2506,16 +1860,16 @@ has-props
 
 
 
-1054
+931
 
-textcolor.png
+preview.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-f660759f15b0ff8f7462b05eac2ffdb7
+e49244abb421eb9d6661e713887c6ebf
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -2540,16 +1894,16 @@ has-props
 
 
 
-346
+311
 
-bgcolor.png
+outdent.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-276a5cca7d0497d01c653b39f32f795b
+8c13cd8cf8fa5ca78f067522c48e534c
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -2574,16 +1928,16 @@ has-props
 
 
 
-1045
+957
 
-textfield.png
+scayt.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-de75c27b6bf6149c5a50ddb632115643
+ffe579819e726d3ec65b711b84e293a2
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -2608,16 +1962,16 @@ has-props
 
 
 
-959
+334
 
-pastefromword-rtl.png
+superscript.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-ef2988cef05f4f8109412e0df221a5bd
+690691d8dbcd1df2a3b2a5d1083daab6
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -2642,16 +1996,16 @@ has-props
 
 
 
-412
+385
 
-templates-rtl.png
+underline.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-289878a9726df08f26b562c91578292c
+e4b122669f1b05f017c25dadad4c764f
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -2676,7 +2030,109 @@ has-props
 
 
 
-262
+922
+
+bidiltr.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+af7cac41fa635b9b1eb9109b9f29bc28
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+151
+
+bidirtl.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+d1c79b69b8dba434b9600d5c4c1aae98
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+927
+
+flash.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+3906863f599c875f5bc420254c97d62a
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+485
 
 numberedlist.png
 file
@@ -2746,14 +2202,14 @@ has-props
 
 310
 
-strike.png
+source-rtl.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-33e1dd27f5455c950bbe8878d048a4ff
+fc3d40a0c6103f1a6e320ac4c294b5e6
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -2778,16 +2234,16 @@ has-props
 
 
 
-194
+263
 
-creatediv.png
+italic.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-e89756d40dbff26aec279068105d0a66
+f5a41a8395eccaeb6c16a635156ed789
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -2812,16 +2268,16 @@ has-props
 
 
 
-975
+363
 
-justifyleft.png
+anchor.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-882ba583da6051d088705489b117e82d
+d12179dcf359735991cc2e9c2b24498d
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -2846,16 +2302,16 @@ has-props
 
 
 
-936
+979
 
-blockquote.png
+about.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-233c64770ee1912aa1bce586cfb92396
+24f344d2937ee1349561ee6df8033c56
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -2880,16 +2336,16 @@ has-props
 
 
 
-972
+386
 
-showblocks-rtl.png
+icons.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-5ea98c141ada6ffa5b01a160a38caf72
+c95409aa0037202b7f586b6b12ae02c6
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -2914,16 +2370,16 @@ has-props
 
 
 
-336
+5598
 
-select-rtl.png
+paste.png
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-c3e30da07fc2a43ac750d8db1e1b7b86
+591a3b6cc9b2d0dc4a1c9672faa7a35a
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -2948,5 +2404,549 @@ has-props
 
 
 
-292
+1032
+
+specialchar.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+5417e49a6e48b253bb3af4a46eaf1cd6
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+407
+
+imagebutton.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+18d380ba43bec58d3ad79510feb3f4c8
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+358
+
+find.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+498834f903a586848233b4d441a70b8b
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+340
+
+indent.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+f70c6ee24f29d4bfa0eeb3d8cc1f1485
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+961
+
+horizontalrule.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+c9d9e8af6216d6284f41e039298d74eb
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+406
+
+pastetext.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+dbbfd6676668cf76f5fe7bf21df55991
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1054
+
+maximize.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+08ca42998b2f4637351225184cf1529c
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+315
+
+textcolor.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+f660759f15b0ff8f7462b05eac2ffdb7
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+346
+
+newpage-rtl.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+56175943cc39911a2e72d982bad5dbad
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+209
+
+docprops-rtl.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+fe4f4999168a505d5dc4e6366b0a426d
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+949
+
+textfield.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+de75c27b6bf6149c5a50ddb632115643
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+959
+
+cut-rtl.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+7887895cc5e66d80a1d918050a27a634
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1042
+
+pastefromword-rtl.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+ef2988cef05f4f8109412e0df221a5bd
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+412
+
+templates-rtl.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+289878a9726df08f26b562c91578292c
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+262
+
+source.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+0e54b947443fa4fa5e0bdece72d2e283
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+382
+
+unlink.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+d9e7c3565d3cd72779ff094db54f02d5
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1027
 

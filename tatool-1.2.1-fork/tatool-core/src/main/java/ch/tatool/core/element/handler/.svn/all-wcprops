@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element/handler
+END
+ConfidenceRatingHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element/handler/ConfidenceRatingHandler.java
+END
+TrialCountHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element/handler/TrialCountHandler.java
+END
+StatusPanelStateHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element/handler/StatusPanelStateHandler.java
+END
+ExecutionFeedbackHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element/handler/ExecutionFeedbackHandler.java
+END
+CompoundElementTrialCountEvaluator.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element/handler/CompoundElementTrialCountEvaluator.java
+END
+TrialCountEvaluator.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element/handler/TrialCountEvaluator.java
+END
+KeyEventHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element/handler/KeyEventHandler.java
+END
+EscapeKeyEventHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element/handler/EscapeKeyEventHandler.java
+END
+DefaultTrialCountEvaluator.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element/handler/DefaultTrialCountEvaluator.java
+END

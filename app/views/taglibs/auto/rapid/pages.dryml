@@ -5,8 +5,13 @@
 <def tag="main-nav">
   <navigation class="main-nav" merge-attrs param="default">
     <nav-item href="#{base_url}/">Home</nav-item>
+    <nav-item with="&CommunityMember"><ht key="community_member.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
+    <nav-item with="&ConsentText"><ht key="consent_text.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
     <nav-item with="&Researcher"><ht key="researcher.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
     <nav-item with="&Study"><ht key="study.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
+    <nav-item with="&StudyEnrollment"><ht key="study_enrollment.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
+    <nav-item with="&StudyInvitation"><ht key="study_invitation.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
+    <nav-item with="&TestModule"><ht key="test_module.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
     <nav-item with="&User"><ht key="user.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
   </navigation>
 </def>
@@ -250,9 +255,6 @@
 
   </page>
 </def>
-
-
-
 
 
 
@@ -581,7 +583,7 @@
           </header>
 
           <section param="content-body">
-            <field-list fields="user" param/>
+            <field-list fields="street_address, city, province, postal_code, phone, primary_language, date_of_birth, state, user" param/>
           </section>
     </content:>
 
@@ -613,6 +615,29 @@
 </def>
 
 
+
+<def tag="approve-page" polymorphic/>
+<def tag="approve-page" for="Researcher">
+  <page title="#{ht 'researcher.approve.title', :default=>['Approve']}" merge>
+
+    <body: class="lifecycle-transition-page approve-page" param/>
+
+    <content:>
+      <header param="content-header">
+        <h2 param="heading">
+          <ht key="researcher.approve.heading">
+            Approve
+          </ht>
+        </h2>
+      </header>
+
+      <section param="content-body">
+        <approve-form param="form"/>
+      </section>
+    </content:>
+
+  </page>
+</def>
 
 
 
@@ -702,6 +727,7 @@
 
           <section param="content-body">
             <view:body param="description" />
+            <field-list fields="state, consent_text, test_module" param/>
           </section>
     </content:>
 
@@ -734,33 +760,407 @@
 
 
 
-<def tag="new-for-consent-text-page" polymorphic/>
-<def tag="new-for-consent-text-page" for="Study">
-  <page merge title="#{ht 'study.new_for_owner.title', :default=>['New Study for']} #{name :with => @consent_text}">
-    <body: class="new-for-owner-page  study" param/>
+<def tag="add-consent-page" polymorphic/>
+<def tag="add-consent-page" for="Study">
+  <page title="#{ht 'study.add_consent.title', :default=>['Add Consent']}" merge>
+
+    <body: class="lifecycle-transition-page add-consent-page" param/>
+
+    <content:>
+      <header param="content-header">
+        <h2 param="heading">
+          <ht key="study.add_consent.heading">
+            Add Consent
+          </ht>
+        </h2>
+      </header>
+
+      <section param="content-body">
+        <add-consent-form param="form"/>
+      </section>
+    </content:>
+
+  </page>
+</def>
+
+
+
+<!-- ====== StudyEnrollment Pages ====== -->
+
+<def tag="index-page" for="StudyEnrollment">
+  <page merge title="#{ht 'study_enrollment.index.title', :default=>[model.model_name.human(:count=>100)] }">
+    <body: class="index-page study-enrollment" param/>
 
     <content: param>
       <header param="content-header">
         <h2 param="heading">
-          <ht key="study.new_for_owner.heading">
-            New Study
+          <ht key="study_enrollment.index.heading">
+            <model-name-human model="&model"/>
           </ht>
         </h2>
-        <h3 param="subheading">
-          <ht key="study.new_for_owner.subheading">
-            For:
+
+        <p param="count" if>
+          <ht key="study_enrollment.collection.count" count="&collection_count">
+            <count summary/>
           </ht>
-          <a with="&@consent_text"/>
-        </h3>
+        </p>
       </header>
 
       <section param="content-body">
-        <form owner="consent_text" method="post" param>
-          <field-list: skip="consent_text"/>
-          <submit: label="#{ht 'study.actions.create', :default=>['Create Study']}"/>
+        <a action="new" to="&model" param="new-link">
+          <ht key="study_enrollment.actions.new">New Study enrollment</ht>
+        </a>
+
+        <page-nav param="top-page-nav"/>
+
+        <collection param/>
+
+        <page-nav param="bottom-page-nav"/>
+
+
+      </section>
+    </content:>
+  </page>
+</def>
+
+
+<def tag="new-page" for="StudyEnrollment">
+  <page merge title="#{ht 'study_enrollment.new.title', :default=>[' New Study enrollment'] }">
+    <body: class="new-page study-enrollment" param/>
+
+    <content: param>
+      <section param="content-header">
+        <h2 param="heading">
+          <ht key="study_enrollment.new.heading">
+            New Study enrollment
+          </ht>
+        </h2>
+      </section>
+
+      <section param="content-body">
+        <form param>
+          <submit: label="#{ht 'study_enrollment.actions.create', :default=>['Create Study enrollment']}"/>
         </form>
       </section>
     </content:>
+  </page>
+</def>
+
+
+<def tag="show-page" for="StudyEnrollment">
+  <page merge title="#{ht 'study_enrollment.show.title', :default=>['Study enrollment'], :name => name(:no_wrapper => true) }">
+
+    <body: class="show-page study-enrollment" param/>
+
+    <content: param>
+          <header param="content-header">
+            <h2 param="heading">
+              <ht key="study_enrollment.show.heading" name="#{name(:no_wrapper => true)}">
+                Study enrollment <name/>
+              </ht>
+            </h2>
+
+            <record-flags fields="" param/>
+
+            <a action="edit" if="&can_edit?" param="edit-link">
+              <ht key="study_enrollment.actions.edit" name="#{name(:no_wrapper => true)}">
+                Edit Study enrollment
+              </ht>
+            </a>
+          </header>
+
+          <section param="content-body">
+            <field-list fields="secret_key, community_member, study" param/>
+          </section>
+    </content:>
+
+  </page>
+</def>
+
+
+<def tag="edit-page" for="StudyEnrollment">
+  <page merge title="#{ht 'study_enrollment.edit.title', :default=>['Edit Study enrollment'], :name => name(:no_wrapper => true) }">
+
+    <body: class="edit-page study-enrollment" param/>
+
+    <content:>
+      <section param="content-header">
+        <h2 param="heading">
+          <ht key="study_enrollment.edit.heading" name="#{name(:no_wrapper => true)}">
+            Edit Study enrollment
+          </ht>
+        </h2>
+        <delete-button label="#{ht 'study_enrollment.actions.delete', :default=>['Remove This Study enrollment']}" param/>
+      </section>
+
+      <section param="content-body">
+        <form param/>
+      </section>
+    </content:>
+
+  </page>
+</def>
+
+
+
+
+
+<!-- ====== StudyInvitation Pages ====== -->
+
+<def tag="index-page" for="StudyInvitation">
+  <page merge title="#{ht 'study_invitation.index.title', :default=>[model.model_name.human(:count=>100)] }">
+    <body: class="index-page study-invitation" param/>
+
+    <content: param>
+      <header param="content-header">
+        <h2 param="heading">
+          <ht key="study_invitation.index.heading">
+            <model-name-human model="&model"/>
+          </ht>
+        </h2>
+
+        <p param="count" if>
+          <ht key="study_invitation.collection.count" count="&collection_count">
+            <count summary/>
+          </ht>
+        </p>
+      </header>
+
+      <section param="content-body">
+        <a action="new" to="&model" param="new-link">
+          <ht key="study_invitation.actions.new">New Study invitation</ht>
+        </a>
+
+        <page-nav param="top-page-nav"/>
+
+        <collection param/>
+
+        <page-nav param="bottom-page-nav"/>
+
+
+      </section>
+    </content:>
+  </page>
+</def>
+
+
+<def tag="new-page" for="StudyInvitation">
+  <page merge title="#{ht 'study_invitation.new.title', :default=>[' New Study invitation'] }">
+    <body: class="new-page study-invitation" param/>
+
+    <content: param>
+      <section param="content-header">
+        <h2 param="heading">
+          <ht key="study_invitation.new.heading">
+            New Study invitation
+          </ht>
+        </h2>
+      </section>
+
+      <section param="content-body">
+        <form param>
+          <submit: label="#{ht 'study_invitation.actions.create', :default=>['Create Study invitation']}"/>
+        </form>
+      </section>
+    </content:>
+  </page>
+</def>
+
+
+<def tag="show-page" for="StudyInvitation">
+  <page merge title="#{ht 'study_invitation.show.title', :default=>['Study invitation'], :name => name(:no_wrapper => true) }">
+
+    <body: class="show-page study-invitation" param/>
+
+    <content: param>
+          <header param="content-header">
+            <h2 param="heading">
+              <ht key="study_invitation.show.heading" name="#{name(:no_wrapper => true)}">
+                Study invitation <name/>
+              </ht>
+            </h2>
+
+            <record-flags fields="consent_accepted" param/>
+
+            <a action="edit" if="&can_edit?" param="edit-link">
+              <ht key="study_invitation.actions.edit" name="#{name(:no_wrapper => true)}">
+                Edit Study invitation
+              </ht>
+            </a>
+          </header>
+
+          <section param="content-body">
+            <field-list fields="state, community_member, study" param/>
+          </section>
+    </content:>
+
+  </page>
+</def>
+
+
+<def tag="edit-page" for="StudyInvitation">
+  <page merge title="#{ht 'study_invitation.edit.title', :default=>['Edit Study invitation'], :name => name(:no_wrapper => true) }">
+
+    <body: class="edit-page study-invitation" param/>
+
+    <content:>
+      <section param="content-header">
+        <h2 param="heading">
+          <ht key="study_invitation.edit.heading" name="#{name(:no_wrapper => true)}">
+            Edit Study invitation
+          </ht>
+        </h2>
+        <delete-button label="#{ht 'study_invitation.actions.delete', :default=>['Remove This Study invitation']}" param/>
+      </section>
+
+      <section param="content-body">
+        <form param/>
+      </section>
+    </content:>
+
+  </page>
+</def>
+
+
+
+<def tag="accept-invitation-page" polymorphic/>
+<def tag="accept-invitation-page" for="StudyInvitation">
+  <page title="#{ht 'study_invitation.accept_invitation.title', :default=>['Accept Invitation']}" merge>
+
+    <body: class="lifecycle-transition-page accept-invitation-page" param/>
+
+    <content:>
+      <header param="content-header">
+        <h2 param="heading">
+          <ht key="study_invitation.accept_invitation.heading">
+            Accept Invitation
+          </ht>
+        </h2>
+      </header>
+
+      <section param="content-body">
+        <accept-invitation-form param="form"/>
+      </section>
+    </content:>
+
+  </page>
+</def>
+
+
+
+<!-- ====== TestModule Pages ====== -->
+
+<def tag="index-page" for="TestModule">
+  <page merge title="#{ht 'test_module.index.title', :default=>[model.model_name.human(:count=>100)] }">
+    <body: class="index-page test-module" param/>
+
+    <content: param>
+      <header param="content-header">
+        <h2 param="heading">
+          <ht key="test_module.index.heading">
+            <model-name-human model="&model"/>
+          </ht>
+        </h2>
+
+        <p param="count" if>
+          <ht key="test_module.collection.count" count="&collection_count">
+            <count summary/>
+          </ht>
+        </p>
+      </header>
+
+      <section param="content-body">
+        <a action="new" to="&model" param="new-link">
+          <ht key="test_module.actions.new">New Test module</ht>
+        </a>
+
+        <page-nav param="top-page-nav"/>
+
+        <collection param/>
+
+        <page-nav param="bottom-page-nav"/>
+
+
+      </section>
+    </content:>
+  </page>
+</def>
+
+
+<def tag="new-page" for="TestModule">
+  <page merge title="#{ht 'test_module.new.title', :default=>[' New Test module'] }">
+    <body: class="new-page test-module" param/>
+
+    <content: param>
+      <section param="content-header">
+        <h2 param="heading">
+          <ht key="test_module.new.heading">
+            New Test module
+          </ht>
+        </h2>
+      </section>
+
+      <section param="content-body">
+        <form param>
+          <submit: label="#{ht 'test_module.actions.create', :default=>['Create Test module']}"/>
+        </form>
+      </section>
+    </content:>
+  </page>
+</def>
+
+
+<def tag="show-page" for="TestModule">
+  <page merge title="#{ht 'test_module.show.title', :default=>['Test module'], :name => name(:no_wrapper => true) }">
+
+    <body: class="show-page test-module" param/>
+
+    <content: param>
+          <header param="content-header">
+            <h2 param="heading">
+              <ht key="test_module.show.heading" name="#{name(:no_wrapper => true)}">
+                Test module <name/>
+              </ht>
+            </h2>
+
+            <record-flags fields="" param/>
+
+            <a action="edit" if="&can_edit?" param="edit-link">
+              <ht key="test_module.actions.edit" name="#{name(:no_wrapper => true)}">
+                Edit Test module
+              </ht>
+            </a>
+          </header>
+
+          <section param="content-body">
+            <field-list fields="module_identifier" param/>
+          </section>
+    </content:>
+
+  </page>
+</def>
+
+
+<def tag="edit-page" for="TestModule">
+  <page merge title="#{ht 'test_module.edit.title', :default=>['Edit Test module'], :name => name(:no_wrapper => true) }">
+
+    <body: class="edit-page test-module" param/>
+
+    <content:>
+      <section param="content-header">
+        <h2 param="heading">
+          <ht key="test_module.edit.heading" name="#{name(:no_wrapper => true)}">
+            Edit Test module
+          </ht>
+        </h2>
+        <delete-button label="#{ht 'test_module.actions.delete', :default=>['Remove This Test module']}" param/>
+      </section>
+
+      <section param="content-body">
+        <form param/>
+      </section>
+    </content:>
+
   </page>
 </def>
 
@@ -903,6 +1303,29 @@
 
       <section param="content-body">
         <signup-form param="form"/>
+      </section>
+    </content:>
+
+  </page>
+</def>
+<def tag="signup-researcher-page" polymorphic/>
+<def tag="signup-researcher-page" for="User">
+
+  <page title="#{ht 'user.signup_researcher.title', :default=>['Signup Researcher']}" merge>
+
+    <body: class="lifecycle-start-page signup-researcher-page" param/>
+
+    <content: param>
+      <header param="content-header">
+        <h2 param="heading">
+          <ht key="user.signup_researcher.heading">
+            Signup Researcher
+          </ht>
+        </h2>
+      </header>
+
+      <section param="content-body">
+        <signup-researcher-form param="form"/>
       </section>
     </content:>
 

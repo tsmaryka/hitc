@@ -1,0 +1,15 @@
+<index-page>
+<content-header: replace>
+<div class="header content-header">
+<h1 class="heading">Your Pending Study Invitations</h1>
+</div>
+</content-header:>
+<collection: replace>
+
+<table-plus fields="this" if="&current_user.community_member.is_invited_any">
+</table-plus>
+<p unless="&current_user.community_member.is_invited_any">
+	You are currently not invited to any studies
+</p>
+</collection:>
+</index-page>

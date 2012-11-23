@@ -1,7 +1,7 @@
 10
 
 dir
-1
+16
 https://svn.csc.uvic.ca/HITC/public/javascripts/ckeditor/plugins/smiley/images
 https://svn.csc.uvic.ca/HITC
 
@@ -25,40 +25,6 @@ tsmaryka
 
 
 8be0a557-81ca-0410-aade-88e2702be925
-
-cry_smile.gif
-file
-
-
-
-
-2012-09-30T20:16:14.000000Z
-65e506443085a5022a3f70ea5184b814
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-468
 
 thumbs_down.gif
 file
@@ -230,40 +196,6 @@ has-props
 
 464
 
-shades_smile.gif
-file
-
-
-
-
-2012-09-30T20:16:14.000000Z
-0bb3a9a705f75a534f711ad6d5d9df2b
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-449
-
 sad_smile.gif
 file
 
@@ -298,14 +230,14 @@ has-props
 
 460
 
-wink_smile.gif
+shades_smile.gif
 file
 
 
 
 
 2012-09-30T20:16:14.000000Z
-0dbb4bf6e7992a05bd9961acfa1f02d0
+0bb3a9a705f75a534f711ad6d5d9df2b
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -330,7 +262,7 @@ has-props
 
 
 
-458
+449
 
 whatchutalkingabout_smile.gif
 file
@@ -366,6 +298,40 @@ has-props
 
 452
 
+wink_smile.gif
+file
+
+
+
+
+2012-09-30T20:16:14.000000Z
+0dbb4bf6e7992a05bd9961acfa1f02d0
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+458
+
 teeth_smile.gif
 file
 
@@ -374,74 +340,6 @@ file
 
 2012-09-30T20:16:14.000000Z
 572c5f85395a197237820c77018f16e2
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-442
-
-heart.gif
-file
-
-
-
-
-2012-09-30T20:16:14.000000Z
-8abe8f7fbbec2bf6e5e8c327ad3b6842
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-183
-
-embaressed_smile.gif
-file
-
-
-
-
-2012-09-30T20:16:14.000000Z
-83f84ceb8be784840b7f8e49558095d8
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -502,6 +400,74 @@ has-props
 
 192
 
+embaressed_smile.gif
+file
+
+
+
+
+2012-09-30T20:16:14.000000Z
+83f84ceb8be784840b7f8e49558095d8
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+442
+
+heart.gif
+file
+
+
+
+
+2012-09-30T20:16:14.000000Z
+8abe8f7fbbec2bf6e5e8c327ad3b6842
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+183
+
 thumbs_up.gif
 file
 
@@ -536,40 +502,6 @@ has-props
 
 396
 
-angry_smile.gif
-file
-
-
-
-
-2012-09-30T20:16:14.000000Z
-7ba4d0e00161b200103f5ed77e3edff8
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-443
-
 kiss.gif
 file
 
@@ -603,6 +535,40 @@ has-props
 
 
 241
+
+angry_smile.gif
+file
+
+
+
+
+2012-09-30T20:16:14.000000Z
+7ba4d0e00161b200103f5ed77e3edff8
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+443
 
 omg_smile.gif
 file
@@ -739,4 +705,38 @@ has-props
 
 
 465
+
+cry_smile.gif
+file
+
+
+
+
+2012-09-30T20:16:14.000000Z
+65e506443085a5022a3f70ea5184b814
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+468
 

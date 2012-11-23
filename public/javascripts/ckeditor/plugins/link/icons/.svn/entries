@@ -1,7 +1,7 @@
 10
 
 dir
-1
+16
 https://svn.csc.uvic.ca/HITC/public/javascripts/ckeditor/plugins/link/icons
 https://svn.csc.uvic.ca/HITC
 
@@ -25,40 +25,6 @@ tsmaryka
 
 
 8be0a557-81ca-0410-aade-88e2702be925
-
-anchor-rtl.png
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-bfcaa5cca3a6fa52808a10a86bdd721f
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-977
 
 anchor.png
 file
@@ -161,4 +127,38 @@ has-props
 
 
 1027
+
+anchor-rtl.png
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+bfcaa5cca3a6fa52808a10a86bdd721f
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+977
 

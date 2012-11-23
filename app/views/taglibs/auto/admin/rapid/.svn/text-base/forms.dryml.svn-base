@@ -3,7 +3,7 @@
 <def tag="form" for="User">
   <form merge param="default">
     <error-messages param/>
-    <field-list fields="name, email_address, administrator, user_type, general_consent_accepted, state, consent_texts" param/>
+    <field-list fields="email_address, administrator, user_type, general_consent_accepted, state" param/>
     <div param="actions">
       <submit label="#{ht 'user.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
     </div>
@@ -14,9 +14,19 @@
 <def tag="signup-form" for="User">
   <form lifecycle="signup" merge param="default">
     <error-messages param/>
-    <field-list fields="name, email_address, password, password_confirmation, general_consent_accepted" param/>
+    <field-list fields="email_address, password, password_confirmation, general_consent_accepted" param/>
     <div param="actions">
       <submit label="#{ht 'user.actions.signup', :default=>['Signup']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+<def tag="signup-researcher-form" polymorphic/>
+<def tag="signup-researcher-form" for="User">
+  <form lifecycle="signup_researcher" merge param="default">
+    <error-messages param/>
+    <field-list fields="email_address, password, password_confirmation, general_consent_accepted, user_type" param/>
+    <div param="actions">
+      <submit label="#{ht 'user.actions.signup_researcher', :default=>['Signup Researcher']}" param/><or-cancel param="cancel"/>
     </div>
   </form>
 </def>

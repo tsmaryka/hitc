@@ -152,6 +152,29 @@
 
   </page>
 </def>
+<def tag="signup-researcher-page" polymorphic/>
+<def tag="signup-researcher-page" for="User">
+
+  <page title="#{ht 'user.signup_researcher.title', :default=>['Signup Researcher']}" merge>
+
+    <body: class="lifecycle-start-page signup-researcher-page" param/>
+
+    <content: param>
+      <header param="content-header">
+        <h2 param="heading">
+          <ht key="user.signup_researcher.heading">
+            Signup Researcher
+          </ht>
+        </h2>
+      </header>
+
+      <section param="content-body">
+        <signup-researcher-form param="form"/>
+      </section>
+    </content:>
+
+  </page>
+</def>
 
 <def tag="activate-page" polymorphic/>
 <def tag="activate-page" for="User">

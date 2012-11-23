@@ -3,16 +3,12 @@ class User < ActiveRecord::Base
   hobo_user_model # Don't put anything above this
 
   fields do
-    name          :string, :required, :unique
     email_address :email_address, :login => true
     administrator :boolean, :default => false
     timestamps
     user_type enum_string(:community, :researcher, :manager, :referee), :default => :community
     general_consent_accepted :boolean, :required, :default => false
   end
-  
-  has_many :study_invitations, :dependent => :destroy
-  has_many :studies, :through => :study_invitations
   
   has_many :consents, :dependent => :destroy
   has_many :consent_texts, :through => :consents
@@ -25,7 +21,14 @@ class User < ActiveRecord::Base
       user.state = "active"
     end
   end
-
+  
+  def name
+  	if self.is_community_member?
+  		return self.community_member.name
+  	end
+  	a = self.email_address
+  	return a.to_html.sub(' at ', '@').gsub(' dot ', '.')
+  end
 
   # --- Signup lifecycle --- #
 
@@ -35,7 +38,7 @@ class User < ActiveRecord::Base
     state :active
 
     create :signup, :available_to => "Guest",
-      :params => [:name, :email_address, :password, :password_confirmation, :general_consent_accepted],
+      :params => [:email_address, :password, :password_confirmation, :general_consent_accepted],
       :become => :inactive, :new_key => true  do
       UserMailer.activation(self, lifecycle.key).deliver
       #add the consent acceptance
@@ -46,11 +49,14 @@ class User < ActiveRecord::Base
      	consent.save
     end
   
-  #TODO create lifecycles for adding researchers, referees and managers
-  #  create :add_researcher, :available_to => "User",
-   # 	:params => [:name, :email_address, :password, :password_confirmation]
-  #  	:become => :inactive, :new_key => true do
-    	
+		#TODO create lifecycles for adding researchers, referees and managers
+		create :signup_researcher, :available_to => "Guest",
+			:params => [:email_address, :password, :password_confirmation, :general_consent_accepted, :user_type],
+		 	:become => :inactive, :new_key => true do
+		 	if self.user_type == :researcher
+		 		UserMailer.activation(self, lifecycle.key).deliver
+		 	end
+		end
 
     transition :activate, { :inactive => :active }, :available_to => :key_holder do
     	acting_user = self
@@ -73,14 +79,48 @@ class User < ActiveRecord::Base
     state=="active"
   end
   
+  def is_manager?
+  	self.administrator? || self.user_type == "manager"
+  end
+  
+  def is_community_member?
+  	self.user_type == "community" && self.community_details_entered?
+  end
+  
+  def community_member
+  	return CommunityMember.find(:first, :conditions=> ["user_id = ?", self])
+  end
+  
+  #a researcher is only a valid researcher if they have entered their details AND been approved by a manager
+  def is_researcher?
+  	self.user_type == "researcher" && self.researcher_details_entered? && self.researcher.is_approved == true
+  end
+  
+  def researcher
+  	return Researcher.find(:first, :conditions=> ["user_id = ?", self])
+  end
+  
   #check if user has entered a community profile
   def community_details_entered?
   	
   	if self.user_type != "community"
-  		puts "not community"
   		return true
   	end
   	if CommunityMember.find(:first, :conditions=> ["user_id = ?", self]) != nil
+  		return true
+  	end
+  	return false
+  	
+  end
+  
+  #check if user has entered a researcher profile, and has been approved
+  def researcher_details_entered?
+  	
+  	if self.user_type != "researcher"
+  		return true
+  	end
+  	researcher = Researcher.find(:first, :conditions=> ["user_id = ?", self])
+  	if researcher != nil
   		return true
   	end
   	return false

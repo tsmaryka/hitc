@@ -1,7 +1,7 @@
 10
 
 dir
-1
+16
 https://svn.csc.uvic.ca/HITC/public/javascripts/ckeditor/plugins/pagebreak
 https://svn.csc.uvic.ca/HITC
 
@@ -25,6 +25,12 @@ tsmaryka
 
 
 8be0a557-81ca-0410-aade-88e2702be925
+
+lang
+dir
+
+images
+dir
 
 plugin.js
 file
@@ -61,11 +67,5 @@ tsmaryka
 4170
 
 icons
-dir
-
-lang
-dir
-
-images
 dir
 

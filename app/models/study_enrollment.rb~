@@ -3,11 +3,19 @@ class StudyEnrollment < ActiveRecord::Base
   hobo_model # Don't put anything above this
 
   fields do
+  	secret_key :string, :unique
     timestamps
   end
   
   belongs_to :community_member
   belongs_to :study
+  
+  def generate_key
+  	require 'digest/sha1'
+  	x = rand(9999999999999999)
+  	self.secret_key = Digest::SHA1.hexdigest("#{x}")
+  	self.save
+  end
   
   # --- Permissions --- #
 
@@ -16,15 +24,30 @@ class StudyEnrollment < ActiveRecord::Base
   end
 
   def update_permitted?
-    self.community_member.user = acting_user
+    false
   end
 
   def destroy_permitted?
-    self.community_member.user = acting_user
+    if acting_user.is_manager?
+    	return true
+    end
+    
+    if acting_user.is_researcher?
+   		if study_id == nil
+   			return true
+   		end
+   		return acting_user.researcher.owns(self.study)
+   	end
+    
+    if acting_user.is_community_member?
+    	return self.community_member.user == acting_user
+    end
+    
+    return false
   end
 
   def view_permitted?(field)
-    true
+    self.community_member.user == acting_user || acting_user.user_type == "manager"
   end
 
 end

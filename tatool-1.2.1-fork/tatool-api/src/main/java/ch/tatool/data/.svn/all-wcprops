@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/HITC/!svn/ver/16/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/data
+END
+PropertyHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/data/PropertyHolder.java
+END
+DescriptivePropertyHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/data/DescriptivePropertyHolder.java
+END
+Property.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/data/Property.java
+END
+Module.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/HITC/!svn/ver/16/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/data/Module.java
+END
+Messages.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/data/Messages.java
+END
+ModuleSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/data/ModuleSession.java
+END
+DataService.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/data/DataService.java
+END
+Trial.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/data/Trial.java
+END
+UserAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/data/UserAccount.java
+END
+DataContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/data/DataContainer.java
+END

@@ -17,44 +17,72 @@ class Study < ActiveRecord::Base
  	has_many :study_ownerships, :accessible => true, :dependent => :destroy
  	has_many :researchers, :through => :study_ownerships
  	
-	has_many :consent_texts, :dependent => :destroy
+ 	belongs_to :consent_text, :accessible => :true
+ 	belongs_to :test_module, :accessible => :true
+ 	
+ 	lifecycle do
+ 		state :no_consent, :default => true
+ 		state :consent_added
+ 		
+ 		transition :add_consent, { :no_consent => :consent_added }, :available_to => "User" do
+ 			
+ 		end
+ 	end
 
 	after_create do
-		if acting_user.signed_up? && acting_user.user_type == "researcher"
-			puts "test"
+		if acting_user.user_type == "researcher"
 			ownership = StudyOwnership.new()
 			ownership.researcher = Researcher.find(:first, :conditions=> ["user_id = ?", acting_user.id])
 			ownership.study = self
 			ownership.save
 		end
 	end
-	
-	#def is_owner(user)?
-	#	researcher = Researcher.find(:first, :conditions("user_id = ?", user)
-	#	StudyOwnership.find(:first, :conditions => ["researcher_id = ?", researcher.id, "]
-	
-	
+		
   # --- Permissions --- #
 
-  def create_permitted?
-    acting_user.administrator? || (acting_user.signed_up? && (acting_user.user_type == "manager" || acting_user.user_type == "researcher"))
+  def create_permitted?	
+    if acting_user.is_researcher?
+    	return true	
+    end
   end
 
   def update_permitted?
-    if acting_user.administrator? || (acting_user.signed_up? && acting_user.user_type == "manager")
+    if acting_user.is_manager?
     	return true
     end
     
-    #StudyOwnership.find(:first, :conditions=> ["study_id = ?", self])
-    	
+    if acting_user.is_researcher?
+    	if self.id
+    		return true
+    	end
+    	return acting_user.researcher.owns(self)
+    end
+    
+    return false	
   end
 
   def destroy_permitted?
-     acting_user.administrator? || (acting_user.signed_up? && acting_user.user_type == "manager")
+     return update_permitted?
   end
 
   def view_permitted?(field)
-    acting_user.signed_up?
+    if acting_user.is_manager?
+    	return true
+    end
+    
+    if acting_user.is_researcher?
+    	#TODO determine if this is right
+    	if self.id == nil
+    		return true
+    	end
+    	return acting_user.researcher.owns(self)
+    end
+    
+    if acting_user.is_community_member?
+    	return acting_user.community_member.is_invited(self)
+    end
+    
+    return false
   end
 
 end

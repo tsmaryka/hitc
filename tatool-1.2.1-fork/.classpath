@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="tatool-api/src/main/java"/>
+	<classpathentry kind="src" path="tatool-test/src/main/java"/>
+	<classpathentry kind="src" path="tatool-app/src/main/java"/>
+	<classpathentry kind="src" path="tatool-core/src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/apache-mime4j-0.5.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/commons-cli-1.0.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/commons-dbcp-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/commons-io-1.0.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/commons-lang-2.1.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/commons-lang-2.3.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/commons-pool-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/hibernate-core-3.3.2.GA.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/hsqldb-2.2.6.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/httpclient-4.0.1.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/httpcore-4.0.1.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/httpmime-4.0-beta2.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/javassist-3.8.0.GA.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/jcl-over-slf4j-1.5.10.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/opencsv-2.1.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/plexus-compiler-javac-1.5.3.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/plexus-compiler-javac-1.8.1.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/slf4j-api-1.5.10.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/slf4j-log4j12-1.5.10.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/spring-2.5.6.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/xml-apis-1.0.b2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

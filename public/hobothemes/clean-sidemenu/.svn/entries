@@ -1,7 +1,7 @@
 10
 
 dir
-1
+16
 https://svn.csc.uvic.ca/HITC/public/hobothemes/clean-sidemenu
 https://svn.csc.uvic.ca/HITC
 
@@ -26,9 +26,9 @@ tsmaryka
 
 8be0a557-81ca-0410-aade-88e2702be925
 
-stylesheets
+images
 dir
 
-images
+stylesheets
 dir
 

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/service
+END
+UserAccountException.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/service/UserAccountException.java
+END
+UserAccountService.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/service/UserAccountService.java
+END
+AuthenticationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/service/AuthenticationException.java
+END
+TatoolException.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/service/TatoolException.java
+END

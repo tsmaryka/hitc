@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/service/exec/impl
+END
+PhaseListenerManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/service/exec/impl/PhaseListenerManagerImpl.java
+END
+PhaseRunnableManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/service/exec/impl/PhaseRunnableManagerImpl.java
+END
+ExecutionServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/service/exec/impl/ExecutionServiceImpl.java
+END
+ExecutionContextImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/service/exec/impl/ExecutionContextImpl.java
+END
+ElementTreeImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/service/exec/impl/ElementTreeImpl.java
+END
+ExecutionDataImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/service/exec/impl/ExecutionDataImpl.java
+END
+ExecutorImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/service/exec/impl/ExecutorImpl.java
+END

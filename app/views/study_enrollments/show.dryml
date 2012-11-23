@@ -1,0 +1,9 @@
+<show-page>
+<heading:>Enrolled in: #{this.study.title}</heading:>
+<field-list: replace>
+	<field-list fields="study" />
+	<br/>
+	<h3>Actions</h3>
+	<a href="#{url_for this}/launch.jnlp"><button>Launch the Test with Tatool</button></a>
+</field-list>
+</show-page>

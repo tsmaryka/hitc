@@ -1,0 +1,13 @@
+<index-page>
+<content-header: replace>
+<div class="header content-header">
+<h1 class="heading">Community Members</h1>
+</div>
+</content-header:>
+<collection: replace>
+<table-plus fields="this, age, province, city">
+	<date-of-birth-heading:>Date of Birth</date-of-birth-heading>
+	<empty-message:>No Community Members Available</empty-message:>
+</table-plus>
+</collection:>
+</index-page>

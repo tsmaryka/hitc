@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element/handler/score
+END
+UserFeedbackLevelListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element/handler/score/UserFeedbackLevelListener.java
+END
+AdaptiveScoreAndLevelHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element/handler/score/AdaptiveScoreAndLevelHandler.java
+END
+NullablePointAdaptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element/handler/score/NullablePointAdaptor.java
+END
+FactorPointAdaptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element/handler/score/FactorPointAdaptor.java
+END
+PointsAndLevelHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element/handler/score/PointsAndLevelHandler.java
+END
+AbstractPointAdaptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element/handler/score/AbstractPointAdaptor.java
+END
+PointsAndLevelUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element/handler/score/PointsAndLevelUtils.java
+END
+AbstractPointsAndLevelHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element/handler/score/AbstractPointsAndLevelHandler.java
+END
+BoundaryPointsAndLevelHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element/handler/score/BoundaryPointsAndLevelHandler.java
+END
+DefaultPointsAndLevelHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element/handler/score/DefaultPointsAndLevelHandler.java
+END

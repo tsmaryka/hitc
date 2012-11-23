@@ -1,0 +1,9 @@
+<show-page>
+<field-list: >
+<state-view: remove></state-view:>
+<state-label: remove></state-label>
+</field-list:>
+<after-field-list:>
+<a if="&this.state == 'no_consent'" action="add_consent"><button>Add Consent Aggreement</button></a>
+</after-field-list:>
+</show-page>

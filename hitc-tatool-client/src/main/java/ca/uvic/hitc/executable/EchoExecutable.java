@@ -1,0 +1,106 @@
+package ca.uvic.hitc.executable;
+
+import java.awt.event.KeyEvent;
+import java.util.Random;
+
+import ch.tatool.core.data.*;
+import ch.tatool.core.display.swing.*;
+import ch.tatool.core.display.swing.action.*;
+import ch.tatool.core.display.swing.container.*;
+import ch.tatool.core.display.swing.container.RegionsContainer.Region;
+import ch.tatool.core.display.swing.panel.CenteredTextPanel;
+import ch.tatool.core.executable.BlockingAWTExecutable;
+import ch.tatool.data.*;
+
+public class EchoExecutable extends BlockingAWTExecutable implements ActionPanelListener, DescriptivePropertyHolder {
+
+	CenteredTextPanel questionPanel;
+	KeyActionPanel actionPanel;
+	Random random;
+	
+	Trial currentTrial;
+	int correctAnswer;
+	int response;
+	
+	public EchoExecutable() {
+		questionPanel = new CenteredTextPanel();
+		actionPanel = new KeyActionPanel();
+		actionPanel.addActionPanelListener(this);
+		random = new Random();
+	}
+	
+	/**
+	 * Execution begins here.
+	 */
+	@Override
+	protected void startExecutionAWT() {
+		// Boilerplate for displaying the question: using a RegionsContainer allows us to customize the UI layout
+		SwingExecutionDisplay display = ExecutionDisplayUtils.getDisplay(this.getExecutionContext());
+		ContainerUtils.showRegionsContainer(display);
+		RegionsContainer container = ContainerUtils.getRegionsContainer(); 
+		
+		currentTrial = this.getExecutionContext().getExecutionData().addTrial();
+		currentTrial.setParentId(this.getId());
+		
+		correctAnswer = random.nextInt(10);
+		
+		questionPanel.setText("" + correctAnswer);
+		container.setRegionContent(Region.CENTER, questionPanel);
+		CenteredTextPanel instructionPanel = new CenteredTextPanel();
+		instructionPanel.setText("Type the number shown above.");
+		container.setRegionContent(Region.SOUTH, instructionPanel);
+		container.setRegionContentVisibility(Region.CENTER, true);
+		container.setRegionContentVisibility(Region.SOUTH, true);
+		
+		actionPanel.addKey(KeyEvent.VK_0, "0", 0);
+		actionPanel.addKey(KeyEvent.VK_1, "1", 1);
+		actionPanel.addKey(KeyEvent.VK_2, "2", 2);
+		actionPanel.addKey(KeyEvent.VK_3, "3", 3);
+		actionPanel.addKey(KeyEvent.VK_4, "4", 4);
+		actionPanel.addKey(KeyEvent.VK_5, "5", 5);
+		actionPanel.addKey(KeyEvent.VK_6, "6", 6);
+		actionPanel.addKey(KeyEvent.VK_7, "7", 7);
+		actionPanel.addKey(KeyEvent.VK_8, "8", 8);
+		actionPanel.addKey(KeyEvent.VK_9, "9", 9);
+		actionPanel.enableActionPanel();
+	}
+
+	public void actionTriggered(ActionPanel source, Object actionValue) {
+		actionPanel.disableActionPanel();
+		response = (Integer) actionValue;
+		stop();
+	}
+
+	private void stop() {
+		// Don't just try to go straight to container.removeAllContent(), or next time
+		// the question text won't appear!
+		RegionsContainer container = ContainerUtils.getRegionsContainer();
+		container.setRegionContentVisibility(Region.CENTER, false);
+		container.setRegionContentVisibility(Region.SOUTH, false);
+		container.removeRegionContent(Region.CENTER);
+		container.removeRegionContent(Region.SOUTH);
+		
+		// This stuff has to do with recording trial data
+		Question.getQuestionProperty().setValue(this, "" + correctAnswer);
+		Question.getAnswerProperty().setValue(this, "" + correctAnswer);
+		Question.getResponseProperty().setValue(this, response);
+		boolean correct = response == correctAnswer;
+		Points.setZeroOnePoints(this, correct);
+		Result.getResultProperty().setValue(this, correct);
+		DataUtils.storeProperties(currentTrial, this);
+		
+		if (this.getFinishExecutionLock()) {
+			this.finishExecution();
+		}
+	}
+
+	public Property<?>[] getPropertyObjects() {
+		return new Property[] {
+				Question.getQuestionProperty(),
+				Question.getAnswerProperty(),
+				Question.getResponseProperty(),
+				Result.getResultProperty(),
+				Points.getPointsProperty()
+		};
+	}
+}

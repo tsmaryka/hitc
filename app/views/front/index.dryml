@@ -22,9 +22,33 @@
 		      	<form with="&this || CommunityMember.new" without-cancel>
 		      		<field-list: fields="street_address, city, province, postal_code, phone, primary_language, date_of_birth"/>
 		      		<submit: label="Continue"/>
+		      		<after-actions:>
+								<after-submit uri="/"/>
+							</after-actions:>
 		      	</form>
 		    <% else -%>
-		    
+				  <% if (current_user.class.name == "User" && current_user.user_type == 'researcher' && !current_user.researcher_details_entered?) -%>
+				  	<h3 style="margin-top: 20px;">Please enter your personal information:</h3>
+				    	<form with="&this || Researcher.new" without-cancel>
+				    		<field-list: fields="name, street_address, city, province, postal_code, phone, primary_language, date_of_birth"/>
+				    		<submit: label="Continue"/>
+				    		<after-actions:>
+									<after-submit uri="/"/>
+								</after-actions:>
+				    	</form>
+				  <% end -%>
+				  <% if (current_user.class.name == "User" && current_user.user_type == 'researcher' && current_user.researcher_details_entered? && !current_user.is_researcher?) -%>
+				  	Your Researcher account is still pending approval. You will receive an email when your account is approved.
+				  <% end -%>
+				  <% if (current_user.is_researcher?) -%>
+				  	You are logged in as a Researcher
+				  <% end -%>
+				  <% if (current_user.class.name == "User" && current_user.user_type == 'manager') -%>
+				  	You are logged in as a Platform Manager
+				  <% end -%>
+				  <% if (current_user.is_community_member?) -%>
+				  	The ability to browse available studies is coming soon! Please wait to be invited to a study. Your invitations will appear on the Study invitation tab.
+				  <% end -%>
 		    <% end -%>
 		  <% end -%>
       </section>

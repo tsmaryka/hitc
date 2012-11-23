@@ -12,19 +12,30 @@ class StudyOwnership < ActiveRecord::Base
   # --- Permissions --- #
 
   def create_permitted?
-    acting_user.user_type == "manager" || acting_user.user_type == "researcher"
+   	acting_user.is_manager? || acting_user.is_researcher?
   end
 
   def update_permitted?
-    acting_user.user_type == "manager" || acting_user.user_type == "researcher"
+    acting_user.is_manager? || acting_user.is_researcher?
   end
 
   def destroy_permitted?
-    acting_user.user_type == "manager" || acting_user.user_type == "researcher"
+    self.view_permitted?(id)
   end
 
   def view_permitted?(field)
-    true
+   	if acting_user.signed_up? && acting_user.is_manager?
+   		return true
+   	end
+   	
+   	if acting_user.is_researcher?
+   		if study_id == nil
+   			return true
+   		end
+   		return acting_user.researcher.owns(self.study)
+   	end
+   	
+   	return false
   end
 
 end

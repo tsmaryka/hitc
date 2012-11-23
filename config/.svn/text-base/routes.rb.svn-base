@@ -2,6 +2,8 @@ Hitc::Application.routes.draw do
   root :to => 'front#index'
 
   match 'search' => 'front#search', :as => 'site_search'
+  
+  match 'check_email' => 'front#check_email'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

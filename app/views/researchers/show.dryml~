@@ -1,0 +1,8 @@
+<show-page >
+	<field-list: replace>
+	<field-list fields="name, street_address, city, province, postal_code, primary_language" >
+	</field-list>
+	<h3 if="&this.state == 'not_approved'">Actions</h3>
+	<a action="approve" if="&this.state == 'not_approved'"><button>Approve Researcher</button></a>
+	</field-list:>
+</show-page >

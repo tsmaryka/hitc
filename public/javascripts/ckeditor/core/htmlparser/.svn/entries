@@ -1,7 +1,7 @@
 10
 
 dir
-1
+16
 https://svn.csc.uvic.ca/HITC/public/javascripts/ckeditor/core/htmlparser
 https://svn.csc.uvic.ca/HITC
 
@@ -25,6 +25,40 @@ tsmaryka
 
 
 8be0a557-81ca-0410-aade-88e2702be925
+
+filter.js
+file
+
+
+
+
+2012-09-30T20:16:12.000000Z
+6c8161e46d0f10f67dcc077c189dcb1d
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6244
 
 element.js
 file
@@ -229,38 +263,4 @@ tsmaryka
 
 
 1193
-
-filter.js
-file
-
-
-
-
-2012-09-30T20:16:12.000000Z
-6c8161e46d0f10f67dcc077c189dcb1d
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6244
 

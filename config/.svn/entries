@@ -1,14 +1,14 @@
 10
 
 dir
-1
+16
 https://svn.csc.uvic.ca/HITC/config
 https://svn.csc.uvic.ca/HITC
 
 
 
-2012-09-30T20:27:53.150972Z
-1
+2012-11-06T21:25:38.367938Z
+5
 tsmaryka
 
 
@@ -26,56 +26,16 @@ tsmaryka
 
 8be0a557-81ca-0410-aade-88e2702be925
 
-initializers
-dir
-
-environment.rb
-file
-
-
-
-
-2012-09-30T20:16:16.000000Z
-7c637890700b74e3baec50e18488d3bc
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-148
-
-environments
-dir
-
 hobo_routes.rb
 file
-2
 
 
 
-2012-09-30T23:00:36.000000Z
-eb8c1c3a8441ee0ed39f1f2a662664c7
-2012-09-30T23:10:18.660193Z
-2
+
+2012-11-06T20:48:39.000000Z
+38e1ee125a65076eab87f8d745974b4c
+2012-11-06T21:25:38.367938Z
+5
 tsmaryka
 
 
@@ -98,7 +58,7 @@ tsmaryka
 
 
 
-3736
+9029
 
 locales
 dir
@@ -109,10 +69,10 @@ file
 
 
 
-2012-09-30T20:16:16.000000Z
-a6e08a5874b89c0e647787e627854c7a
-2012-09-30T20:27:53.150972Z
-1
+2012-10-28T04:01:51.000000Z
+7234ba137adb9e51150ee7ccf0459e4d
+2012-11-05T07:35:44.438654Z
+4
 tsmaryka
 
 
@@ -135,11 +95,11 @@ tsmaryka
 
 
 
-1874
+1922
 
 database.yml
 file
-2
+
 
 
 
@@ -238,4 +198,44 @@ tsmaryka
 
 
 2014
+
+initializers
+dir
+
+environment.rb
+file
+
+
+
+
+2012-09-30T20:16:16.000000Z
+7c637890700b74e3baec50e18488d3bc
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+148
+
+environments
+dir
 

@@ -4,6 +4,6 @@ class StudyInvitationsController < ApplicationController
 
   auto_actions :all
   
-  auto_actions_for :consent_texts, [:new, :create]
+  autocomplete
 
 end

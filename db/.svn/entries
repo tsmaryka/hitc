@@ -1,14 +1,14 @@
 10
 
 dir
-1
+16
 https://svn.csc.uvic.ca/HITC/db
 https://svn.csc.uvic.ca/HITC
 
 
 
-2012-09-30T20:27:53.150972Z
-1
+2012-11-05T07:35:44.438654Z
+4
 tsmaryka
 
 
@@ -26,19 +26,16 @@ tsmaryka
 
 8be0a557-81ca-0410-aade-88e2702be925
 
-migrate
-dir
-
 schema.rb
 file
-2
 
 
 
-2012-09-30T22:51:09.000000Z
-d7cb21fabee0d417b94de8de5ce23448
-2012-09-30T23:10:18.660193Z
-2
+
+2012-11-05T05:15:42.000000Z
+4097e3f78fd10ab8027a669a97ca9bdb
+2012-11-05T07:35:44.438654Z
+4
 tsmaryka
 
 
@@ -61,7 +58,7 @@ tsmaryka
 
 
 
-2099
+5140
 
 test.sqlite3
 file
@@ -99,7 +96,7 @@ tsmaryka
 
 development.sqlite3
 file
-2
+
 
 
 
@@ -167,7 +164,7 @@ tsmaryka
 
 init_db.sql
 file
-3
+
 
 
 
@@ -198,4 +195,7 @@ tsmaryka
 
 
 6114
+
+migrate
+dir
 

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/exec
+END
+ExecutionPhase.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/exec/ExecutionPhase.java
+END
+PhaseRunnable.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/exec/PhaseRunnable.java
+END
+ExecutionContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/exec/ExecutionContext.java
+END
+ExecutionPhaseListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/exec/ExecutionPhaseListener.java
+END
+ExecutionData.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/exec/ExecutionData.java
+END
+Executor.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/exec/Executor.java
+END
+ExecutionOutcome.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/exec/ExecutionOutcome.java
+END
+PhaseRunnableManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/exec/PhaseRunnableManager.java
+END

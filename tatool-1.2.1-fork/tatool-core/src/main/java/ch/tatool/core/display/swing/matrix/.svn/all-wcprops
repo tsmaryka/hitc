@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/display/swing/matrix
+END
+MatrixPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/display/swing/matrix/MatrixPanel.java
+END
+OffsetTableCellRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/display/swing/matrix/OffsetTableCellRenderer.java
+END
+RotatedLabelUI.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/display/swing/matrix/RotatedLabelUI.java
+END
+RotatedLabelUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/display/swing/matrix/RotatedLabelUtil.java
+END
+MatrixValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/display/swing/matrix/MatrixValue.java
+END
+RotatedLabelTableCellRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/display/swing/matrix/RotatedLabelTableCellRenderer.java
+END
+FixedSizeTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/display/swing/matrix/FixedSizeTable.java
+END

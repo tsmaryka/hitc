@@ -1,7 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
 V 36
-/HITC/!svn/ver/1/config/initializers
+/HITC/!svn/ver/5/config/initializers
+END
+session_store.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/HITC/!svn/ver/1/config/initializers/session_store.rb
+END
+smtp.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/HITC/!svn/ver/4/config/initializers/smtp.rb
 END
 secret_token.rb
 K 25
@@ -19,7 +31,7 @@ mime_types.rb
 K 25
 svn:wc:ra_dav:version-url
 V 50
-/HITC/!svn/ver/1/config/initializers/mime_types.rb
+/HITC/!svn/ver/5/config/initializers/mime_types.rb
 END
 dryml_taglibs.rb
 K 25
@@ -32,10 +44,4 @@ K 25
 svn:wc:ra_dav:version-url
 V 51
 /HITC/!svn/ver/1/config/initializers/inflections.rb
-END
-session_store.rb
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/HITC/!svn/ver/1/config/initializers/session_store.rb
 END

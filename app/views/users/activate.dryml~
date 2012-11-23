@@ -1,0 +1,7 @@
+<activate-page>
+<heading:>Activate Your Account</heading:>
+<before-content-body:>
+		<div class = "section content-body">Please click activate to confirm your email and activate your account.</div>
+		
+	</before-content-body:>
+</activate>

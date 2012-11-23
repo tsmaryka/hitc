@@ -1,2 +1,4 @@
 log/*
 db/*.sqlite3
+hitc-tatool-client/*
+tatool-1.2.1-fork/*

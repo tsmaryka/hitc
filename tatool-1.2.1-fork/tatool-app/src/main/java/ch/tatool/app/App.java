@@ -112,8 +112,8 @@ public class App implements ApplicationListener {
     public static void main( String[] args )
     {
     	// TODO localize error messages
-    	if (args.length < 2) {
-    		JOptionPane.showMessageDialog(null, "Please provide module ID number and code.", "Error: missing module data", JOptionPane.ERROR_MESSAGE);
+    	if (args.length < 3) {
+    		JOptionPane.showMessageDialog(null, "Please provide module ID number, code and name.", "Error: missing module data", JOptionPane.ERROR_MESSAGE);
     		return;
     	}
     	
@@ -125,6 +125,7 @@ public class App implements ApplicationListener {
     	try {
     		controller.setModuleID(Integer.parseInt(args[0]));
     		controller.setCode(args[1]);
+    		controller.setName(args[2]);
     	} catch (NumberFormatException e) {
     		JOptionPane.showMessageDialog(null, args[0] + " is not a valid module ID number.", "Error: invalid module ID", JOptionPane.ERROR_MESSAGE);
     		return;

@@ -30,6 +30,7 @@ import ch.tatool.app.service.UserAccountService;
 import ch.tatool.app.service.exec.ExecutionService;
 import ch.tatool.core.module.creator.*;
 import ch.tatool.data.*;
+import ch.tatool.data.UserAccount.Info;
 import ch.tatool.exec.*;
 import ch.tatool.module.*;
 
@@ -83,6 +84,7 @@ public class GuiController {
 	// Additional info needed for loading the correct module and for HitC integration
 	private int moduleID;
 	private String code;
+	private String name;
 
 	public GuiController() {
 		enabled = false;
@@ -118,6 +120,10 @@ public class GuiController {
 	public void setCode(String code) {
 		this.code = code;
 	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
 
 	/**
 	 * Enable the controller. If enabled, the controller will react to module
@@ -135,6 +141,15 @@ public class GuiController {
 	}
 
 	private void displayMostSuitableWindow() {
+		UserAccountService accountService = getUserAccountService();
+		List<Info> accounts = accountService.getAccounts();
+		for (Info account : accounts) {
+			if(account.getName().equals(this.name))
+				userAccount = accountService.loadAccount(account, null);
+		}
+		if (userAccount == null)
+			userAccount = createAccount();
+		
 		moduleManagerFrame.initialize(userAccount);
 		List<ModuleCreator> creators = moduleManagerFrame.getModuleCreatorRegistry().getCreators();
 		for (ModuleCreator mc : creators) {
@@ -145,6 +160,7 @@ public class GuiController {
 				creator.setModuleID(moduleID);
 				creator.setCode(code);
 				moduleManagerFrame.openCreator(creator.getCreatorId());
+				//displayModuleOverviewFrame();
 			}
 		}
 	}
@@ -244,7 +260,7 @@ public class GuiController {
 	public void setModule(final Module module) {
 		// close the module if one is present
 		// as this will involve closing the window
-		closeCurrentModule();
+		//closeCurrentModule();
 
 		// assign the new module
 		this.module = module;
@@ -256,7 +272,7 @@ public class GuiController {
 		if (enabled) {
 			SwingUtilities.invokeLater(new Runnable() {
 				public void run() {
-					displayMostSuitableWindow();
+					displayModuleOverviewFrame();
 				}
 			});
 		}
@@ -501,4 +517,19 @@ public class GuiController {
 			ModuleManagerFrame moduleManagerFrame) {
 		this.moduleManagerFrame = moduleManagerFrame;
 	}
+	
+	/**
+     * Creates and initializes a user account.
+     * @return a newly created user account
+     */
+    protected UserAccount createAccount() {
+        // create a test user account
+        return getUserAccountService().createAccount(name, createAccountProperties(), null);   
+    }
+    
+    /** Get the Account properties to use for account creation. */
+    protected Map<String, String> createAccountProperties() {
+    	Map<String, String> accountProperties = new HashMap<String, String>();
+    	return accountProperties;
+    }
 }

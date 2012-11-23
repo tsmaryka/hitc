@@ -26,6 +26,7 @@
     <property name="jnlp.versionEnabled" value="true"/>
 	  <!--<property name="jnlp.packEnabled" value="true"/>-->
 	   
+	  <jar href="jars/hitc-tatool-client-0.0.1-SNAPSHOT.jar" main="true"/>
 	  <jar href="jars/tatool-app-1.2.1-FORK.jar"/>
 	  <jar href="jars/tatool-api-1.2.1-FORK.jar"/>
 	  <jar href="jars/tatool-core-1.2.1-FORK.jar"/>
@@ -52,7 +53,7 @@
     <jar href="jars/slf4j-log4j12-1.5.10.jar"/>
     <jar href="jars/log4j-1.2.15.jar"/>
     
-    <jar href="jars/hitc-tatool-client-0.0.1-SNAPSHOT.jar" main="true"/>
+    
 
  </resources>
  <application-desc main-class="ca.uvic.hitc.app.DemoHitCApp">

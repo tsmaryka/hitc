@@ -87,6 +87,7 @@ public class ModuleCreationWorker implements Worker {
 			}			
 
 			// make sure the module name is unique
+			/*
 			Set<Module.Info> modules = moduleService.getModules(userAccount);
 			boolean uniqueNameFound = false;
 			String proposedName = moduleName;
@@ -111,9 +112,10 @@ public class ModuleCreationWorker implements Worker {
 				// name not found - accept
 				uniqueNameFound = true;
 			} while (! uniqueNameFound);
+			*/
 
 			// set the final name 
-			properties.put(Module.PROPERTY_MODULE_NAME, proposedName);
+			properties.put(Module.PROPERTY_MODULE_NAME, moduleName);
 			
 			// Set properties needed for HitC integration
 			properties.put(Module.PROPERTY_TATOOL_ONLINE_MODULE_NR, String.valueOf(moduleID));

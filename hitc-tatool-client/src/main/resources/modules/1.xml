@@ -37,7 +37,7 @@
 					<bean class="ch.tatool.app.export.ServerDataExporter"> 
 						<property name="incrementalExport" value="true" /> 
 						<property name="autoExport" value="false" /> 
-						<property name="url" value="http://www.tatool.ch/data/upload.php" /> 
+						<property name="url" value="http://localhost:3000/upload" /> 
 					</bean> 
 				</entry>
 			</map>

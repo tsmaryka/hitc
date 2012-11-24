@@ -1,7 +1,7 @@
 10
 
 dir
-16
+17
 https://svn.csc.uvic.ca/HITC/tatool-1.2.1-fork/tatool-app
 https://svn.csc.uvic.ca/HITC
 
@@ -25,6 +25,74 @@ has-props
 
 
 8be0a557-81ca-0410-aade-88e2702be925
+
+nb-configuration.xml
+file
+
+
+
+
+2012-11-19T01:31:00.000000Z
+5c647e7ad1518bf6e9b60609f67be29d
+2012-11-17T21:57:09.946176Z
+6
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1479
+
+.project
+file
+
+
+
+
+2012-11-19T04:01:00.000000Z
+9bd6949241668c6525c0f2da7439fdac
+2012-11-19T03:58:00.289492Z
+11
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+562
 
 src
 dir
@@ -99,72 +167,4 @@ lkchan
 
 
 1433
-
-nb-configuration.xml
-file
-
-
-
-
-2012-11-19T01:31:00.000000Z
-5c647e7ad1518bf6e9b60609f67be29d
-2012-11-17T21:57:09.946176Z
-6
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1479
-
-.project
-file
-
-
-
-
-2012-11-19T04:01:00.000000Z
-9bd6949241668c6525c0f2da7439fdac
-2012-11-19T03:58:00.289492Z
-11
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-562
 

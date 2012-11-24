@@ -1,7 +1,7 @@
 10
 
 dir
-16
+17
 https://svn.csc.uvic.ca/HITC/tatool-1.2.1-fork/tatool-api/.settings
 https://svn.csc.uvic.ca/HITC
 
@@ -25,6 +25,40 @@ lkchan
 
 
 8be0a557-81ca-0410-aade-88e2702be925
+
+org.eclipse.m2e.core.prefs
+file
+
+
+
+
+2012-11-19T04:02:04.000000Z
+66985cccd6a27c2401be11bc75d9ea23
+2012-11-19T03:58:00.289492Z
+11
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+90
 
 org.eclipse.core.resources.prefs
 file
@@ -93,38 +127,4 @@ lkchan
 
 
 243
-
-org.eclipse.m2e.core.prefs
-file
-
-
-
-
-2012-11-19T04:02:04.000000Z
-66985cccd6a27c2401be11bc75d9ea23
-2012-11-19T03:58:00.289492Z
-11
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-90
 

@@ -84,6 +84,11 @@
 			<artifactId>mockito-all</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>ca.uvic.hitc</groupId>
+			<artifactId>hitc-tatool-client</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
     </dependencies>
 </project>
 

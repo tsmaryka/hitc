@@ -21,6 +21,7 @@ package ch.tatool.app.gui;
 import java.awt.Image;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
 import java.util.Set;
 
 import javax.swing.DefaultListModel;
@@ -207,8 +208,11 @@ public class ModuleManagerFrame extends javax.swing.JFrame {
     			}
     		}
     	};
-
-    	currentCreator.executeCreator(this, account, moduleService, callback);
+    	try {
+    		currentCreator.executeCreator(this, account, moduleService, callback);
+    	} catch (IOException e) {
+    		
+    	}
     }
     
     public void setVisible(boolean visible) {

@@ -1,7 +1,7 @@
 10
 
 dir
-16
+17
 https://svn.csc.uvic.ca/HITC/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/export
 https://svn.csc.uvic.ca/HITC
 
@@ -25,6 +25,40 @@ lkchan
 
 
 8be0a557-81ca-0410-aade-88e2702be925
+
+ServerDataExporter.java
+file
+
+
+
+
+2012-11-23T06:25:03.000000Z
+48cb89aefd04fdaf768baf0f21200b00
+2012-11-23T00:41:08.472050Z
+16
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10038
 
 DataExportService.java
 file
@@ -229,38 +263,4 @@ lkchan
 
 
 2492
-
-ServerDataExporter.java
-file
-
-
-
-
-2012-11-23T06:25:03.000000Z
-48cb89aefd04fdaf768baf0f21200b00
-2012-11-23T00:41:08.472050Z
-16
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10038
 

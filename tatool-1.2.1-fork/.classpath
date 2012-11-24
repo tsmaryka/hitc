@@ -6,12 +6,10 @@
 	<classpathentry kind="src" path="tatool-core/src/main/java"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/antlr-2.7.6.jar"/>
-	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/apache-mime4j-0.5.jar"/>
 	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/commons-cli-1.0.jar"/>
 	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/commons-codec-1.3.jar"/>
 	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/commons-collections-3.2.1.jar"/>
 	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/commons-dbcp-1.2.jar"/>
-	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/commons-io-1.0.jar"/>
 	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/commons-io-1.4.jar"/>
 	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/commons-lang-2.1.jar"/>
 	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/commons-lang-2.3.jar"/>
@@ -31,7 +29,9 @@
 	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/plexus-compiler-javac-1.8.1.jar"/>
 	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/slf4j-api-1.5.10.jar"/>
 	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/slf4j-log4j12-1.5.10.jar"/>
-	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/spring-2.5.6.jar"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/spring-2.5.6.jar" sourcepath="/home/trevor/hoboapps/hitc/public/jars/spring-2.5.6.jar"/>
 	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/xml-apis-1.0.b2.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/hitc-tatool-client"/>
+	<classpathentry kind="lib" path="/home/trevor/hoboapps/hitc/public/jars/apache-mime4j-0.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

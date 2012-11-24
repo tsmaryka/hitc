@@ -1,7 +1,7 @@
 10
 
 dir
-16
+17
 https://svn.csc.uvic.ca/HITC/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element
 https://svn.csc.uvic.ca/HITC
 
@@ -25,74 +25,6 @@ lkchan
 
 
 8be0a557-81ca-0410-aade-88e2702be925
-
-DefaultExecutionStrategy.java
-file
-
-
-
-
-2012-11-19T01:31:01.000000Z
-daf05800def56934e85ed1886d4db54d
-2012-11-17T21:57:09.946176Z
-6
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4424
-
-RandomOrderIteratedListSelector.java
-file
-
-
-
-
-2012-11-19T01:31:01.000000Z
-bb7b90e8b29cbfc204ac991b0c2bae50
-2012-11-17T21:57:09.946176Z
-6
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1843
 
 ExecutableElement.java
 file
@@ -128,17 +60,14 @@ lkchan
 
 1874
 
-handler
-dir
-
-IteratedListSelector.java
+RandomOrderIteratedListSelector.java
 file
 
 
 
 
 2012-11-19T01:31:01.000000Z
-665379f173ef33f5897761ed83329617
+bb7b90e8b29cbfc204ac991b0c2bae50
 2012-11-17T21:57:09.946176Z
 6
 lkchan
@@ -163,7 +92,44 @@ lkchan
 
 
 
-3605
+1843
+
+DefaultExecutionStrategy.java
+file
+
+
+
+
+2012-11-19T01:31:01.000000Z
+daf05800def56934e85ed1886d4db54d
+2012-11-17T21:57:09.946176Z
+6
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4424
+
+handler
+dir
 
 CompoundElement.java
 file
@@ -198,6 +164,40 @@ lkchan
 
 
 2382
+
+IteratedListSelector.java
+file
+
+
+
+
+2012-11-19T01:31:01.000000Z
+665379f173ef33f5897761ed83329617
+2012-11-17T21:57:09.946176Z
+6
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3605
 
 AbstractListSelector.java
 file
@@ -335,14 +335,14 @@ lkchan
 
 2711
 
-TimerListSelector.java
+AbstractElement.java
 file
 
 
 
 
 2012-11-19T01:31:01.000000Z
-8369be7878cb8620e09b91a83c06de25
+2506676aef9cce2a7c268f14f48c79a4
 2012-11-17T21:57:09.946176Z
 6
 lkchan
@@ -367,7 +367,7 @@ lkchan
 
 
 
-5115
+1895
 
 RandomListSelector.java
 file
@@ -403,14 +403,14 @@ lkchan
 
 3011
 
-AbstractElement.java
+TimerListSelector.java
 file
 
 
 
 
 2012-11-19T01:31:01.000000Z
-2506676aef9cce2a7c268f14f48c79a4
+8369be7878cb8620e09b91a83c06de25
 2012-11-17T21:57:09.946176Z
 6
 lkchan
@@ -435,7 +435,7 @@ lkchan
 
 
 
-1895
+5115
 
 ExecutionStartHandler.java
 file

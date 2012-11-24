@@ -87,6 +87,7 @@ public class GuiController {
 	private String name;
 
 	public GuiController() {
+		System.out.println("in gui");
 		enabled = false;
 		displayedWindows = new HashMap<String, Boolean>();
 		enabledWindows = new HashMap<String, Boolean>();
@@ -141,19 +142,23 @@ public class GuiController {
 	}
 
 	private void displayMostSuitableWindow() {
+		System.out.println("in display suitable");
 		UserAccountService accountService = getUserAccountService();
 		List<Info> accounts = accountService.getAccounts();
-		for (Info account : accounts) {
-			if(account.getName().equals(this.name))
-				userAccount = accountService.loadAccount(account, null);
+		for (Info acc : accounts) {
+			if(acc.getName().equals(this.name))
+				userAccount = accountService.loadAccount(acc, null);
 		}
-		if (userAccount == null)
+		if (userAccount == null || !userAccount.getName().equals(this.name))
 			userAccount = createAccount();
+		
+		System.out.println(userAccount.getName());
 		
 		moduleManagerFrame.initialize(userAccount);
 		List<ModuleCreator> creators = moduleManagerFrame.getModuleCreatorRegistry().getCreators();
 		for (ModuleCreator mc : creators) {
 			if (mc instanceof LocalFileModuleCreator) {
+				System.out.println("in local module file creator");
 				LocalFileModuleCreator creator = (LocalFileModuleCreator) mc;
 				creator.setMessages(moduleManagerFrame.getMessages()); // prevents NPE
 				// Pass along the necessary module information
@@ -191,6 +196,8 @@ public class GuiController {
 	// frame displaying
 
 	public void displayModuleOverviewFrame() {
+		System.out.println("in displayModuleOverviewFrame");
+		System.out.println(module);
 		if (userAccount == null || module == null) {
 			throw new RuntimeException(
 					"Cannot display module overview without account and module");

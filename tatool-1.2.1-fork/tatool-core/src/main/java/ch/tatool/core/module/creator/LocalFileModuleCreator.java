@@ -19,6 +19,12 @@
 package ch.tatool.core.module.creator;
 
 import java.io.File;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
+import java.util.Enumeration;
 
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
@@ -26,6 +32,7 @@ import javax.swing.SwingUtilities;
 
 import org.apache.commons.io.FileUtils;
 
+import ca.uvic.hitc.app.DemoHitCApp;
 import ch.tatool.data.Messages;
 import ch.tatool.data.Module;
 import ch.tatool.data.UserAccount;
@@ -57,7 +64,7 @@ public class LocalFileModuleCreator implements ModuleCreator {
 		this.code = code;
 	}
 	
-	public void executeCreator(JFrame parent, UserAccount userAccount, ModuleService moduleService, Callback callback) {
+	public void executeCreator(JFrame parent, UserAccount userAccount, ModuleService moduleService, Callback callback) throws IOException {
 		this.parent = parent;
 		this.callback = callback;
 		this.userAccount = userAccount;
@@ -65,6 +72,7 @@ public class LocalFileModuleCreator implements ModuleCreator {
 		
 		// fetch the module file
 		final File file = getModuleFile();
+		
 		if (file == null) {
 			callback.closeDialog(null);
 			return;
@@ -117,10 +125,23 @@ public class LocalFileModuleCreator implements ModuleCreator {
 		callback.closeDialog(t);
 	}
 	
-	private File getModuleFile() {
+	private File getModuleFile() throws IOException {
 		// File chooser removed, now uses the module ID to determine the appropriate file
 		// Assumes that the client JAR has a folder called modules that contains the modules
-		return FileUtils.toFile(ClassLoader.getSystemClassLoader().getResource("modules/" + moduleID + ".xml"));
+		//DemoHitCApp apploader = new DemoHitCApp();
+		InputStream in = getClass().getClassLoader().getResourceAsStream("modules/" + moduleID +".xml");
+		File tempFile = File.createTempFile("module" + Integer.toString(moduleID), ".xml");
+		FileOutputStream out = new FileOutputStream(tempFile);
+		
+		int c;
+		while ((c = in.read()) != -1) {
+            out.write(c);
+        }
+		
+		in.close();
+		out.close();
+		
+		return tempFile;
 	}
 	
 	public String getCreatorId() {

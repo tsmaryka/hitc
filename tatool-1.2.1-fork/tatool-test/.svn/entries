@@ -1,7 +1,7 @@
 10
 
 dir
-16
+17
 https://svn.csc.uvic.ca/HITC/tatool-1.2.1-fork/tatool-test
 https://svn.csc.uvic.ca/HITC
 
@@ -25,40 +25,6 @@ has-props
 
 
 8be0a557-81ca-0410-aade-88e2702be925
-
-pom.xml
-file
-
-
-
-
-2012-11-19T01:31:00.000000Z
-d3f19bab66f7ebf02f04f4aaaaaf0cde
-2012-11-17T23:35:49.884342Z
-7
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1307
 
 .settings
 dir
@@ -133,4 +99,38 @@ lkchan
 
 src
 dir
+
+pom.xml
+file
+
+
+
+
+2012-11-19T01:31:00.000000Z
+d3f19bab66f7ebf02f04f4aaaaaf0cde
+2012-11-17T23:35:49.884342Z
+7
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1307
 

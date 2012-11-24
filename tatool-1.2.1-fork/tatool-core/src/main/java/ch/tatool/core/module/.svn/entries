@@ -1,7 +1,7 @@
 10
 
 dir
-16
+17
 https://svn.csc.uvic.ca/HITC/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/module
 https://svn.csc.uvic.ca/HITC
 
@@ -26,12 +26,12 @@ lkchan
 
 8be0a557-81ca-0410-aade-88e2702be925
 
-initializer
-dir
-
 scheduler
 dir
 
 creator
+dir
+
+initializer
 dir
 

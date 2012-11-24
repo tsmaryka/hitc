@@ -58,6 +58,7 @@ public class App implements ApplicationListener {
      * Starts the application once everything has been initialized.
      */
     private void startApplication() {
+    	
     	UserAccountImpl account = new UserAccountImpl();
     	account.setName("User");
     	account.setId(new Long(1));
@@ -111,6 +112,7 @@ public class App implements ApplicationListener {
      */
     public static void main( String[] args )
     {
+    	System.out.println("test");
     	// TODO localize error messages
     	if (args.length < 3) {
     		JOptionPane.showMessageDialog(null, "Please provide module ID number, code and name.", "Error: missing module data", JOptionPane.ERROR_MESSAGE);

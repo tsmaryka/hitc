@@ -30,7 +30,6 @@ import ch.tatool.app.service.UserAccountService;
 import ch.tatool.app.service.exec.ExecutionService;
 import ch.tatool.core.module.creator.*;
 import ch.tatool.data.*;
-import ch.tatool.data.UserAccount.Info;
 import ch.tatool.exec.*;
 import ch.tatool.module.*;
 
@@ -84,10 +83,8 @@ public class GuiController {
 	// Additional info needed for loading the correct module and for HitC integration
 	private int moduleID;
 	private String code;
-	private String name;
 
 	public GuiController() {
-		System.out.println("in gui");
 		enabled = false;
 		displayedWindows = new HashMap<String, Boolean>();
 		enabledWindows = new HashMap<String, Boolean>();
@@ -121,10 +118,6 @@ public class GuiController {
 	public void setCode(String code) {
 		this.code = code;
 	}
-	
-	public void setName(String name) {
-		this.name = name;
-	}
 
 	/**
 	 * Enable the controller. If enabled, the controller will react to module
@@ -142,31 +135,27 @@ public class GuiController {
 	}
 
 	private void displayMostSuitableWindow() {
-		System.out.println("in display suitable");
-		UserAccountService accountService = getUserAccountService();
-		List<Info> accounts = accountService.getAccounts();
-		for (Info acc : accounts) {
-			if(acc.getName().equals(this.name))
-				userAccount = accountService.loadAccount(acc, null);
-		}
-		if (userAccount == null || !userAccount.getName().equals(this.name))
-			userAccount = createAccount();
-		
-		System.out.println(userAccount.getName());
-		
-		moduleManagerFrame.initialize(userAccount);
-		List<ModuleCreator> creators = moduleManagerFrame.getModuleCreatorRegistry().getCreators();
-		for (ModuleCreator mc : creators) {
-			if (mc instanceof LocalFileModuleCreator) {
-				System.out.println("in local module file creator");
-				LocalFileModuleCreator creator = (LocalFileModuleCreator) mc;
-				creator.setMessages(moduleManagerFrame.getMessages()); // prevents NPE
-				// Pass along the necessary module information
-				creator.setModuleID(moduleID);
-				creator.setCode(code);
-				moduleManagerFrame.openCreator(creator.getCreatorId());
-				//displayModuleOverviewFrame();
+		if (userAccount != null && module != null) {
+			displayModuleOverviewFrame();
+		} else if (userAccount != null) {
+			// We want to skip straight to loading the module. Basically we initialize the frame and 
+			// make it load the module, without ever making the frame visible...
+			moduleManagerFrame.initialize(userAccount);
+			List<ModuleCreator> creators = moduleManagerFrame.getModuleCreatorRegistry().getCreators();
+			for (ModuleCreator mc : creators) {
+				if (mc instanceof LocalFileModuleCreator) {
+					LocalFileModuleCreator creator = (LocalFileModuleCreator) mc;
+					creator.setMessages(moduleManagerFrame.getMessages()); // prevents NPE
+					// Pass along the necessary module information
+					creator.setModuleID(moduleID);
+					creator.setCode(code);
+					moduleManagerFrame.openCreator(creator.getCreatorId());
+					break;
+				}
 			}
+		} else {
+			//displayLoginFrame();
+			loginFrame.initialize();
 		}
 	}
 
@@ -196,8 +185,6 @@ public class GuiController {
 	// frame displaying
 
 	public void displayModuleOverviewFrame() {
-		System.out.println("in displayModuleOverviewFrame");
-		System.out.println(module);
 		if (userAccount == null || module == null) {
 			throw new RuntimeException(
 					"Cannot display module overview without account and module");
@@ -267,7 +254,7 @@ public class GuiController {
 	public void setModule(final Module module) {
 		// close the module if one is present
 		// as this will involve closing the window
-		//closeCurrentModule();
+		closeCurrentModule();
 
 		// assign the new module
 		this.module = module;
@@ -279,7 +266,7 @@ public class GuiController {
 		if (enabled) {
 			SwingUtilities.invokeLater(new Runnable() {
 				public void run() {
-					displayModuleOverviewFrame();
+					displayMostSuitableWindow();
 				}
 			});
 		}
@@ -524,19 +511,4 @@ public class GuiController {
 			ModuleManagerFrame moduleManagerFrame) {
 		this.moduleManagerFrame = moduleManagerFrame;
 	}
-	
-	/**
-     * Creates and initializes a user account.
-     * @return a newly created user account
-     */
-    protected UserAccount createAccount() {
-        // create a test user account
-        return getUserAccountService().createAccount(name, createAccountProperties(), null);   
-    }
-    
-    /** Get the Account properties to use for account creation. */
-    protected Map<String, String> createAccountProperties() {
-    	Map<String, String> accountProperties = new HashMap<String, String>();
-    	return accountProperties;
-    }
 }

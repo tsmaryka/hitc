@@ -28,11 +28,9 @@ import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import ch.tatool.app.GuiController;
 import ch.tatool.app.service.UserAccountService;
 import ch.tatool.data.UserAccount;
 import ch.tatool.module.ModuleService;
-import ch.tatool.app.data.UserAccountImpl;
 
 /**
  * Application entry point.
@@ -58,11 +56,7 @@ public class App implements ApplicationListener {
      * Starts the application once everything has been initialized.
      */
     private void startApplication() {
-    	
-    	UserAccountImpl account = new UserAccountImpl();
-    	account.setName("User");
-    	account.setId(new Long(1));
-    	account.setPassword(null);
+    	UserAccount account = null;
         guiController.setEnabled(true);
         guiController.setUserAccount(account);
     }
@@ -112,10 +106,9 @@ public class App implements ApplicationListener {
      */
     public static void main( String[] args )
     {
-    	System.out.println("test");
     	// TODO localize error messages
-    	if (args.length < 3) {
-    		JOptionPane.showMessageDialog(null, "Please provide module ID number, code and name.", "Error: missing module data", JOptionPane.ERROR_MESSAGE);
+    	if (args.length < 2) {
+    		JOptionPane.showMessageDialog(null, "Please provide module ID number and code.", "Error: missing module data", JOptionPane.ERROR_MESSAGE);
     		return;
     	}
     	
@@ -127,7 +120,6 @@ public class App implements ApplicationListener {
     	try {
     		controller.setModuleID(Integer.parseInt(args[0]));
     		controller.setCode(args[1]);
-    		controller.setName(args[2]);
     	} catch (NumberFormatException e) {
     		JOptionPane.showMessageDialog(null, args[0] + " is not a valid module ID number.", "Error: invalid module ID", JOptionPane.ERROR_MESSAGE);
     		return;

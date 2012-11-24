@@ -3,7 +3,7 @@ class DataPoint < ActiveRecord::Base
   hobo_model # Don't put anything above this
 
   fields do
-    data :string
+    data :text
     timestamps
   end
   

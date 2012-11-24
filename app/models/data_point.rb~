@@ -24,7 +24,7 @@ class DataPoint < ActiveRecord::Base
   end
 
   def view_permitted?(field)
-    true
+    acting_user.is_researcher? or acting_user.is_manager?
   end
 
 end

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121124044910) do
+ActiveRecord::Schema.define(:version => 20121124195032) do
 
   create_table "community_members", :force => true do |t|
     t.string   "street_address"
@@ -50,7 +50,7 @@ ActiveRecord::Schema.define(:version => 20121124044910) do
   add_index "consents", ["user_id"], :name => "index_consents_on_user_id"
 
   create_table "data_points", :force => true do |t|
-    t.string   "data"
+    t.text     "data"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "study_enrollment_id"

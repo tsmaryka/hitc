@@ -1,13 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 81
-/HITC/!svn/ver/16/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/export
-END
-ServerDataExporter.java
-K 25
-svn:wc:ra_dav:version-url
-V 105
-/HITC/!svn/ver/16/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/export/ServerDataExporter.java
+/HITC/!svn/ver/18/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/export
 END
 DataExportService.java
 K 25
@@ -44,4 +38,10 @@ K 25
 svn:wc:ra_dav:version-url
 V 102
 /HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/export/DataExporterImpl.java
+END
+ServerDataExporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/HITC/!svn/ver/18/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/export/ServerDataExporter.java
 END

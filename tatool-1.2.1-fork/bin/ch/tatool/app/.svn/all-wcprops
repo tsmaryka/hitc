@@ -1,5 +1,29 @@
 K 25
 svn:wc:ra_dav:version-url
 V 74
-/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-test/src/main/java/ch/tatool/app
+/HITC/!svn/ver/18/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/Constants.java
+END
+App.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/HITC/!svn/ver/16/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/App.java
+END
+TestApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/TestApp.java
+END
+GuiController.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/HITC/!svn/ver/18/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/GuiController.java
 END

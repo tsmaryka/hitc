@@ -1,7 +1,7 @@
 10
 
 dir
-16
+18
 https://svn.csc.uvic.ca/HITC/config/environments
 https://svn.csc.uvic.ca/HITC
 
@@ -25,6 +25,40 @@ tsmaryka
 
 
 8be0a557-81ca-0410-aade-88e2702be925
+
+development.rb
+file
+
+
+
+
+2012-10-22T15:56:16.000000Z
+176d06706027ec194757299cea3aa177
+2012-11-05T07:35:44.438654Z
+4
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+948
 
 production.rb
 file
@@ -93,38 +127,4 @@ tsmaryka
 
 
 1510
-
-development.rb
-file
-
-
-
-
-2012-10-22T15:56:16.000000Z
-176d06706027ec194757299cea3aa177
-2012-11-05T07:35:44.438654Z
-4
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-948
 

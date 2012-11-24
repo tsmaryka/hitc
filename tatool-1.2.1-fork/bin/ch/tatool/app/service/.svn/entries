@@ -1,7 +1,7 @@
 10
 
 dir
-17
+18
 https://svn.csc.uvic.ca/HITC/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/service
 https://svn.csc.uvic.ca/HITC
 
@@ -25,6 +25,9 @@ lkchan
 
 
 8be0a557-81ca-0410-aade-88e2702be925
+
+exec
+dir
 
 UserAccountException.java
 file
@@ -164,7 +167,4 @@ lkchan
 
 
 1523
-
-exec
-dir
 

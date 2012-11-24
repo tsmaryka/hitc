@@ -1,7 +1,7 @@
 10
 
 dir
-16
+18
 https://svn.csc.uvic.ca/HITC/public/javascripts/ckeditor/samples
 https://svn.csc.uvic.ca/HITC
 
@@ -94,40 +94,6 @@ tsmaryka
 
 2428
 
-outputforflash.html
-file
-
-
-
-
-2012-09-30T20:16:12.000000Z
-f2e2f37292eb8858ab35a98e4779a85f
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8402
-
 outputhtml.html
 file
 
@@ -161,6 +127,40 @@ tsmaryka
 
 
 6638
+
+outputforflash.html
+file
+
+
+
+
+2012-09-30T20:16:12.000000Z
+f2e2f37292eb8858ab35a98e4779a85f
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8402
 
 enterkey.html
 file
@@ -332,8 +332,39 @@ tsmaryka
 
 2258
 
-assets
-dir
+fullpage.html
+file
+
+
+
+
+2012-09-30T20:16:12.000000Z
+0ead382a995ab6efc269a745027dbe7c
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5597
 
 devtools.html
 file
@@ -369,39 +400,8 @@ tsmaryka
 
 2862
 
-fullpage.html
-file
-
-
-
-
-2012-09-30T20:16:12.000000Z
-0ead382a995ab6efc269a745027dbe7c
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5597
+assets
+dir
 
 replacebycode.html
 file
@@ -437,40 +437,6 @@ tsmaryka
 
 5048
 
-uilanguages.html
-file
-
-
-
-
-2012-09-30T20:16:12.000000Z
-f964748b63006f2a066aae8eb8288f45
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4215
-
 inlinebycode.html
 file
 
@@ -504,6 +470,40 @@ tsmaryka
 
 
 4879
+
+uilanguages.html
+file
+
+
+
+
+2012-09-30T20:16:12.000000Z
+f964748b63006f2a066aae8eb8288f45
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4215
 
 sample.css
 file

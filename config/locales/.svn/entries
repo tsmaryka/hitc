@@ -1,7 +1,7 @@
 10
 
 dir
-16
+18
 https://svn.csc.uvic.ca/HITC/config/locales
 https://svn.csc.uvic.ca/HITC
 
@@ -25,40 +25,6 @@ tsmaryka
 
 
 8be0a557-81ca-0410-aade-88e2702be925
-
-app.en.yml
-file
-
-
-
-
-2012-09-30T20:16:16.000000Z
-3ff5e65d7381c9cc2d552a0db56f5888
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-625
 
 hobo.en.yml
 file
@@ -93,4 +59,38 @@ tsmaryka
 
 
 6067
+
+app.en.yml
+file
+
+
+
+
+2012-09-30T20:16:16.000000Z
+3ff5e65d7381c9cc2d552a0db56f5888
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+625
 

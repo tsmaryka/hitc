@@ -234,12 +234,12 @@ public class GuiController {
 		displayedWindows.put(MODULE_MANAGER_FRAME, true);
 	}
 
-	public void displayLoginFrame() {
-		loginFrame.initialize();
-		loginFrame.setVisible(true);
-		loginFrame.toFront();
-		displayedWindows.put(LOGIN_FRAME, true);
-	}
+//	public void displayLoginFrame() {
+//		loginFrame.initialize();
+//		loginFrame.setVisible(true);
+//		loginFrame.toFront();
+//		displayedWindows.put(LOGIN_FRAME, true);
+//	}
 
 	// data objects closing
 

@@ -1,7 +1,7 @@
 10
 
 dir
-17
+18
 https://svn.csc.uvic.ca/HITC/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/data
 https://svn.csc.uvic.ca/HITC
 
@@ -26,14 +26,14 @@ lkchan
 
 8be0a557-81ca-0410-aade-88e2702be925
 
-StringProperty.java
+ObjectProperty.java
 file
 
 
 
 
 2012-11-19T01:31:01.000000Z
-62a2fc9de4dc7948a2e6314c58680180
+d68347889e60a4d101965fbcf135ad1a
 2012-11-17T21:57:09.946176Z
 6
 lkchan
@@ -60,14 +60,14 @@ lkchan
 
 1210
 
-ObjectProperty.java
+StringProperty.java
 file
 
 
 
 
 2012-11-19T01:31:01.000000Z
-d68347889e60a4d101965fbcf135ad1a
+62a2fc9de4dc7948a2e6314c58680180
 2012-11-17T21:57:09.946176Z
 6
 lkchan

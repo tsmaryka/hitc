@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 73
-/HITC/!svn/ver/11/hitc-tatool-client/src/main/resources/ca/uvic/hitc/data
+/HITC/!svn/ver/17/hitc-tatool-client/src/main/resources/ca/uvic/hitc/data
 END
 style.css
 K 25
@@ -13,5 +13,5 @@ instruction.htm
 K 25
 svn:wc:ra_dav:version-url
 V 89
-/HITC/!svn/ver/11/hitc-tatool-client/src/main/resources/ca/uvic/hitc/data/instruction.htm
+/HITC/!svn/ver/17/hitc-tatool-client/src/main/resources/ca/uvic/hitc/data/instruction.htm
 END

@@ -1,7 +1,7 @@
 10
 
 dir
-16
+18
 https://svn.csc.uvic.ca/HITC/public/javascripts/ckeditor/plugins/about/dialogs
 https://svn.csc.uvic.ca/HITC
 
@@ -25,40 +25,6 @@ tsmaryka
 
 
 8be0a557-81ca-0410-aade-88e2702be925
-
-about.js
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-29c1e9918086cce75a435c0489440b55
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2050
 
 logo_ckeditor.png
 file
@@ -93,4 +59,38 @@ has-props
 
 
 2759
+
+about.js
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+29c1e9918086cce75a435c0489440b55
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2050
 

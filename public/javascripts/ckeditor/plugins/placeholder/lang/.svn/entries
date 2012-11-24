@@ -1,7 +1,7 @@
 10
 
 dir
-16
+18
 https://svn.csc.uvic.ca/HITC/public/javascripts/ckeditor/plugins/placeholder/lang
 https://svn.csc.uvic.ca/HITC
 
@@ -26,14 +26,14 @@ tsmaryka
 
 8be0a557-81ca-0410-aade-88e2702be925
 
-ug.js
+nl.js
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-1bf0b7c5755a1e6f376ddc9b16fbd03e
+8f35067ffbdbb14228b1afa8653760ee
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -58,16 +58,16 @@ tsmaryka
 
 
 
-495
+401
 
-pl.js
+hr.js
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-f7bd6cfe05212d0b1f55799042f0f0bc
+2bbbe245a6fe65a32bf03e0f5ceba3af
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -92,7 +92,7 @@ tsmaryka
 
 
 
-408
+429
 
 cy.js
 file
@@ -128,14 +128,14 @@ tsmaryka
 
 427
 
-it.js
+pl.js
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-8e724681ed767c09deb2ca3777e18066
+f7bd6cfe05212d0b1f55799042f0f0bc
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -160,7 +160,41 @@ tsmaryka
 
 
 
-394
+408
+
+ug.js
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+1bf0b7c5755a1e6f376ddc9b16fbd03e
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+495
 
 no.js
 file
@@ -196,6 +230,40 @@ tsmaryka
 
 403
 
+it.js
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+8e724681ed767c09deb2ca3777e18066
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+394
+
 vi.js
 file
 
@@ -230,40 +298,6 @@ tsmaryka
 
 423
 
-zh-cn.js
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-9b4b417d261b2137da209d78a267823d
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-377
-
 uk.js
 file
 
@@ -297,6 +331,40 @@ tsmaryka
 
 
 504
+
+zh-cn.js
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+9b4b417d261b2137da209d78a267823d
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+377
 
 da.js
 file
@@ -400,40 +468,6 @@ tsmaryka
 
 482
 
-de.js
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-e156bd48e1b1b4e71e0168f4650d92be
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-411
-
 bg.js
 file
 
@@ -467,6 +501,40 @@ tsmaryka
 
 
 492
+
+de.js
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+e156bd48e1b1b4e71e0168f4650d92be
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+411
 
 he.js
 file
@@ -807,72 +875,4 @@ tsmaryka
 
 
 389
-
-nl.js
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-8f35067ffbdbb14228b1afa8653760ee
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-401
-
-hr.js
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-2bbbe245a6fe65a32bf03e0f5ceba3af
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-429
 

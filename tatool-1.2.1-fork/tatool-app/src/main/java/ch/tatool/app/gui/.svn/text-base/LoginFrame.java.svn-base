@@ -20,7 +20,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.io.Writer;
-import java.util.List;
+import java.util.*;
 
 import javax.swing.DefaultComboBoxModel;
 import javax.swing.JOptionPane;
@@ -28,7 +28,7 @@ import javax.swing.JOptionPane;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import ch.tatool.app.GuiController;
+import ch.tatool.app.*;
 import ch.tatool.app.service.UserAccountException;
 import ch.tatool.app.service.UserAccountService;
 import ch.tatool.data.Messages;
@@ -54,7 +54,7 @@ public class LoginFrame extends javax.swing.JFrame {
 
 	private DefaultComboBoxModel userComboBoxModel = new DefaultComboBoxModel();;
 
-	private CreateAccountFrame createAccountFrame;
+	//private CreateAccountFrame createAccountFrame;
 
 	private Messages messages;
 
@@ -80,18 +80,38 @@ public class LoginFrame extends javax.swing.JFrame {
 		java.net.URL iconUrl = this.getClass().getResource("/ch/tatool/app/gui/icon.png"); //$NON-NLS-1$
 		Image icon = getToolkit().getImage(iconUrl); 
 		setIconImage(icon);
+		
+		if (userAccountService.getAccounts().isEmpty()) {
+			createAccount();
+		} else {
+			UserAccount account = loadAccount(userAccountService, userAccountService.getAccounts().get(0), this);
+			this.openAccount(account);
+		}
 	}
 
 	public void createAccount() {
-		if (createAccountFrame == null) {
-			createAccountFrame = new CreateAccountFrame();
-			createAccountFrame.setMessages(messages);
-			createAccountFrame.init();
-			createAccountFrame.setUserAccountService(userAccountService);
-			createAccountFrame.setLoginFrame(this);
+		// For our purposes, we only want a single user account. If there's already one present, don't create another one!
+		if (!userAccountService.getAccounts().isEmpty()) {
+			return;
 		}
-		createAccountFrame.initialize();
-		createAccountFrame.setVisible(true);
+		
+        HashMap<String, String> accountProperties = new HashMap<String, String>();
+        
+        // Set account language 
+        // TODO we probably need to set this dynamically (another command-line arg needed?)
+        accountProperties.put(Constants.PROPERTY_ACCOUNT_LANG, "en");
+        
+        // add machine properties 
+        // TODO do we really need this?
+        accountProperties.put(Constants.PROPERTY_MACHINE_OS_NAME, System.getProperty("os.name")); //$NON-NLS-1$
+        accountProperties.put(Constants.PROPERTY_MACHINE_OS_ARCH, System.getProperty("os.arch")); //$NON-NLS-1$
+        accountProperties.put(Constants.PROPERTY_MACHINE_OS_VERSION, System.getProperty("os.version")); //$NON-NLS-1$
+        accountProperties.put(Constants.PROPERTY_MACHINE_USER_HOME, System.getProperty("user.home")); //$NON-NLS-1$
+
+        // Note: account should not be null--the method below returns null only when there's another account with the same name
+        // But we shouldn't even be here if there was already an existing account in the first place!
+        UserAccount account = userAccountService.createAccount("", accountProperties, null);
+        this.openAccount(account);
 	}
 
 	public void loginAccount() {
@@ -115,14 +135,14 @@ public class LoginFrame extends javax.swing.JFrame {
 	}
 	
 	/** Overridden to also hide the user account frame if open. */
-	public void setVisible(boolean visible) {
-		// check whether we have an CreateAccountFrame open
-		if ( !visible && createAccountFrame != null && createAccountFrame.isVisible()) {
-			createAccountFrame.dispose();
-			createAccountFrame = null;
-		}
-		super.setVisible(visible);
-	}
+//	public void setVisible(boolean visible) {
+//		// check whether we have an CreateAccountFrame open
+//		if ( !visible && createAccountFrame != null && createAccountFrame.isVisible()) {
+//			createAccountFrame.dispose();
+//			createAccountFrame = null;
+//		}
+//		super.setVisible(visible);
+//	}
 
 	/**
 	 * Opens a UserAccount object by asking the user for a password if

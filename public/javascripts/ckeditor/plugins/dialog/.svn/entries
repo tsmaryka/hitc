@@ -1,7 +1,7 @@
 10
 
 dir
-16
+18
 https://svn.csc.uvic.ca/HITC/public/javascripts/ckeditor/plugins/dialog
 https://svn.csc.uvic.ca/HITC
 
@@ -25,40 +25,6 @@ tsmaryka
 
 
 8be0a557-81ca-0410-aade-88e2702be925
-
-plugin.js
-file
-
-
-
-
-2012-09-30T20:16:12.000000Z
-a02a1e5ea867b0c85e8f93ac073813b4
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-98674
 
 dialogDefinition.js
 file
@@ -93,4 +59,38 @@ tsmaryka
 
 
 23878
+
+plugin.js
+file
+
+
+
+
+2012-09-30T20:16:12.000000Z
+a02a1e5ea867b0c85e8f93ac073813b4
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+98674
 

@@ -41,9 +41,9 @@ public interface Module extends DataContainer {
 	/** Property key of the module version property. */
 	public String PROPERTY_MODULE_VERSION = "module.version";
 
-	/** Property keys for tatool online. */
-	public String PROPERTY_TATOOL_ONLINE_SUBJECT_CODE = "tatool.online.subject.code";
-	public String PROPERTY_TATOOL_ONLINE_MODULE_NR = "tatool.online.module.nr";
+	/** Property keys for HitC integration. */
+	public String PROPERTY_MODULE_CODE = "tatool.online.subject.code";
+	public String PROPERTY_MODULE_ID = "tatool.online.module.id";
 
 	/** Default pause time between elements. */
 	public String PROPERTY_EXECUTION_DEFAULT_PAUSE_DURATION = "execution.pausetime";

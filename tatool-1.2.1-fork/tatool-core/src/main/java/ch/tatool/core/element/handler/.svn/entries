@@ -1,7 +1,7 @@
 10
 
 dir
-17
+18
 https://svn.csc.uvic.ca/HITC/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element/handler
 https://svn.csc.uvic.ca/HITC
 
@@ -25,6 +25,74 @@ lkchan
 
 
 8be0a557-81ca-0410-aade-88e2702be925
+
+TrialCountHandler.java
+file
+
+
+
+
+2012-11-19T01:31:01.000000Z
+47c82fefd34d07f5e91438d9c279ec6e
+2012-11-17T21:57:09.946176Z
+6
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4958
+
+StatusPanelStateHandler.java
+file
+
+
+
+
+2012-11-19T01:31:01.000000Z
+c53b8daf0e15c2225012844d3125983f
+2012-11-17T21:57:09.946176Z
+6
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3509
 
 timeout
 dir
@@ -272,72 +340,4 @@ lkchan
 
 
 2451
-
-TrialCountHandler.java
-file
-
-
-
-
-2012-11-19T01:31:01.000000Z
-47c82fefd34d07f5e91438d9c279ec6e
-2012-11-17T21:57:09.946176Z
-6
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4958
-
-StatusPanelStateHandler.java
-file
-
-
-
-
-2012-11-19T01:31:01.000000Z
-c53b8daf0e15c2225012844d3125983f
-2012-11-17T21:57:09.946176Z
-6
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3509
 

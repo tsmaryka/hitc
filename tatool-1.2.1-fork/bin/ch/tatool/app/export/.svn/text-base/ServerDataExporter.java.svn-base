@@ -111,12 +111,12 @@ public class ServerDataExporter extends DataExporterImpl {
         
         // get tatool online information for module
         Map<String, String> moduleProperties = module.getModuleProperties();
-        String subjectCode= moduleProperties.get(Module.PROPERTY_TATOOL_ONLINE_SUBJECT_CODE);
+        String subjectCode= moduleProperties.get(Module.PROPERTY_MODULE_CODE);
         if ( subjectCode == null || subjectCode.isEmpty() ) {
         	subjectCode = module.getUserAccount().getName();
         }
       
-        String moduleID = moduleProperties.get(Module.PROPERTY_TATOOL_ONLINE_MODULE_NR);
+        String moduleID = moduleProperties.get(Module.PROPERTY_MODULE_ID);
         
         // InputStreamBody does not provide a content length (-1), so the server complains about the request length not
         // being defined. FileBody does not allow setting the name (which is different from the temp file name
@@ -130,7 +130,7 @@ public class ServerDataExporter extends DataExporterImpl {
             Charset utf8CharSet = Charset.forName("UTF-8");
             entity.addPart("fromSessionIndex", new StringBody(String.valueOf(fromSessionIndex), utf8CharSet));
             entity.addPart("subjectCode", new StringBody(subjectCode, utf8CharSet));
-            entity.addPart("moduleNr", new StringBody(moduleID, utf8CharSet));
+            entity.addPart("moduleID", new StringBody(moduleID, utf8CharSet));
         } catch (UnsupportedEncodingException e) {
             // should not happen
             logger.error("Unable to set write form parts", e);

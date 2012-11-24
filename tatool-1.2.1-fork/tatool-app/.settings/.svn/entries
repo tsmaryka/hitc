@@ -1,7 +1,7 @@
 10
 
 dir
-17
+18
 https://svn.csc.uvic.ca/HITC/tatool-1.2.1-fork/tatool-app/.settings
 https://svn.csc.uvic.ca/HITC
 
@@ -25,40 +25,6 @@ lkchan
 
 
 8be0a557-81ca-0410-aade-88e2702be925
-
-org.eclipse.core.resources.prefs
-file
-
-
-
-
-2012-11-19T04:02:04.000000Z
-2cecd4db67b09eaa6b9d7a8c5a6c2f07
-2012-11-19T03:58:00.289492Z
-11
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-216
 
 org.eclipse.jdt.core.prefs
 file
@@ -127,4 +93,38 @@ lkchan
 
 
 90
+
+org.eclipse.core.resources.prefs
+file
+
+
+
+
+2012-11-19T04:02:04.000000Z
+2cecd4db67b09eaa6b9d7a8c5a6c2f07
+2012-11-19T03:58:00.289492Z
+11
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+216
 

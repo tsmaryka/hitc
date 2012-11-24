@@ -1,7 +1,7 @@
 10
 
 dir
-16
+18
 https://svn.csc.uvic.ca/HITC/public/javascripts/ckeditor/skins/kama
 https://svn.csc.uvic.ca/HITC
 
@@ -25,40 +25,6 @@ tsmaryka
 
 
 8be0a557-81ca-0410-aade-88e2702be925
-
-mainui.css
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-6d63899afb9923db19281137bcedd166
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5256
 
 reset.css
 file
@@ -94,17 +60,14 @@ tsmaryka
 
 2102
 
-icons
-dir
-
-dialog_opera.css
+mainui.css
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-25fd07f3b3c217679ff2d3d0edc5f687
+6d63899afb9923db19281137bcedd166
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -129,7 +92,10 @@ tsmaryka
 
 
 
-702
+5256
+
+icons
+dir
 
 presets.css
 file
@@ -164,6 +130,40 @@ tsmaryka
 
 
 943
+
+dialog_opera.css
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+25fd07f3b3c217679ff2d3d0edc5f687
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+702
 
 editor.css
 file
@@ -369,40 +369,6 @@ tsmaryka
 
 3243
 
-dialog.css
-file
-
-
-
-
-2012-09-30T20:16:15.000000Z
-1c5bf487ee5937865ee3862a7e7c9f5f
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-17059
-
 panel.css
 file
 
@@ -437,14 +403,14 @@ tsmaryka
 
 5539
 
-editor_iequirks.css
+dialog.css
 file
 
 
 
 
 2012-09-30T20:16:15.000000Z
-6e66de8d824f62ea34bb047378c5c005
+1c5bf487ee5937865ee3862a7e7c9f5f
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -469,7 +435,7 @@ tsmaryka
 
 
 
-3502
+17059
 
 toolbar.css
 file
@@ -504,6 +470,40 @@ tsmaryka
 
 
 8024
+
+editor_iequirks.css
+file
+
+
+
+
+2012-09-30T20:16:15.000000Z
+6e66de8d824f62ea34bb047378c5c005
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3502
 
 dialog_ie7.css
 file

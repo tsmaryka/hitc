@@ -1,25 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 91
-/HITC/!svn/ver/16/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/module/creator
-END
-CreationException.java
-K 25
-svn:wc:ra_dav:version-url
-V 113
-/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/module/creator/CreationException.java
-END
-ProgressDialog.java
-K 25
-svn:wc:ra_dav:version-url
-V 110
-/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/module/creator/ProgressDialog.java
-END
-ModuleCreationWorker.java
-K 25
-svn:wc:ra_dav:version-url
-V 117
-/HITC/!svn/ver/16/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/module/creator/ModuleCreationWorker.java
+/HITC/!svn/ver/18/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/module/creator
 END
 Worker.java
 K 25
@@ -44,4 +26,22 @@ K 25
 svn:wc:ra_dav:version-url
 V 114
 /HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/module/creator/FileDownloadWorker.java
+END
+CreationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/module/creator/CreationException.java
+END
+ProgressDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/module/creator/ProgressDialog.java
+END
+ModuleCreationWorker.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/HITC/!svn/ver/18/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/module/creator/ModuleCreationWorker.java
 END

@@ -1,14 +1,14 @@
 10
 
 dir
-17
-https://svn.csc.uvic.ca/HITC/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool
+18
+https://svn.csc.uvic.ca/HITC/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool
 https://svn.csc.uvic.ca/HITC
 
 
 
-2012-11-23T00:41:08.472050Z
-16
+2012-11-24T03:50:17.168985Z
+18
 lkchan
 
 
@@ -26,21 +26,6 @@ lkchan
 
 8be0a557-81ca-0410-aade-88e2702be925
 
-element
-dir
-
-data
-dir
-
-export
-dir
-
-exec
-dir
-
-module
-dir
-
-display
+core
 dir
 

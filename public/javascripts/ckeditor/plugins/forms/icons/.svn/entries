@@ -1,7 +1,7 @@
 10
 
 dir
-16
+18
 https://svn.csc.uvic.ca/HITC/public/javascripts/ckeditor/plugins/forms/icons
 https://svn.csc.uvic.ca/HITC
 
@@ -25,6 +25,40 @@ tsmaryka
 
 
 8be0a557-81ca-0410-aade-88e2702be925
+
+textarea-rtl.png
+file
+
+
+
+
+2012-09-30T20:16:13.000000Z
+4b09697fdac7d436dda3ae54cfca497a
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+414
 
 textarea.png
 file
@@ -365,38 +399,4 @@ has-props
 
 
 326
-
-textarea-rtl.png
-file
-
-
-
-
-2012-09-30T20:16:13.000000Z
-4b09697fdac7d436dda3ae54cfca497a
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-414
 

@@ -1,23 +1,23 @@
 K 25
 svn:wc:ra_dav:version-url
 V 63
-/HITC/!svn/ver/15/hitc-tatool-client/src/main/resources/modules
-END
-3.xml
-K 25
-svn:wc:ra_dav:version-url
-V 69
-/HITC/!svn/ver/15/hitc-tatool-client/src/main/resources/modules/3.xml
+/HITC/!svn/ver/17/hitc-tatool-client/src/main/resources/modules
 END
 1.xml
 K 25
 svn:wc:ra_dav:version-url
 V 69
-/HITC/!svn/ver/15/hitc-tatool-client/src/main/resources/modules/1.xml
+/HITC/!svn/ver/17/hitc-tatool-client/src/main/resources/modules/1.xml
 END
 2.xml
 K 25
 svn:wc:ra_dav:version-url
 V 69
-/HITC/!svn/ver/15/hitc-tatool-client/src/main/resources/modules/2.xml
+/HITC/!svn/ver/17/hitc-tatool-client/src/main/resources/modules/2.xml
+END
+3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/HITC/!svn/ver/17/hitc-tatool-client/src/main/resources/modules/3.xml
 END

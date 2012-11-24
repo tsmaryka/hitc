@@ -1,14 +1,14 @@
 10
 
 dir
-17
+18
 https://svn.csc.uvic.ca/HITC/tatool-1.2.1-fork
 https://svn.csc.uvic.ca/HITC
 
 
 
-2012-11-23T00:41:08.472050Z
-16
+2012-11-24T03:50:17.168985Z
+18
 lkchan
 
 
@@ -25,43 +25,6 @@ lkchan
 
 
 8be0a557-81ca-0410-aade-88e2702be925
-
-tatool-app
-dir
-
-.project
-file
-
-
-
-
-2012-11-19T04:01:01.000000Z
-8075f448afa9184118cc5bfddc429d38
-2012-11-19T03:58:00.289492Z
-11
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-397
 
 tatool-core
 dir
@@ -111,4 +74,41 @@ dir
 
 tatool-test
 dir
+
+tatool-app
+dir
+
+.project
+file
+
+
+
+
+2012-11-19T04:01:01.000000Z
+8075f448afa9184118cc5bfddc429d38
+2012-11-19T03:58:00.289492Z
+11
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+397
 

@@ -118,8 +118,8 @@ public class ModuleCreationWorker implements Worker {
 			properties.put(Module.PROPERTY_MODULE_NAME, moduleName);
 			
 			// Set properties needed for HitC integration
-			properties.put(Module.PROPERTY_TATOOL_ONLINE_MODULE_NR, String.valueOf(moduleID));
-			properties.put(Module.PROPERTY_TATOOL_ONLINE_SUBJECT_CODE, code);
+			properties.put(Module.PROPERTY_MODULE_ID, String.valueOf(moduleID));
+			properties.put(Module.PROPERTY_MODULE_CODE, code);
 			
 			// create the module
 			module = moduleService.createModule(userAccount,properties, binaryProperties, moduleExporters);

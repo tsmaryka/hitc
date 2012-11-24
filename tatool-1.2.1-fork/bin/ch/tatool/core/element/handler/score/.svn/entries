@@ -1,7 +1,7 @@
 10
 
 dir
-17
+18
 https://svn.csc.uvic.ca/HITC/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element/handler/score
 https://svn.csc.uvic.ca/HITC
 
@@ -25,6 +25,74 @@ lkchan
 
 
 8be0a557-81ca-0410-aade-88e2702be925
+
+DefaultPointsAndLevelHandler.java
+file
+
+
+
+
+2012-11-19T01:31:01.000000Z
+8d57199b1be67c7592937c2fd1352a2c
+2012-11-17T21:57:09.946176Z
+6
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7583
+
+UserFeedbackLevelListener.java
+file
+
+
+
+
+2012-11-19T01:31:01.000000Z
+7bac16ec920d860c0aceb75e99072d96
+2012-11-17T21:57:09.946176Z
+6
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3932
 
 AdaptiveScoreAndLevelHandler.java
 file
@@ -297,72 +365,4 @@ lkchan
 
 
 3890
-
-DefaultPointsAndLevelHandler.java
-file
-
-
-
-
-2012-11-19T01:31:01.000000Z
-8d57199b1be67c7592937c2fd1352a2c
-2012-11-17T21:57:09.946176Z
-6
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7583
-
-UserFeedbackLevelListener.java
-file
-
-
-
-
-2012-11-19T01:31:01.000000Z
-7bac16ec920d860c0aceb75e99072d96
-2012-11-17T21:57:09.946176Z
-6
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3932
 

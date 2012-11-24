@@ -1,7 +1,7 @@
 10
 
 dir
-17
+18
 https://svn.csc.uvic.ca/HITC/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/data
 https://svn.csc.uvic.ca/HITC
 
@@ -25,6 +25,40 @@ lkchan
 
 
 8be0a557-81ca-0410-aade-88e2702be925
+
+ModuleSessionImpl.java
+file
+
+
+
+
+2012-11-19T01:31:00.000000Z
+fc362a22503aa3482762ecfd99f5a46f
+2012-11-17T21:57:09.946176Z
+6
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2793
 
 UserAccountImpl.java
 file
@@ -195,38 +229,4 @@ lkchan
 
 
 6487
-
-ModuleSessionImpl.java
-file
-
-
-
-
-2012-11-19T01:31:00.000000Z
-fc362a22503aa3482762ecfd99f5a46f
-2012-11-17T21:57:09.946176Z
-6
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2793
 

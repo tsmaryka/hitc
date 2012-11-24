@@ -1,7 +1,7 @@
 10
 
 dir
-17
+18
 https://svn.csc.uvic.ca/HITC/tatool-1.2.1-fork/tatool-core/src/main/resources/ch/tatool/core/ui/status
 https://svn.csc.uvic.ca/HITC
 
@@ -25,6 +25,40 @@ lkchan
 
 
 8be0a557-81ca-0410-aade-88e2702be925
+
+Wrong.png
+file
+
+
+
+
+2012-11-19T01:31:01.000000Z
+0b70a30064c30ac1ffdd29de2b21e3b1
+2012-11-17T21:57:09.946176Z
+6
+lkchan
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2340
 
 timer00.png
 file
@@ -297,38 +331,4 @@ has-props
 
 
 240
-
-Wrong.png
-file
-
-
-
-
-2012-11-19T01:31:01.000000Z
-0b70a30064c30ac1ffdd29de2b21e3b1
-2012-11-17T21:57:09.946176Z
-6
-lkchan
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2340
 

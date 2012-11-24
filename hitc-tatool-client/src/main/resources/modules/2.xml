@@ -4,6 +4,8 @@
 	xmlns:util="http://www.springframework.org/schema/util"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.5.xsd">
+		
+	<import resource="classpath:tatool/extension/hitc-context.xml" />
 
 	<!-- Module properties -->
 	<bean id="moduleProperties" class="org.springframework.beans.factory.config.MapFactoryBean">
@@ -25,20 +27,9 @@
 	<bean id="moduleExporters" class="org.springframework.beans.factory.config.MapFactoryBean">
 		<property name="sourceMap">
 			<map>
-				<!-- Exporter for exporting to a local file -->
-				<entry key="localExporter"> 
-					<bean class="ch.tatool.app.export.FileDataExporter">
-						<property name="incrementalExport" value="false"/>
-						<property name="autoExport" value="false"/>
-					</bean>
-				</entry>
 				<!-- Exporter for uploading results to a Tatool Online server -->
-				<entry key="serverExporter">
-					<bean class="ch.tatool.app.export.ServerDataExporter">
-						<property name="url" value="http://localhost/tatool-online-1.1/data/upload.php"/>
-						<property name="incrementalExport" value="true"/>
-						<property name="autoExport" value="false"/>
-					</bean>
+				<entry key="serverExporter"> 
+					<ref bean="exporter"/> 
 				</entry>
 			</map>
 		</property>

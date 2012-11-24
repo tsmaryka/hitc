@@ -1,14 +1,14 @@
 10
 
 dir
-16
+18
 https://svn.csc.uvic.ca/HITC/hitc-tatool-client/src/main/resources/ca/uvic/hitc/data
 https://svn.csc.uvic.ca/HITC
 
 
 
-2012-11-19T03:58:00.289492Z
-11
+2012-11-23T23:41:58.272875Z
+17
 lkchan
 
 
@@ -66,10 +66,10 @@ file
 
 
 
-2012-11-19T04:01:14.000000Z
-babc30adf97e64eb9e7b98c72ad56fa6
-2012-11-19T03:58:00.289492Z
-11
+2012-11-24T03:55:17.000000Z
+61cd3b56a273812b6cddc56f9b9c0177
+2012-11-23T23:41:58.272875Z
+17
 lkchan
 
 
@@ -92,5 +92,5 @@ lkchan
 
 
 
-793
+985
 

@@ -1,7 +1,7 @@
 10
 
 dir
-16
+18
 https://svn.csc.uvic.ca/HITC/public/javascripts/ckeditor/plugins/indent
 https://svn.csc.uvic.ca/HITC
 
@@ -25,9 +25,6 @@ tsmaryka
 
 
 8be0a557-81ca-0410-aade-88e2702be925
-
-lang
-dir
 
 plugin.js
 file
@@ -64,5 +61,8 @@ has-props
 15207
 
 icons
+dir
+
+lang
 dir
 

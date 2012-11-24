@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 36
-/HITC/!svn/ver/15/hitc-tatool-client
+/HITC/!svn/ver/17/hitc-tatool-client
 END
 .classpath
 K 25
@@ -13,13 +13,13 @@ END
 K 25
 svn:wc:ra_dav:version-url
 V 45
-/HITC/!svn/ver/11/hitc-tatool-client/.project
+/HITC/!svn/ver/17/hitc-tatool-client/.project
 END
 .springBeans
 K 25
 svn:wc:ra_dav:version-url
 V 49
-/HITC/!svn/ver/11/hitc-tatool-client/.springBeans
+/HITC/!svn/ver/17/hitc-tatool-client/.springBeans
 END
 pom.xml
 K 25

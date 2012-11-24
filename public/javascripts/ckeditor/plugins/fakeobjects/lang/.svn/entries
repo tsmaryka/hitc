@@ -1,7 +1,7 @@
 10
 
 dir
-16
+18
 https://svn.csc.uvic.ca/HITC/public/javascripts/ckeditor/plugins/fakeobjects/lang
 https://svn.csc.uvic.ca/HITC
 
@@ -26,14 +26,14 @@ tsmaryka
 
 8be0a557-81ca-0410-aade-88e2702be925
 
-en-ca.js
+pt-br.js
 file
 
 
 
 
 2012-09-30T20:16:12.000000Z
-6a29672bc2ecfb984b180c751fe74243
+cdc05c394fc0e7410f9792d79ce46264
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -58,7 +58,7 @@ tsmaryka
 
 
 
-381
+336
 
 ru.js
 file
@@ -127,6 +127,74 @@ tsmaryka
 
 
 323
+
+fr-ca.js
+file
+
+
+
+
+2012-09-30T20:16:12.000000Z
+9cdc58c63a534ea8e8e493ed777e2421
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+381
+
+en-gb.js
+file
+
+
+
+
+2012-09-30T20:16:12.000000Z
+1cdc7121a143a0a0b60234fd4756e155
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+326
 
 bn.js
 file
@@ -332,40 +400,6 @@ tsmaryka
 
 323
 
-en-au.js
-file
-
-
-
-
-2012-09-30T20:16:12.000000Z
-020ad6c1031172bd40adeb5c6ab9edd6
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-381
-
 fr.js
 file
 
@@ -536,40 +570,6 @@ tsmaryka
 
 378
 
-pl.js
-file
-
-
-
-
-2012-09-30T20:16:12.000000Z
-7c91f28b5592a113ce3eb565c62a8b04
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-323
-
 th.js
 file
 
@@ -603,6 +603,40 @@ tsmaryka
 
 
 378
+
+pl.js
+file
+
+
+
+
+2012-09-30T20:16:12.000000Z
+7c91f28b5592a113ce3eb565c62a8b04
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+323
 
 it.js
 file
@@ -706,14 +740,14 @@ tsmaryka
 
 333
 
-zh-cn.js
+sr-latn.js
 file
 
 
 
 
 2012-09-30T20:16:12.000000Z
-2f69abbd2420308bed00a328942c1f4a
+6ddba940da94040088689591f9af6346
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -738,41 +772,7 @@ tsmaryka
 
 
 
-318
-
-lv.js
-file
-
-
-
-
-2012-09-30T20:16:12.000000Z
-d0d746ed94ca616acecd828adbbf1182
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-378
+383
 
 zh.js
 file
@@ -808,14 +808,14 @@ tsmaryka
 
 340
 
-ca.js
+lv.js
 file
 
 
 
 
 2012-09-30T20:16:12.000000Z
-ed17b54bbde1a192f98913b428ff003c
+d0d746ed94ca616acecd828adbbf1182
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -840,7 +840,7 @@ tsmaryka
 
 
 
-326
+378
 
 pt.js
 file
@@ -876,14 +876,14 @@ tsmaryka
 
 378
 
-pt-br.js
+ca.js
 file
 
 
 
 
 2012-09-30T20:16:12.000000Z
-cdc05c394fc0e7410f9792d79ce46264
+ed17b54bbde1a192f98913b428ff003c
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -908,16 +908,16 @@ tsmaryka
 
 
 
-336
+326
 
-sr.js
+en-ca.js
 file
 
 
 
 
 2012-09-30T20:16:12.000000Z
-75dcde1c2719d8789f17d8cb78b49b17
+6a29672bc2ecfb984b180c751fe74243
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -942,7 +942,7 @@ tsmaryka
 
 
 
-378
+381
 
 da.js
 file
@@ -977,6 +977,40 @@ tsmaryka
 
 
 319
+
+sr.js
+file
+
+
+
+
+2012-09-30T20:16:12.000000Z
+75dcde1c2719d8789f17d8cb78b49b17
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+378
 
 tr.js
 file
@@ -1045,74 +1079,6 @@ tsmaryka
 
 
 345
-
-fr-ca.js
-file
-
-
-
-
-2012-09-30T20:16:12.000000Z
-9cdc58c63a534ea8e8e493ed777e2421
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-381
-
-en-gb.js
-file
-
-
-
-
-2012-09-30T20:16:12.000000Z
-1cdc7121a143a0a0b60234fd4756e155
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-326
 
 bg.js
 file
@@ -1487,6 +1453,40 @@ tsmaryka
 
 
 324
+
+en-au.js
+file
+
+
+
+
+2012-09-30T20:16:12.000000Z
+020ad6c1031172bd40adeb5c6ab9edd6
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+381
 
 cs.js
 file
@@ -1964,6 +1964,40 @@ tsmaryka
 
 338
 
+zh-cn.js
+file
+
+
+
+
+2012-09-30T20:16:12.000000Z
+2f69abbd2420308bed00a328942c1f4a
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+318
+
 ms.js
 file
 
@@ -2031,40 +2065,6 @@ tsmaryka
 
 
 364
-
-sr-latn.js
-file
-
-
-
-
-2012-09-30T20:16:12.000000Z
-6ddba940da94040088689591f9af6346
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-383
 
 ro.js
 file

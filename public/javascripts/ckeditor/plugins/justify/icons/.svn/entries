@@ -1,7 +1,7 @@
 10
 
 dir
-16
+18
 https://svn.csc.uvic.ca/HITC/public/javascripts/ckeditor/plugins/justify/icons
 https://svn.csc.uvic.ca/HITC
 
@@ -25,74 +25,6 @@ tsmaryka
 
 
 8be0a557-81ca-0410-aade-88e2702be925
-
-justifyleft.png
-file
-
-
-
-
-2012-09-30T20:16:14.000000Z
-882ba583da6051d088705489b117e82d
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-936
-
-justifyblock.png
-file
-
-
-
-
-2012-09-30T20:16:14.000000Z
-82b0ceaca026e46d1b21595160388a02
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-932
 
 justifyright.png
 file
@@ -161,4 +93,72 @@ has-props
 
 
 936
+
+justifyleft.png
+file
+
+
+
+
+2012-09-30T20:16:14.000000Z
+882ba583da6051d088705489b117e82d
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+936
+
+justifyblock.png
+file
+
+
+
+
+2012-09-30T20:16:14.000000Z
+82b0ceaca026e46d1b21595160388a02
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+932
 

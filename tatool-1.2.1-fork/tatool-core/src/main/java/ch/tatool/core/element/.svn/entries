@@ -1,7 +1,7 @@
 10
 
 dir
-17
+18
 https://svn.csc.uvic.ca/HITC/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element
 https://svn.csc.uvic.ca/HITC
 
@@ -26,14 +26,14 @@ lkchan
 
 8be0a557-81ca-0410-aade-88e2702be925
 
-ExecutableElement.java
+ListElement.java
 file
 
 
 
 
 2012-11-19T01:31:01.000000Z
-495b674ff68074055e179dc4774a2ea8
+abaf992a8b0102c42a05ea67696534cd
 2012-11-17T21:57:09.946176Z
 6
 lkchan
@@ -58,16 +58,16 @@ lkchan
 
 
 
-1874
+2009
 
-RandomOrderIteratedListSelector.java
+CompoundSelector.java
 file
 
 
 
 
 2012-11-19T01:31:01.000000Z
-bb7b90e8b29cbfc204ac991b0c2bae50
+5a2b8c80db78e7cb7a8a36a9e410d016
 2012-11-17T21:57:09.946176Z
 6
 lkchan
@@ -92,7 +92,41 @@ lkchan
 
 
 
-1843
+4758
+
+TemporaryElementSupportUtil.java
+file
+
+
+
+
+2012-11-19T01:31:01.000000Z
+b24e05e18d3c21f8532ca9543cd16fc6
+2012-11-17T21:57:09.946176Z
+6
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2847
 
 DefaultExecutionStrategy.java
 file
@@ -128,17 +162,14 @@ lkchan
 
 4424
 
-handler
-dir
-
-CompoundElement.java
+RandomOrderIteratedListSelector.java
 file
 
 
 
 
 2012-11-19T01:31:01.000000Z
-e0cf3fd286ccee3401c44750788ab660
+bb7b90e8b29cbfc204ac991b0c2bae50
 2012-11-17T21:57:09.946176Z
 6
 lkchan
@@ -163,7 +194,44 @@ lkchan
 
 
 
-2382
+1843
+
+ExecutableElement.java
+file
+
+
+
+
+2012-11-19T01:31:01.000000Z
+495b674ff68074055e179dc4774a2ea8
+2012-11-17T21:57:09.946176Z
+6
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1874
+
+handler
+dir
 
 IteratedListSelector.java
 file
@@ -198,6 +266,40 @@ lkchan
 
 
 3605
+
+CompoundElement.java
+file
+
+
+
+
+2012-11-19T01:31:01.000000Z
+e0cf3fd286ccee3401c44750788ab660
+2012-11-17T21:57:09.946176Z
+6
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2382
 
 AbstractListSelector.java
 file
@@ -335,14 +437,14 @@ lkchan
 
 2711
 
-AbstractElement.java
+TimerListSelector.java
 file
 
 
 
 
 2012-11-19T01:31:01.000000Z
-2506676aef9cce2a7c268f14f48c79a4
+8369be7878cb8620e09b91a83c06de25
 2012-11-17T21:57:09.946176Z
 6
 lkchan
@@ -367,7 +469,7 @@ lkchan
 
 
 
-1895
+5115
 
 RandomListSelector.java
 file
@@ -403,14 +505,14 @@ lkchan
 
 3011
 
-TimerListSelector.java
+AbstractElement.java
 file
 
 
 
 
 2012-11-19T01:31:01.000000Z
-8369be7878cb8620e09b91a83c06de25
+2506676aef9cce2a7c268f14f48c79a4
 2012-11-17T21:57:09.946176Z
 6
 lkchan
@@ -435,7 +537,7 @@ lkchan
 
 
 
-5115
+1895
 
 ExecutionStartHandler.java
 file
@@ -538,106 +640,4 @@ lkchan
 
 
 2001
-
-ListElement.java
-file
-
-
-
-
-2012-11-19T01:31:01.000000Z
-abaf992a8b0102c42a05ea67696534cd
-2012-11-17T21:57:09.946176Z
-6
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2009
-
-CompoundSelector.java
-file
-
-
-
-
-2012-11-19T01:31:01.000000Z
-5a2b8c80db78e7cb7a8a36a9e410d016
-2012-11-17T21:57:09.946176Z
-6
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4758
-
-TemporaryElementSupportUtil.java
-file
-
-
-
-
-2012-11-19T01:31:01.000000Z
-b24e05e18d3c21f8532ca9543cd16fc6
-2012-11-17T21:57:09.946176Z
-6
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2847
 

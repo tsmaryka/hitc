@@ -1,0 +1,12 @@
+<index-page>
+<content-header: replace>
+<div class="header content-header">
+<h1 class="heading">Data Points</h1>
+</div>
+</content-header:>
+<collection: replace>
+<table-plus fields="this.id, this.study_enrollment.study, this.study_enrollment.community_member">
+	<empty-message:>No Community Members Available</empty-message:>
+</table-plus>
+</collection:>
+</index-page>

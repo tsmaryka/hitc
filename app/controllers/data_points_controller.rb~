@@ -4,8 +4,8 @@ class DataPointsController < ApplicationController
 
   auto_actions :all
   
-  def data	
-  	@enrollment = StudyEnrollment.find(params[:id])
+  def dataout	
+  	@data_point = DataPoint.find(params[:id])
   	respond_to do |format|
   		format.csv
   	end

@@ -7,8 +7,6 @@ Hitc::Application.routes.draw do
   
   match 'study_enrollments/:id/launch' => 'study_enrollments#launch', :as => :launch
   
-  match 'researchers/:id/approve' => 'researchers#approve'
-  
   match 'upload' => 'uploads#upload'
 
   # The priority is based upon order of creation:

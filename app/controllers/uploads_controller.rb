@@ -5,7 +5,7 @@ class UploadsController < ApplicationController
 			name = request.request_parameters()['subjectCode'].read
 			outputFile = request.request_parameters()['file'].read
 			@result = name + "\n" + outputFile
-			println 'start of post'
+			print "start of post\n"
 			print name + "\n"
 			print outputFile
 		else

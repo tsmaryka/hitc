@@ -53,7 +53,7 @@
 	  <jar href="jars/slf4j-api-1.5.10.jar"/>
     <jar href="jars/slf4j-log4j12-1.5.10.jar"/>
     <jar href="jars/spring-2.5.6.jar"/>
-	  <jar href="jars/tatool-app-1.2.1-FORK.jar"/>
+	  <jar href="jars/tatool-app-1.2.1-FORK.jar" main="true"/>
 	  <jar href="jars/tatool-api-1.2.1-FORK.jar"/>
 	  <jar href="jars/tatool-core-1.2.1-FORK.jar"/>
 	  <jar href="jars/tatool-test-1.2.1-FORK.jar"/>

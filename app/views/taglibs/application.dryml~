@@ -140,6 +140,9 @@
 		 		</consent-accepted-label:>
 	 		</field-list>
  		</field-list:>
+ 		<after-actions:>
+			<after-submit uri="/study_enrollments"/>
+		</after-actions:>
 	</old-accept-invitation-form>
 	</div>
 </extend>

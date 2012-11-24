@@ -70,6 +70,16 @@ Hitc::Application.routes.draw do
   delete 'consent_texts/:id(.:format)' => 'consent_texts#destroy', :as => 'destroy_consent_text', :constraints => { :id => %r([^/.?]+) }
 
 
+  # Resource routes for controller "data_points"
+  get 'data_points(.:format)' => 'data_points#index', :as => 'data_points'
+  get 'data_points/new(.:format)', :as => 'new_data_point'
+  get 'data_points/:id/edit(.:format)' => 'data_points#edit', :as => 'edit_data_point'
+  get 'data_points/:id(.:format)' => 'data_points#show', :as => 'data_point', :constraints => { :id => %r([^/.?]+) }
+  post 'data_points(.:format)' => 'data_points#create', :as => 'create_data_point'
+  put 'data_points/:id(.:format)' => 'data_points#update', :as => 'update_data_point', :constraints => { :id => %r([^/.?]+) }
+  delete 'data_points/:id(.:format)' => 'data_points#destroy', :as => 'destroy_data_point', :constraints => { :id => %r([^/.?]+) }
+
+
   # Resource routes for controller "test_modules"
   get 'test_modules(.:format)' => 'test_modules#index', :as => 'test_modules'
   get 'test_modules/new(.:format)', :as => 'new_test_module'

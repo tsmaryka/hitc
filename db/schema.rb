@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121123062045) do
+ActiveRecord::Schema.define(:version => 20121124044910) do
 
   create_table "community_members", :force => true do |t|
     t.string   "street_address"
@@ -39,7 +39,7 @@ ActiveRecord::Schema.define(:version => 20121123062045) do
   add_index "consent_texts", ["study_id"], :name => "index_consent_texts_on_study_id"
 
   create_table "consents", :force => true do |t|
-    t.date     "date",            :default => '2012-11-23'
+    t.date     "date",            :default => '2012-11-24'
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "user_id"
@@ -48,6 +48,15 @@ ActiveRecord::Schema.define(:version => 20121123062045) do
 
   add_index "consents", ["consent_text_id"], :name => "index_consents_on_consent_text_id"
   add_index "consents", ["user_id"], :name => "index_consents_on_user_id"
+
+  create_table "data_points", :force => true do |t|
+    t.string   "data"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "study_enrollment_id"
+  end
+
+  add_index "data_points", ["study_enrollment_id"], :name => "index_data_points_on_study_enrollment_id"
 
   create_table "managers", :force => true do |t|
     t.datetime "created_at"
@@ -97,9 +106,12 @@ ActiveRecord::Schema.define(:version => 20121123062045) do
     t.integer  "study_id"
     t.integer  "community_member_id"
     t.string   "secret_key"
+    t.string   "state",               :default => "enrolled"
+    t.datetime "key_timestamp"
   end
 
   add_index "study_enrollments", ["community_member_id"], :name => "index_study_enrollments_on_community_member_id"
+  add_index "study_enrollments", ["state"], :name => "index_study_enrollments_on_state"
   add_index "study_enrollments", ["study_id"], :name => "index_study_enrollments_on_study_id"
 
   create_table "study_invitations", :force => true do |t|

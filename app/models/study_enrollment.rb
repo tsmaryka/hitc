@@ -21,6 +21,14 @@ class StudyEnrollment < ActiveRecord::Base
   	self.save
   end
   
+  lifecycle do
+
+    state :enrolled, :default => true
+    state :completed
+    
+  end
+
+  
   # --- Permissions --- #
 
   def create_permitted?

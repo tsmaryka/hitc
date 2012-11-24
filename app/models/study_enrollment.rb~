@@ -10,12 +10,27 @@ class StudyEnrollment < ActiveRecord::Base
   belongs_to :community_member
   belongs_to :study
   
+  def title
+  	study.title
+  end
+  
   def generate_key
   	require 'digest/sha1'
   	x = rand(9999999999999999)
   	self.secret_key = Digest::SHA1.hexdigest("#{x}")
   	self.save
   end
+  
+  lifecycle do
+
+    state :enrolled, :default => true
+    state :completed
+    
+    transition :complete, { :invited => :accepted }, :available_to => "User" do
+    end
+    
+  end
+
   
   # --- Permissions --- #
 

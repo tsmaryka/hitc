@@ -36,6 +36,18 @@
 
 
 
+<def tag="form" for="DataPoint">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="data, study_enrollment" param/>
+    <div param="actions">
+      <submit label="#{ht 'data_point.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
 <def tag="form" for="Manager">
   <form merge param="default">
     <error-messages param/>
@@ -97,7 +109,7 @@
 <def tag="form" for="StudyEnrollment">
   <form merge param="default">
     <error-messages param/>
-    <field-list fields="secret_key, community_member, study" param/>
+    <field-list fields="secret_key, state, community_member, study" param/>
     <div param="actions">
       <submit label="#{ht 'study_enrollment.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
     </div>

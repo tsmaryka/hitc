@@ -7,6 +7,7 @@
     <nav-item href="#{base_url}/">Home</nav-item>
     <nav-item with="&CommunityMember"><ht key="community_member.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
     <nav-item with="&ConsentText"><ht key="consent_text.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
+    <nav-item with="&DataPoint"><ht key="data_point.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
     <nav-item with="&Researcher"><ht key="researcher.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
     <nav-item with="&Study"><ht key="study.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
     <nav-item with="&StudyEnrollment"><ht key="study_enrollment.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
@@ -366,6 +367,126 @@
           </ht>
         </h2>
         <delete-button label="#{ht 'consent.actions.delete', :default=>['Remove This Consent']}" param/>
+      </section>
+
+      <section param="content-body">
+        <form param/>
+      </section>
+    </content:>
+
+  </page>
+</def>
+
+
+
+
+
+<!-- ====== DataPoint Pages ====== -->
+
+<def tag="index-page" for="DataPoint">
+  <page merge title="#{ht 'data_point.index.title', :default=>[model.model_name.human(:count=>100)] }">
+    <body: class="index-page data-point" param/>
+
+    <content: param>
+      <header param="content-header">
+        <h2 param="heading">
+          <ht key="data_point.index.heading">
+            <model-name-human model="&model"/>
+          </ht>
+        </h2>
+
+        <p param="count" if>
+          <ht key="data_point.collection.count" count="&collection_count">
+            <count summary/>
+          </ht>
+        </p>
+      </header>
+
+      <section param="content-body">
+        <a action="new" to="&model" param="new-link">
+          <ht key="data_point.actions.new">New Data point</ht>
+        </a>
+
+        <page-nav param="top-page-nav"/>
+
+        <collection param/>
+
+        <page-nav param="bottom-page-nav"/>
+
+
+      </section>
+    </content:>
+  </page>
+</def>
+
+
+<def tag="new-page" for="DataPoint">
+  <page merge title="#{ht 'data_point.new.title', :default=>[' New Data point'] }">
+    <body: class="new-page data-point" param/>
+
+    <content: param>
+      <section param="content-header">
+        <h2 param="heading">
+          <ht key="data_point.new.heading">
+            New Data point
+          </ht>
+        </h2>
+      </section>
+
+      <section param="content-body">
+        <form param>
+          <submit: label="#{ht 'data_point.actions.create', :default=>['Create Data point']}"/>
+        </form>
+      </section>
+    </content:>
+  </page>
+</def>
+
+
+<def tag="show-page" for="DataPoint">
+  <page merge title="#{ht 'data_point.show.title', :default=>['Data point'], :name => name(:no_wrapper => true) }">
+
+    <body: class="show-page data-point" param/>
+
+    <content: param>
+          <header param="content-header">
+            <h2 param="heading">
+              <ht key="data_point.show.heading" name="#{name(:no_wrapper => true)}">
+                Data point <name/>
+              </ht>
+            </h2>
+
+            <record-flags fields="" param/>
+
+            <a action="edit" if="&can_edit?" param="edit-link">
+              <ht key="data_point.actions.edit" name="#{name(:no_wrapper => true)}">
+                Edit Data point
+              </ht>
+            </a>
+          </header>
+
+          <section param="content-body">
+            <field-list fields="data, study_enrollment" param/>
+          </section>
+    </content:>
+
+  </page>
+</def>
+
+
+<def tag="edit-page" for="DataPoint">
+  <page merge title="#{ht 'data_point.edit.title', :default=>['Edit Data point'], :name => name(:no_wrapper => true) }">
+
+    <body: class="edit-page data-point" param/>
+
+    <content:>
+      <section param="content-header">
+        <h2 param="heading">
+          <ht key="data_point.edit.heading" name="#{name(:no_wrapper => true)}">
+            Edit Data point
+          </ht>
+        </h2>
+        <delete-button label="#{ht 'data_point.actions.delete', :default=>['Remove This Data point']}" param/>
       </section>
 
       <section param="content-body">
@@ -870,7 +991,7 @@
           </header>
 
           <section param="content-body">
-            <field-list fields="secret_key, community_member, study" param/>
+            <field-list fields="secret_key, state, community_member, study" param/>
           </section>
     </content:>
 

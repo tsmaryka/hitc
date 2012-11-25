@@ -10,8 +10,6 @@ class ConsentText < ActiveRecord::Base
   
   has_many :consents
   has_many :users, :through => :consent
-  
-  belongs_to :study, :class_name => "Study", :foreign_key => :study_id, :accessible => true
 
   # --- Permissions --- #
 

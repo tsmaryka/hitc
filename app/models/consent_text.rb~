@@ -32,13 +32,7 @@ class ConsentText < ActiveRecord::Base
   end
 
   def view_permitted?(field)
-  	if acting_user.is_researcher? || acting_user.is_manager?
-  		return true
-  	end
-  	if acting_user.is_community_member?
-  		return acting_user.community_member.is_invited(self.study)
-  	end
-    return false
+  	true
   end
 
 end

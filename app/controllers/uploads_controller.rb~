@@ -17,6 +17,9 @@ class UploadsController < ApplicationController
 			data_point.data = trialData
 			data_point.save
 			
+			enrollment.secret_key = nil
+			enrollment.state = 'completed'
+			
 		else
 			@result = 'Upload data from Tatool'
 		end

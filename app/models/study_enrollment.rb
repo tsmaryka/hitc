@@ -17,7 +17,8 @@ class StudyEnrollment < ActiveRecord::Base
   def generate_key
   	require 'digest/sha1'
   	x = rand(9999999999999999)
-  	self.secret_key = Digest::SHA1.hexdigest("#{x}")
+  	key_timestamp = Time.now.utc
+  	self.secret_key = Digest::SHA1.hexdigest("#{x}#{key_timestamp}")
   	self.save
   end
   
@@ -59,7 +60,7 @@ class StudyEnrollment < ActiveRecord::Base
   end
 
   def view_permitted?(field)
-    self.community_member.user == acting_user || acting_user.user_type == "manager"
+    self.community_member.user == acting_user || (acting_user.is_researcher? and acting_user.researcher.owns(self.study) ) || acting_user.user_type == "manager"
   end
 
 end

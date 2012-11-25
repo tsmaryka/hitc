@@ -47,7 +47,29 @@
 				  	You are logged in as a Platform Manager
 				  <% end -%>
 				  <% if (current_user.is_community_member?) -%>
-				  	The ability to browse available studies is coming soon! Please wait to be invited to a study. Your invitations will appear on the Study invitation tab.
+				  	<div class="field-item even"><p><span style="font-size: 14px;"><strong style="font-size: 14px;">About Us</strong></span></p>
+<p><span style="font-size: 14px;">Thank you for joining Heads in the Cloud. The aim of this site is to facilitate research into the field of lifespan development and aging. Your paticipation is very valuble, and this site will serve as your portal to discover and participate in research studies.  </span></p>
+<br/>
+<p><span style="font-size: 14px;">The ability to browse studies is coming soon! Please wait to be invited to a study. Your study invitations will appear on the "Study invitations" tab. Once you are enrolled in a study you can launch the research tests from the "Study Enrollments" tab.</span></p>
+<br/>
+<p><span style="font-size: 14px;"><strong>Key Aims of our Research:</strong></span></p>
+<ul>
+<li>
+		<span style="font-size: 14px;">Identification of lifespan contextual and behavioral risk factors and health-related antecedents of cognitive change</span></li>
+<li>
+		<span style="font-size: 14px;">Implementation of intensive measurement designs to permit sensitive “prospective” identification of change from an individual’s normative performance</span></li>
+<li>
+		<span style="font-size: 14px;">Evaluation of the dimensions and determinants of within-person variation and between-person differences in well-being</span></li>
+<li>
+		<span style="font-size: 14px;">Evaluation of optimal design features (e.g., power to detect change) for longitudinal and intensive measurement designs</span></li>
+<li>
+		<span style="font-size: 14px;">Neuroscientific investigations with <a href="https://www.ilifespan.org/?q=research/nirs_lab">near-infrared spectroscopy (NIRS)</a> equipment to identify brain indicators associated with behavioural performance to improve early detection of those at risk for cognitive impairment</span></li>
+</ul>
+<br/>
+<p><span style="font-size: 14px;">This website has been established to facilitate volunteer participation for active aging research studies at the Laboratory for Integrative Lifespan Research and the University of Victoria. We are committed to working with the local community members as partners in our research projects and are currently focusing on building a <a href="https://www.ilifespan.org/?q=participate">Volunteer Research Registry</a> of individuals both local to Victoria, BC and cross-Canada, who are interested in contributing to our studies as participants.</span></p>
+<br/>
+<p class="rteleft"><span style="font-size: 14px;">Drs. Hofer and Piccinin also lead the international <a href="https://www.ilifespan.org/?q=IALSA">Integrative Analysis of Longitudinal Studies on Aging (IALSA)</a> research network for collaborative interdisciplinary and cross-national research aimed at replicating and extending research findings from a within-person perspective.</span></p>
+</div>
 				  <% end -%>
 		    <% end -%>
 		  <% end -%>

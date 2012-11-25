@@ -5,8 +5,11 @@
 </div>
 </content-header:>
 <collection: replace>
-<table-plus fields="this.id, this.study_enrollment.study, this.study_enrollment.community_member">
-	<empty-message:>No Community Members Available</empty-message:>
+<table-plus fields="this, study_enrollment.study, study_enrollment.community_member">
+	<this-view:>
+		<a  href="/data_points/#{this.id}/data.csv">Data Point <%= this.id %></a>
+	</this-view: >
+	<empty-message:>No Data Points Available</empty-message:>
 </table-plus>
 </collection:>
 </index-page>

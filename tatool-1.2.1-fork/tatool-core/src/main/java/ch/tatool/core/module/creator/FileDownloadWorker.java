@@ -70,7 +70,7 @@ public class FileDownloadWorker implements Worker {
 				HttpEntity entity = response.getEntity();
 				byte[] data = EntityUtils.toByteArray(entity);
 				File tmpFile = File.createTempFile("tatool_module", "tmp");
-				//FileUtils.writeByteArrayToFile(tmpFile, data);
+				FileUtils.writeByteArrayToFile(tmpFile, data);
 				tmpFile.deleteOnExit();
 				this.file = tmpFile;
 			}

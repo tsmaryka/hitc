@@ -21,6 +21,7 @@ package ch.tatool.app.gui;
 import java.awt.Image;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
 import java.util.Set;
 
 import javax.swing.DefaultListModel;
@@ -103,10 +104,10 @@ public class ModuleManagerFrame extends javax.swing.JFrame {
 	public void initData() {
 	    // fill the model with the current set of available module instances 
 	    listModel.removeAllElements();
-		Set<Module.Info> modules = moduleService.getModules(account);
-		for (Module.Info t : modules) {
-		    listModel.addElement(t);
-		}
+		//Set<Module.Info> modules = moduleService.getModules(account);
+		//for (Module.Info t : modules) {
+		//    listModel.addElement(t);
+		//}
 		moduleList.setSelectedIndex(0);
 
 		// only enable module creation button if we have registered creators
@@ -207,8 +208,11 @@ public class ModuleManagerFrame extends javax.swing.JFrame {
     			}
     		}
     	};
-
-    	currentCreator.executeCreator(this, account, moduleService, callback);
+    	try {
+    		currentCreator.executeCreator(this, account, moduleService, callback);
+    	} catch (IOException e) {
+    		
+    	}
     }
     
     public void setVisible(boolean visible) {

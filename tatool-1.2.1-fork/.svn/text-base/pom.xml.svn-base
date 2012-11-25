@@ -24,7 +24,7 @@
 	<artifactId>tatool-parent</artifactId>
 	<packaging>pom</packaging>
 	<name>Tatool Parent Project</name>
-	<version>1.2.1</version>
+	<version>1.2.1-FORK</version>
 
 	<properties>
 		<project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>

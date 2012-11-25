@@ -18,6 +18,8 @@
  ******************************************************************************/
 package ch.tatool.module;
 
+import java.io.IOException;
+
 import javax.swing.JFrame;
 
 import ch.tatool.data.Messages;
@@ -38,9 +40,10 @@ public interface ModuleCreator {
 	public String getCreatorName();
 
 	/** Display a creator.
+	 * @throws IOException 
 	 * @parent parent the parent window calling this creator
 	 */
-	public void executeCreator(JFrame parent, UserAccount account, ModuleService moduleService, Callback callback);
+	public void executeCreator(JFrame parent, UserAccount account, ModuleService moduleService, Callback callback) throws IOException;
 	
 	/** Hide possibly open windows. */
 	// PENDING: improve/remove

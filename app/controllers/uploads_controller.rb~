@@ -12,7 +12,10 @@ class UploadsController < ApplicationController
 				return
 			end
 			
-			DataPoint.new
+			data_point = DataPoint.new
+			data_point.study_enrollment = enrollment
+			data_point.data = trialData
+			data_point.save
 			
 		else
 			@result = 'Upload data from Tatool'

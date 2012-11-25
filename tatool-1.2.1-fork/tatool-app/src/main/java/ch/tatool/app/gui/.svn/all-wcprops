@@ -3,30 +3,6 @@ svn:wc:ra_dav:version-url
 V 78
 /HITC/!svn/ver/18/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/gui
 END
-ProgressDialog.java
-K 25
-svn:wc:ra_dav:version-url
-V 97
-/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/gui/ProgressDialog.java
-END
-LoginFrame.form
-K 25
-svn:wc:ra_dav:version-url
-V 93
-/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/gui/LoginFrame.form
-END
-ProgressDialog.form
-K 25
-svn:wc:ra_dav:version-url
-V 97
-/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/gui/ProgressDialog.form
-END
-ModuleOverviewFrame.java
-K 25
-svn:wc:ra_dav:version-url
-V 102
-/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/gui/ModuleOverviewFrame.java
-END
 MessagesImpl.java
 K 25
 svn:wc:ra_dav:version-url
@@ -48,8 +24,8 @@ END
 ModuleManagerFrame.java
 K 25
 svn:wc:ra_dav:version-url
-V 101
-/HITC/!svn/ver/7/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/gui/ModuleManagerFrame.java
+V 102
+/HITC/!svn/ver/19/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/gui/ModuleManagerFrame.java
 END
 CreateAccountFrame.java
 K 25
@@ -86,4 +62,28 @@ K 25
 svn:wc:ra_dav:version-url
 V 94
 /HITC/!svn/ver/18/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/gui/LoginFrame.java
+END
+ProgressDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/gui/ProgressDialog.java
+END
+LoginFrame.form
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/gui/LoginFrame.form
+END
+ProgressDialog.form
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/gui/ProgressDialog.form
+END
+ModuleOverviewFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/gui/ModuleOverviewFrame.java
 END

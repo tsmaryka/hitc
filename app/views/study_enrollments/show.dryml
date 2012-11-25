@@ -3,7 +3,8 @@
 <field-list: replace>
 	<field-list fields="study" />
 	<br/>
-	<h3>Actions</h3>
-	<a href="#{url_for this}/launch.jnlp"><button>Launch the Test with Tatool</button></a>
+	<h3 unless="&this.state == 'completed'">Actions</h3>
+	<a unless="&this.state == 'completed'" href="#{url_for this}/launch.jnlp"><button>Launch the Test with Tatool</button></a>
+	<p if="&this.state == 'completed'">You have already completed the test for this study</p>
 </field-list>
 </show-page>

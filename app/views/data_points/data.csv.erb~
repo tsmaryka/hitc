@@ -1,1 +1,1 @@
-@data_point.data
+<%=raw @data_point.data.html %>

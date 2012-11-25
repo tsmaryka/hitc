@@ -3,15 +3,15 @@ svn:wc:ra_dav:version-url
 V 35
 /HITC/!svn/ver/18/tatool-1.2.1-fork
 END
-pom.xml
-K 25
-svn:wc:ra_dav:version-url
-V 42
-/HITC/!svn/ver/6/tatool-1.2.1-fork/pom.xml
-END
 .project
 K 25
 svn:wc:ra_dav:version-url
 V 44
 /HITC/!svn/ver/11/tatool-1.2.1-fork/.project
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/HITC/!svn/ver/19/tatool-1.2.1-fork/pom.xml
 END

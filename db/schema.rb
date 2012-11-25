@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121124195032) do
+ActiveRecord::Schema.define(:version => 20121125052143) do
 
   create_table "community_members", :force => true do |t|
     t.string   "street_address"
@@ -33,13 +33,10 @@ ActiveRecord::Schema.define(:version => 20121124195032) do
     t.text     "body"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "study_id"
   end
 
-  add_index "consent_texts", ["study_id"], :name => "index_consent_texts_on_study_id"
-
   create_table "consents", :force => true do |t|
-    t.date     "date",            :default => '2012-11-24'
+    t.date     "date",            :default => '2012-11-25'
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "user_id"

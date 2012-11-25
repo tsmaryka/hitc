@@ -15,7 +15,7 @@
 <def tag="form" for="ConsentText">
   <form merge param="default">
     <error-messages param/>
-    <field-list fields="title, body, study" param/>
+    <field-list fields="title, body" param/>
     <div param="actions">
       <submit label="#{ht 'consent_text.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
     </div>

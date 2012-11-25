@@ -226,7 +226,6 @@
 
           <section param="content-body">
             <view:body param="description" />
-            <field-list fields="study" param/>
           </section>
     </content:>
 

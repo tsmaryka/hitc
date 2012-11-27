@@ -3,7 +3,7 @@
 To activate your account for <%= @app_name %>, click on this link:
 <br/>
   <%= user_activate_url :id => @user, :key => @key %>
-<br/>
+<br/><br/>
 Thank you,
 <br/>
 The <%= @app_name %> team.

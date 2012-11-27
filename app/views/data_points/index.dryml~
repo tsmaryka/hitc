@@ -4,6 +4,7 @@
 <h1 class="heading">Data Points</h1>
 </div>
 </content-header:>
+<new-link: replace />
 <collection: replace>
 <table-plus fields="this, study_enrollment.study, study_enrollment.community_member">
 	<this-view:>

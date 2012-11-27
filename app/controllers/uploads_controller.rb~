@@ -19,6 +19,7 @@ class UploadsController < ApplicationController
 			
 			enrollment.secret_key = nil
 			enrollment.state = 'completed'
+			enrollment.save
 			
 		else
 			@result = 'Upload data from Tatool'

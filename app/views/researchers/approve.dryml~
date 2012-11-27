@@ -1,7 +1,7 @@
 <approve-page>
 	<heading:> Approve #{this.name} </heading:>
 	<before-content-body:>
-		<div class = "section content-body">Only approve this researcher if you have confirmed their credentials.</p>
+		<div class = "section content-body">Only approve this researcher if you have confirmed their credentials.</div>
 		
 	</before-content-body:>
 </approve-page>

@@ -5,7 +5,7 @@ class StudyEnrollmentsController < ApplicationController
   auto_actions :all
   
   def launch	
-  	@study_enrollment = StudyEnrollment.find(params[:id])
+  	@enrollment = StudyEnrollment.find(params[:id])
   	respond_to do |format|
   		format.jnlp
   	end

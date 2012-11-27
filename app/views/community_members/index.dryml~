@@ -6,7 +6,6 @@
 </content-header:>
 <collection: replace>
 <table-plus fields="this, age, province, city">
-	<date-of-birth-heading:>Date of Birth</date-of-birth-heading>
 	<empty-message:>No Community Members Available</empty-message:>
 </table-plus>
 </collection:>

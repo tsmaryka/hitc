@@ -8,7 +8,7 @@ class Study < ActiveRecord::Base
     timestamps
   end
  	
- 	has_many :study_invitations, :accessible => true :dependent => :destroy
+ 	has_many :study_invitations, :accessible => true, :dependent => :destroy
  	has_many :community_members, :through => :study_invitations
  
  	has_many :study_enrollments, :dependent => :destroy

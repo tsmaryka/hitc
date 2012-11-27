@@ -18,7 +18,7 @@ class StudyEnrollment < ActiveRecord::Base
   	require 'digest/sha1'
   	x = rand(9999999999999999)
   	key_timestamp = Time.now.utc
-  	self.secret_key = Digest::SHA1.hexdigest("#{x}")
+  	self.secret_key = Digest::SHA1.hexdigest("#{x}#{key_timestamp}")
   	self.save
   end
   

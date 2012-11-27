@@ -3,7 +3,7 @@
 	<h2>Invitation to <%= @this.study.title %></h2>
 </heading:>
 <field-list: replace>
-<%= @this.study.body %>
+<%= @this.study.body.to_html %>
 <br/><br/>
 <a if="&this.state == 'invited'" action="accept_invitation"><button>Accept Invitation</button></a>
 <p if="&this.state == 'accepted'">

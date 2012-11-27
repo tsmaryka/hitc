@@ -28,6 +28,7 @@
     <nav-item with="&StudyEnrollment" if="&current_user.is_community_member?"><ht key="study_enrollment.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
     <nav-item with="&User" if="&current_user.is_manager?"><ht key="user.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
     <nav-item with="&TestModule" if="&current_user.is_manager?"><ht key="test_module.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
+    <nav-item with="&DataPoint" if="&current_user.is_researcher?"><ht key="data_point.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
   </navigation>
 </def>
 

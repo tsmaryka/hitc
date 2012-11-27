@@ -29,7 +29,7 @@ class StudyInvitation < ActiveRecord::Base
     state :accepted
     
     transition :accept_invitation, { :invited => :accepted }, :available_to => "User", :params => [ :consent_accepted ] do
-    	if consent_accepted
+    	if :consent_accepted
     	
     		consent = Consent.new()
      		consent.date = DateTime.now

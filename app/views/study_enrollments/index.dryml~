@@ -4,6 +4,7 @@
 <h1 class="heading">Your Enrolled Studies</h1>
 </div>
 </content-header:>
+<new-link: replace />
 <collection: replace>
 
 <table-plus fields="this" if="&current_user.community_member.is_enrolled_any">

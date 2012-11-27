@@ -17,7 +17,7 @@ Complete the Invitation before 11:59 PM SUNDAY, DECEMBER 23, 2012
 * This reserch test be completed once and will take approximately 30 minutes
 <br/><br/>
 To participate, please click on the link below, log in, and complete the Invitation Consent Form:
-<a href="http://hitc.herokuapp.com/<%= url_for @study_invitation %>">Click Here to view Invitation</a>
+<a href="http://hitc.herokuapp.com<%= url_for @study_invitation %>">Click Here to view Invitation</a>
 <br/><br/>
 Thank you,
 <br/>

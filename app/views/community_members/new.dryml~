@@ -1,5 +1,5 @@
 <new-page>
 	<main-nav: replace></main-nav:>
-	<live-search: replace></search:>
+	<live-search: replace></live-search:>
 	<heading:>Enter Personal Information</heading:>
 </new-page>

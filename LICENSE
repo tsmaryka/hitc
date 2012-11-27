@@ -1,6 +1,3 @@
-<!--
-Copyright 2012 Trevor Maryka
-
 This file is part of Heads in the Cloud.
 
     Heads in the Cloud is free software: you can redistribute it and/or modify
@@ -15,20 +12,3 @@ This file is part of Heads in the Cloud.
 
     You should have received a copy of the GNU General Public License
     along with Heads in the Cloud.  If not, see <http://www.gnu.org/licenses/>.
--->
-
-<index-page>
-<content-header: replace>
-<div class="header content-header">
-<h1 class="heading">Your Pending Study Invitations</h1>
-</div>
-</content-header:>
-<collection: replace>
-
-<table-plus fields="this" if="&current_user.community_member.is_invited_any">
-</table-plus>
-<p unless="&current_user.community_member.is_invited_any">
-	You are currently not invited to any studies
-</p>
-</collection:>
-</index-page>

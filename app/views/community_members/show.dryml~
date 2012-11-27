@@ -2,8 +2,4 @@
 	<heading: replace>
 	<h2><%= @this.name %></h2>
 	</heading:>
-	<aside:>
-		<h2>Project Members</h2>
-		<collection:studies part="study-invitation"/>
-	</aside:>
 </show-page>

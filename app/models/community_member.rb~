@@ -46,7 +46,7 @@ class CommunityMember < ActiveRecord::Base
   end
   
   def is_enrolled_any
-  	enrollemnt = StudyEnrollment.find(:first, :conditions => ["community_member_id = ?", self.id])
+  	enrollment = StudyEnrollment.find(:first, :conditions => ["community_member_id = ?", self.id])
   	return enrollment != nil
   end
   

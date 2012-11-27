@@ -1,277 +1,0 @@
-10
-
-dir
-20
-https://svn.csc.uvic.ca/HITC/public/javascripts/ckeditor/plugins
-https://svn.csc.uvic.ca/HITC
-
-
-
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8be0a557-81ca-0410-aade-88e2702be925
-
-elementspath
-dir
-
-wsc
-dir
-
-pastefromword
-dir
-
-print
-dir
-
-link
-dir
-
-dialogui
-dir
-
-templates
-dir
-
-dialog
-dir
-
-xml
-dir
-
-selectionmark
-dir
-
-showborders
-dir
-
-toolbar
-dir
-
-iframe
-dir
-
-popup
-dir
-
-richcombo
-dir
-
-stylesheetparser
-dir
-
-adobeair
-dir
-
-selectall
-dir
-
-contextmenu
-dir
-
-divarea
-dir
-
-button
-dir
-
-specialchar
-dir
-
-pagebreak
-dir
-
-image
-dir
-
-placeholder
-dir
-
-floatpanel
-dir
-
-listblock
-dir
-
-sourcearea
-dir
-
-save
-dir
-
-colordialog
-dir
-
-clipboard
-dir
-
-panel
-dir
-
-devtools
-dir
-
-blockquote
-dir
-
-colorbutton
-dir
-
-list
-dir
-
-floatingspace
-dir
-
-fakeobjects
-dir
-
-find
-dir
-
-scayt
-dir
-
-maximize
-dir
-
-iframedialog
-dir
-
-a11yhelp
-dir
-
-newpage
-dir
-
-enterkey
-dir
-
-format
-dir
-
-flash
-dir
-
-justify
-dir
-
-resize
-dir
-
-smiley
-dir
-
-stylescombo
-dir
-
-font
-dir
-
-tabletools
-dir
-
-about
-dir
-
-bbcode
-dir
-
-showblocks
-dir
-
-pastetext
-dir
-
-basicstyles
-dir
-
-docprops
-dir
-
-panelbutton
-dir
-
-liststyle
-dir
-
-menubutton
-dir
-
-htmlwriter
-dir
-
-menu
-dir
-
-undo
-dir
-
-removeformat
-dir
-
-tab
-dir
-
-autogrow
-dir
-
-bidi
-dir
-
-tableresize
-dir
-
-wysiwygarea
-dir
-
-uicolor
-dir
-
-preview
-dir
-
-horizontalrule
-dir
-
-indent
-dir
-
-dialogadvtab
-dir
-
-div
-dir
-
-filebrowser
-dir
-
-ajax
-dir
-
-entities
-dir
-
-forms
-dir
-
-table
-dir
-
-magicline
-dir
-

@@ -1,8 +1,8 @@
-log/*
-db/*.sqlite3
-hitc-tatool-client/*
-tatool-1.2.1-fork/*
-doc/*
+/log/*
+/db/*.sqlite3
+/hitc-tatool-client/*
+/tatool-1.2.1-fork/*
+/doc/*
 *.rbc
 *.sassc
 .sass-cache
@@ -19,3 +19,4 @@ capybara-*.html
 **.orig
 rerun.txt
 pickle-email-*.htm
+.svn/*

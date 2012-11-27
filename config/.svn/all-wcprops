@@ -1,25 +1,19 @@
 K 25
 svn:wc:ra_dav:version-url
-V 23
-/HITC/!svn/ver/5/config
-END
-routes.rb
-K 25
-svn:wc:ra_dav:version-url
-V 33
-/HITC/!svn/ver/4/config/routes.rb
+V 24
+/HITC/!svn/ver/20/config
 END
 database.yml
 K 25
 svn:wc:ra_dav:version-url
-V 36
-/HITC/!svn/ver/2/config/database.yml
+V 37
+/HITC/!svn/ver/20/config/database.yml
 END
 application.rb
 K 25
 svn:wc:ra_dav:version-url
-V 38
-/HITC/!svn/ver/1/config/application.rb
+V 39
+/HITC/!svn/ver/20/config/application.rb
 END
 boot.rb
 K 25
@@ -36,6 +30,12 @@ END
 hobo_routes.rb
 K 25
 svn:wc:ra_dav:version-url
-V 38
-/HITC/!svn/ver/5/config/hobo_routes.rb
+V 39
+/HITC/!svn/ver/20/config/hobo_routes.rb
+END
+routes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/HITC/!svn/ver/20/config/routes.rb
 END

@@ -1,3 +1,23 @@
+=begin
+Copyright 2012 Trevor Maryka
+
+This file is part of Heads in the Cloud.
+
+    Heads in the Cloud is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Heads in the Cloud is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Heads in the Cloud.  If not, see <http://www.gnu.org/licenses/>.
+    
+=end
+
 class ConsentText < ActiveRecord::Base
 
   hobo_model # Don't put anything above this
@@ -10,8 +30,6 @@ class ConsentText < ActiveRecord::Base
   
   has_many :consents
   has_many :users, :through => :consent
-  
-  belongs_to :study, :class_name => "Study", :foreign_key => :study_id, :accessible => true
 
   # --- Permissions --- #
 
@@ -32,13 +50,7 @@ class ConsentText < ActiveRecord::Base
   end
 
   def view_permitted?(field)
-  	if acting_user.is_researcher? || acting_user.is_manager?
-  		return true
-  	end
-  	if acting_user.is_community_member?
-  		return acting_user.community_member.is_invited(self.study)
-  	end
-    return false
+  	true
   end
 
 end

@@ -1,7 +1,7 @@
 10
 
 dir
-18
+20
 https://svn.csc.uvic.ca/HITC/test/fixtures
 https://svn.csc.uvic.ca/HITC
 
@@ -25,6 +25,40 @@ tsmaryka
 
 
 8be0a557-81ca-0410-aade-88e2702be925
+
+consents.yml
+file
+
+
+
+
+2012-09-30T21:46:32.000000Z
+047057de253f25a12b6510bd94e8301a
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+339
 
 consent_texts.yml
 file
@@ -61,40 +95,6 @@ tsmaryka
 339
 
 users.yml
-file
-
-
-
-
-2012-09-30T20:16:16.000000Z
-047057de253f25a12b6510bd94e8301a
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-339
-
-consents.yml
 file
 
 

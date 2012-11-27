@@ -7,10 +7,12 @@
     <nav-item href="#{base_url}/">Home</nav-item>
     <nav-item with="&CommunityMember"><ht key="community_member.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
     <nav-item with="&ConsentText"><ht key="consent_text.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
+    <nav-item with="&DataPoint"><ht key="data_point.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
     <nav-item with="&Researcher"><ht key="researcher.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
     <nav-item with="&Study"><ht key="study.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
     <nav-item with="&StudyEnrollment"><ht key="study_enrollment.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
     <nav-item with="&StudyInvitation"><ht key="study_invitation.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
+    <nav-item with="&TestModule"><ht key="test_module.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
     <nav-item with="&User"><ht key="user.nav_item" count="100"><model-name-human count="100"/></ht></nav-item>
   </navigation>
 </def>
@@ -224,7 +226,6 @@
 
           <section param="content-body">
             <view:body param="description" />
-            <field-list fields="study" param/>
           </section>
     </content:>
 
@@ -365,6 +366,126 @@
           </ht>
         </h2>
         <delete-button label="#{ht 'consent.actions.delete', :default=>['Remove This Consent']}" param/>
+      </section>
+
+      <section param="content-body">
+        <form param/>
+      </section>
+    </content:>
+
+  </page>
+</def>
+
+
+
+
+
+<!-- ====== DataPoint Pages ====== -->
+
+<def tag="index-page" for="DataPoint">
+  <page merge title="#{ht 'data_point.index.title', :default=>[model.model_name.human(:count=>100)] }">
+    <body: class="index-page data-point" param/>
+
+    <content: param>
+      <header param="content-header">
+        <h2 param="heading">
+          <ht key="data_point.index.heading">
+            <model-name-human model="&model"/>
+          </ht>
+        </h2>
+
+        <p param="count" if>
+          <ht key="data_point.collection.count" count="&collection_count">
+            <count summary/>
+          </ht>
+        </p>
+      </header>
+
+      <section param="content-body">
+        <a action="new" to="&model" param="new-link">
+          <ht key="data_point.actions.new">New Data point</ht>
+        </a>
+
+        <page-nav param="top-page-nav"/>
+
+        <collection param/>
+
+        <page-nav param="bottom-page-nav"/>
+
+
+      </section>
+    </content:>
+  </page>
+</def>
+
+
+<def tag="new-page" for="DataPoint">
+  <page merge title="#{ht 'data_point.new.title', :default=>[' New Data point'] }">
+    <body: class="new-page data-point" param/>
+
+    <content: param>
+      <section param="content-header">
+        <h2 param="heading">
+          <ht key="data_point.new.heading">
+            New Data point
+          </ht>
+        </h2>
+      </section>
+
+      <section param="content-body">
+        <form param>
+          <submit: label="#{ht 'data_point.actions.create', :default=>['Create Data point']}"/>
+        </form>
+      </section>
+    </content:>
+  </page>
+</def>
+
+
+<def tag="show-page" for="DataPoint">
+  <page merge title="#{ht 'data_point.show.title', :default=>['Data point'], :name => name(:no_wrapper => true) }">
+
+    <body: class="show-page data-point" param/>
+
+    <content: param>
+          <header param="content-header">
+            <h2 param="heading">
+              <ht key="data_point.show.heading" name="#{name(:no_wrapper => true)}">
+                Data point <name/>
+              </ht>
+            </h2>
+
+            <record-flags fields="" param/>
+
+            <a action="edit" if="&can_edit?" param="edit-link">
+              <ht key="data_point.actions.edit" name="#{name(:no_wrapper => true)}">
+                Edit Data point
+              </ht>
+            </a>
+          </header>
+
+          <section param="content-body">
+            <field-list fields="data, study_enrollment" param/>
+          </section>
+    </content:>
+
+  </page>
+</def>
+
+
+<def tag="edit-page" for="DataPoint">
+  <page merge title="#{ht 'data_point.edit.title', :default=>['Edit Data point'], :name => name(:no_wrapper => true) }">
+
+    <body: class="edit-page data-point" param/>
+
+    <content:>
+      <section param="content-header">
+        <h2 param="heading">
+          <ht key="data_point.edit.heading" name="#{name(:no_wrapper => true)}">
+            Edit Data point
+          </ht>
+        </h2>
+        <delete-button label="#{ht 'data_point.actions.delete', :default=>['Remove This Data point']}" param/>
       </section>
 
       <section param="content-body">
@@ -572,7 +693,7 @@
               </ht>
             </h2>
 
-            <record-flags fields="is_approved" param/>
+            <record-flags fields="" param/>
 
             <a action="edit" if="&can_edit?" param="edit-link">
               <ht key="researcher.actions.edit" name="#{name(:no_wrapper => true)}">
@@ -582,7 +703,7 @@
           </header>
 
           <section param="content-body">
-            <field-list fields="street_address, city, province, postal_code, phone, primary_language, date_of_birth, user" param/>
+            <field-list fields="street_address, city, province, postal_code, phone, primary_language, date_of_birth, state, user" param/>
           </section>
     </content:>
 
@@ -614,6 +735,29 @@
 </def>
 
 
+
+<def tag="approve-page" polymorphic/>
+<def tag="approve-page" for="Researcher">
+  <page title="#{ht 'researcher.approve.title', :default=>['Approve']}" merge>
+
+    <body: class="lifecycle-transition-page approve-page" param/>
+
+    <content:>
+      <header param="content-header">
+        <h2 param="heading">
+          <ht key="researcher.approve.heading">
+            Approve
+          </ht>
+        </h2>
+      </header>
+
+      <section param="content-body">
+        <approve-form param="form"/>
+      </section>
+    </content:>
+
+  </page>
+</def>
 
 
 
@@ -703,7 +847,7 @@
 
           <section param="content-body">
             <view:body param="description" />
-            <field-list fields="state, consent_text" param/>
+            <field-list fields="state, consent_text, test_module" param/>
           </section>
     </content:>
 
@@ -846,7 +990,7 @@
           </header>
 
           <section param="content-body">
-            <field-list fields="community_member, study" param/>
+            <field-list fields="secret_key, state, community_member, study" param/>
           </section>
     </content:>
 
@@ -1021,6 +1165,126 @@
 
   </page>
 </def>
+
+
+
+<!-- ====== TestModule Pages ====== -->
+
+<def tag="index-page" for="TestModule">
+  <page merge title="#{ht 'test_module.index.title', :default=>[model.model_name.human(:count=>100)] }">
+    <body: class="index-page test-module" param/>
+
+    <content: param>
+      <header param="content-header">
+        <h2 param="heading">
+          <ht key="test_module.index.heading">
+            <model-name-human model="&model"/>
+          </ht>
+        </h2>
+
+        <p param="count" if>
+          <ht key="test_module.collection.count" count="&collection_count">
+            <count summary/>
+          </ht>
+        </p>
+      </header>
+
+      <section param="content-body">
+        <a action="new" to="&model" param="new-link">
+          <ht key="test_module.actions.new">New Test module</ht>
+        </a>
+
+        <page-nav param="top-page-nav"/>
+
+        <collection param/>
+
+        <page-nav param="bottom-page-nav"/>
+
+
+      </section>
+    </content:>
+  </page>
+</def>
+
+
+<def tag="new-page" for="TestModule">
+  <page merge title="#{ht 'test_module.new.title', :default=>[' New Test module'] }">
+    <body: class="new-page test-module" param/>
+
+    <content: param>
+      <section param="content-header">
+        <h2 param="heading">
+          <ht key="test_module.new.heading">
+            New Test module
+          </ht>
+        </h2>
+      </section>
+
+      <section param="content-body">
+        <form param>
+          <submit: label="#{ht 'test_module.actions.create', :default=>['Create Test module']}"/>
+        </form>
+      </section>
+    </content:>
+  </page>
+</def>
+
+
+<def tag="show-page" for="TestModule">
+  <page merge title="#{ht 'test_module.show.title', :default=>['Test module'], :name => name(:no_wrapper => true) }">
+
+    <body: class="show-page test-module" param/>
+
+    <content: param>
+          <header param="content-header">
+            <h2 param="heading">
+              <ht key="test_module.show.heading" name="#{name(:no_wrapper => true)}">
+                Test module <name/>
+              </ht>
+            </h2>
+
+            <record-flags fields="" param/>
+
+            <a action="edit" if="&can_edit?" param="edit-link">
+              <ht key="test_module.actions.edit" name="#{name(:no_wrapper => true)}">
+                Edit Test module
+              </ht>
+            </a>
+          </header>
+
+          <section param="content-body">
+            <field-list fields="module_identifier" param/>
+          </section>
+    </content:>
+
+  </page>
+</def>
+
+
+<def tag="edit-page" for="TestModule">
+  <page merge title="#{ht 'test_module.edit.title', :default=>['Edit Test module'], :name => name(:no_wrapper => true) }">
+
+    <body: class="edit-page test-module" param/>
+
+    <content:>
+      <section param="content-header">
+        <h2 param="heading">
+          <ht key="test_module.edit.heading" name="#{name(:no_wrapper => true)}">
+            Edit Test module
+          </ht>
+        </h2>
+        <delete-button label="#{ht 'test_module.actions.delete', :default=>['Remove This Test module']}" param/>
+      </section>
+
+      <section param="content-body">
+        <form param/>
+      </section>
+    </content:>
+
+  </page>
+</def>
+
+
 
 
 

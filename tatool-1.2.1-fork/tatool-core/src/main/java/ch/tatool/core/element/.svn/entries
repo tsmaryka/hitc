@@ -1,7 +1,7 @@
 10
 
 dir
-18
+20
 https://svn.csc.uvic.ca/HITC/tatool-1.2.1-fork/tatool-core/src/main/java/ch/tatool/core/element
 https://svn.csc.uvic.ca/HITC
 
@@ -25,40 +25,6 @@ lkchan
 
 
 8be0a557-81ca-0410-aade-88e2702be925
-
-ListElement.java
-file
-
-
-
-
-2012-11-19T01:31:01.000000Z
-abaf992a8b0102c42a05ea67696534cd
-2012-11-17T21:57:09.946176Z
-6
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2009
 
 CompoundSelector.java
 file
@@ -93,6 +59,40 @@ lkchan
 
 
 4758
+
+ListElement.java
+file
+
+
+
+
+2012-11-19T01:31:01.000000Z
+abaf992a8b0102c42a05ea67696534cd
+2012-11-17T21:57:09.946176Z
+6
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2009
 
 TemporaryElementSupportUtil.java
 file
@@ -437,6 +437,40 @@ lkchan
 
 2711
 
+AbstractElement.java
+file
+
+
+
+
+2012-11-19T01:31:01.000000Z
+2506676aef9cce2a7c268f14f48c79a4
+2012-11-17T21:57:09.946176Z
+6
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1895
+
 TimerListSelector.java
 file
 
@@ -504,40 +538,6 @@ lkchan
 
 
 3011
-
-AbstractElement.java
-file
-
-
-
-
-2012-11-19T01:31:01.000000Z
-2506676aef9cce2a7c268f14f48c79a4
-2012-11-17T21:57:09.946176Z
-6
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1895
 
 ExecutionStartHandler.java
 file

@@ -1,14 +1,14 @@
 10
 
 dir
-18
+20
 https://svn.csc.uvic.ca/HITC/app/mailers
 https://svn.csc.uvic.ca/HITC
 
 
 
-2012-11-05T07:35:44.438654Z
-4
+2012-11-27T07:20:06.039307Z
+20
 tsmaryka
 
 
@@ -25,6 +25,15 @@ tsmaryka
 
 
 8be0a557-81ca-0410-aade-88e2702be925
+
+
+
+
+
+
+
+
+((conflict test_mailer.rb file update deleted deleted (version https://svn.csc.uvic.ca/HITC 2 19 app/mailers/test_mailer.rb none) (version https://svn.csc.uvic.ca/HITC 2 20 app/mailers/test_mailer.rb none)))
 
 user_mailer.rb
 file
@@ -32,65 +41,9 @@ file
 
 
 
-2012-10-28T03:55:25.000000Z
-1415c6897798341f4fc93ed377a14a40
-2012-11-05T07:35:44.438654Z
-4
+
+71dee18896a6d160ba16e3d388bfcd00
+2012-11-27T07:20:06.039307Z
+20
 tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-456
-
-test_mailer.rb
-file
-
-
-
-
-2012-10-22T16:00:20.000000Z
-bcba536673626eda4ec68bd5e8297993
-2012-11-05T07:35:44.438654Z
-4
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-402
 

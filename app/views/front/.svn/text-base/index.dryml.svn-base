@@ -1,3 +1,22 @@
+<!--
+Copyright 2012 Trevor Maryka
+
+This file is part of Heads in the Cloud.
+
+    Heads in the Cloud is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Heads in the Cloud is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Heads in the Cloud.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
 <page title="Home">
 
   <body: class="front-page"/>
@@ -7,7 +26,27 @@
       <h1>Welcome to <app-name/></h1>
       <section class="welcome-message">
       <% if !current_user.signed_up? -%>
-      	This is the Home Page for Heads in the Cloud. Please login or sign up to see more.
+      					  	<div class="field-item even"><p><span style="font-size: 14px;"><strong style="font-size: 14px;">About Us</strong></span></p>
+<p><span style="font-size: 14px;">Welcome to the Heads in the Cloud research portal. The aim of this site is to facilitate research into the field of lifespan development and aging. Please login or signup to see more.  </span></p>
+<br/>
+<p><span style="font-size: 14px;"><strong>Key Aims of our Research:</strong></span></p>
+<ul>
+<li>
+		<span style="font-size: 14px;">Identification of lifespan contextual and behavioral risk factors and health-related antecedents of cognitive change</span></li>
+<li>
+		<span style="font-size: 14px;">Implementation of intensive measurement designs to permit sensitive “prospective” identification of change from an individual’s normative performance</span></li>
+<li>
+		<span style="font-size: 14px;">Evaluation of the dimensions and determinants of within-person variation and between-person differences in well-being</span></li>
+<li>
+		<span style="font-size: 14px;">Evaluation of optimal design features (e.g., power to detect change) for longitudinal and intensive measurement designs</span></li>
+<li>
+		<span style="font-size: 14px;">Neuroscientific investigations with <a href="https://www.ilifespan.org/?q=research/nirs_lab">near-infrared spectroscopy (NIRS)</a> equipment to identify brain indicators associated with behavioural performance to improve early detection of those at risk for cognitive impairment</span></li>
+</ul>
+<br/>
+<p><span style="font-size: 14px;">This website has been established to facilitate volunteer participation for active aging research studies at the Laboratory for Integrative Lifespan Research and the University of Victoria. We are committed to working with the local community members as partners in our research projects and are currently focusing on building a <a href="https://www.ilifespan.org/?q=participate">Volunteer Research Registry</a> of individuals both local to Victoria, BC and cross-Canada, who are interested in contributing to our studies as participants.</span></p>
+<br/>
+<p class="rteleft"><span style="font-size: 14px;">Drs. Hofer and Piccinin also lead the international <a href="https://www.ilifespan.org/?q=IALSA">Integrative Analysis of Longitudinal Studies on Aging (IALSA)</a> research network for collaborative interdisciplinary and cross-national research aimed at replicating and extending research findings from a within-person perspective.</span></p>
+</div>
       	<% if User.count == 0 -%>
         	<h3 style="margin-top: 20px;">There are no user accounts - please provide the details of the site administrator</h3>
      	 		<form with="&this || User.new" without-cancel>
@@ -30,8 +69,11 @@
 				  <% if (current_user.class.name == "User" && current_user.user_type == 'researcher' && !current_user.researcher_details_entered?) -%>
 				  	<h3 style="margin-top: 20px;">Please enter your personal information:</h3>
 				    	<form with="&this || Researcher.new" without-cancel>
-				    		<field-list: fields="street_address, city, province, postal_code, phone, primary_language, date_of_birth"/>
+				    		<field-list: fields="name, street_address, city, province, postal_code, phone, primary_language, date_of_birth"/>
 				    		<submit: label="Continue"/>
+				    		<after-actions:>
+									<after-submit uri="/"/>
+								</after-actions:>
 				    	</form>
 				  <% end -%>
 				  <% if (current_user.class.name == "User" && current_user.user_type == 'researcher' && current_user.researcher_details_entered? && !current_user.is_researcher?) -%>
@@ -39,6 +81,34 @@
 				  <% end -%>
 				  <% if (current_user.is_researcher?) -%>
 				  	You are logged in as a Researcher
+				  <% end -%>
+				  <% if (current_user.class.name == "User" && current_user.user_type == 'manager') -%>
+				  	You are logged in as a Platform Manager
+				  <% end -%>
+				  <% if (current_user.is_community_member?) -%>
+				  	<div class="field-item even"><p><span style="font-size: 14px;"><strong style="font-size: 14px;">About Us</strong></span></p>
+<p><span style="font-size: 14px;">Thank you for joining Heads in the Cloud. The aim of this site is to facilitate research into the field of lifespan development and aging. Your paticipation is very valuble, and this site will serve as your portal to discover and participate in research studies.  </span></p>
+<br/>
+<p><span style="font-size: 14px;">The ability to browse studies is coming soon! Please wait to be invited to a study. Your study invitations will appear on the "Study invitations" tab. Once you are enrolled in a study you can launch the research tests from the "Study Enrollments" tab.</span></p>
+<br/>
+<p><span style="font-size: 14px;"><strong>Key Aims of our Research:</strong></span></p>
+<ul>
+<li>
+		<span style="font-size: 14px;">Identification of lifespan contextual and behavioral risk factors and health-related antecedents of cognitive change</span></li>
+<li>
+		<span style="font-size: 14px;">Implementation of intensive measurement designs to permit sensitive “prospective” identification of change from an individual’s normative performance</span></li>
+<li>
+		<span style="font-size: 14px;">Evaluation of the dimensions and determinants of within-person variation and between-person differences in well-being</span></li>
+<li>
+		<span style="font-size: 14px;">Evaluation of optimal design features (e.g., power to detect change) for longitudinal and intensive measurement designs</span></li>
+<li>
+		<span style="font-size: 14px;">Neuroscientific investigations with <a href="https://www.ilifespan.org/?q=research/nirs_lab">near-infrared spectroscopy (NIRS)</a> equipment to identify brain indicators associated with behavioural performance to improve early detection of those at risk for cognitive impairment</span></li>
+</ul>
+<br/>
+<p><span style="font-size: 14px;">This website has been established to facilitate volunteer participation for active aging research studies at the Laboratory for Integrative Lifespan Research and the University of Victoria. We are committed to working with the local community members as partners in our research projects and are currently focusing on building a <a href="https://www.ilifespan.org/?q=participate">Volunteer Research Registry</a> of individuals both local to Victoria, BC and cross-Canada, who are interested in contributing to our studies as participants.</span></p>
+<br/>
+<p class="rteleft"><span style="font-size: 14px;">Drs. Hofer and Piccinin also lead the international <a href="https://www.ilifespan.org/?q=IALSA">Integrative Analysis of Longitudinal Studies on Aging (IALSA)</a> research network for collaborative interdisciplinary and cross-national research aimed at replicating and extending research findings from a within-person perspective.</span></p>
+</div>
 				  <% end -%>
 		    <% end -%>
 		  <% end -%>

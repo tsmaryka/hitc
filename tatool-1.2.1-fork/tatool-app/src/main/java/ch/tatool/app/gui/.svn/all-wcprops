@@ -1,7 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 78
-/HITC/!svn/ver/18/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/gui
+/HITC/!svn/ver/19/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/gui
+END
+ModuleOverviewFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/gui/ModuleOverviewFrame.java
 END
 MessagesImpl.java
 K 25
@@ -80,10 +86,4 @@ K 25
 svn:wc:ra_dav:version-url
 V 97
 /HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/gui/ProgressDialog.form
-END
-ModuleOverviewFrame.java
-K 25
-svn:wc:ra_dav:version-url
-V 102
-/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/gui/ModuleOverviewFrame.java
 END

@@ -1,7 +1,7 @@
 10
 
 dir
-18
+20
 https://svn.csc.uvic.ca/HITC/public/javascripts/ckeditor
 https://svn.csc.uvic.ca/HITC
 
@@ -25,6 +25,77 @@ tsmaryka
 
 
 8be0a557-81ca-0410-aade-88e2702be925
+
+samples
+dir
+
+.gitignore
+file
+
+
+
+
+2012-09-30T20:16:11.000000Z
+2487f0f37f26058daa0df09b07f7a661
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+59
+
+.gitattributes
+file
+
+
+
+
+2012-09-30T20:16:12.000000Z
+c79dd0a81073cca367fba54470f26aec
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+172
 
 API-CHANGES.md
 file
@@ -245,40 +316,6 @@ tsmaryka
 
 1906
 
-styles.js
-file
-
-
-
-
-2012-09-30T20:16:12.000000Z
-fd8fc4452674d52a5c8bf44f5bb0002c
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2864
-
 .mailmap
 file
 
@@ -313,51 +350,14 @@ tsmaryka
 
 1373
 
-samples
-dir
-
-.gitignore
-file
-
-
-
-
-2012-09-30T20:16:11.000000Z
-2487f0f37f26058daa0df09b07f7a661
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-59
-
-.gitattributes
+styles.js
 file
 
 
 
 
 2012-09-30T20:16:12.000000Z
-c79dd0a81073cca367fba54470f26aec
+fd8fc4452674d52a5c8bf44f5bb0002c
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -382,5 +382,5 @@ tsmaryka
 
 
 
-172
+2864
 

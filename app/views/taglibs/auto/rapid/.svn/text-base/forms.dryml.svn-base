@@ -15,7 +15,7 @@
 <def tag="form" for="ConsentText">
   <form merge param="default">
     <error-messages param/>
-    <field-list fields="title, body, study" param/>
+    <field-list fields="title, body" param/>
     <div param="actions">
       <submit label="#{ht 'consent_text.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
     </div>
@@ -30,6 +30,18 @@
     <field-list fields="date, consent_text, user" param/>
     <div param="actions">
       <submit label="#{ht 'consent.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
+
+<def tag="form" for="DataPoint">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="data, study_enrollment" param/>
+    <div param="actions">
+      <submit label="#{ht 'data_point.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
     </div>
   </form>
 </def>
@@ -51,7 +63,7 @@
 <def tag="form" for="Researcher">
   <form merge param="default">
     <error-messages param/>
-    <field-list fields="name, street_address, city, province, postal_code, phone, primary_language, date_of_birth, is_approved, user" param/>
+    <field-list fields="name, street_address, city, province, postal_code, phone, primary_language, date_of_birth, state, user" param/>
     <div param="actions">
       <submit label="#{ht 'researcher.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
     </div>
@@ -59,11 +71,22 @@
 </def>
 
 
+<def tag="approve-form" polymorphic/>
+<def tag="approve-form" for="Researcher">
+  <form lifecycle="approve" merge param="default">
+    <error-messages param/>
+    <input type="hidden" name="key" value="&this.lifecycle.provided_key" if="&this.lifecycle.provided_key"/>
+    <field-list fields="" param/>
+    <div param="actions">
+      <submit label="#{t 'activerecord.attributes.researcher.lifecycle.transitions.approve', :default=>['Approve']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
 
 <def tag="form" for="Study">
   <form merge param="default">
     <error-messages param/>
-    <field-list fields="title, body, state, consent_text, study_ownerships" param/>
+    <field-list fields="title, body, state, consent_text, study_invitations, study_ownerships, test_module" param/>
     <div param="actions">
       <submit label="#{ht 'study.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
     </div>
@@ -86,7 +109,7 @@
 <def tag="form" for="StudyEnrollment">
   <form merge param="default">
     <error-messages param/>
-    <field-list fields="community_member, study" param/>
+    <field-list fields="secret_key, state, community_member, study" param/>
     <div param="actions">
       <submit label="#{ht 'study_enrollment.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
     </div>
@@ -117,6 +140,18 @@
     </div>
   </form>
 </def>
+
+<def tag="form" for="TestModule">
+  <form merge param="default">
+    <error-messages param/>
+    <field-list fields="module_identifier, name" param/>
+    <div param="actions">
+      <submit label="#{ht 'test_module.actions.save', :default=>['Save']}" param/><or-cancel param="cancel"/>
+    </div>
+  </form>
+</def>
+
+
 
 <def tag="form" for="User">
   <form merge param="default">

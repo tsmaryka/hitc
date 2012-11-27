@@ -1,7 +1,7 @@
 10
 
 dir
-18
+20
 https://svn.csc.uvic.ca/HITC/public/javascripts/ckeditor/plugins/uicolor/yui/assets
 https://svn.csc.uvic.ca/HITC
 
@@ -25,6 +25,74 @@ tsmaryka
 
 
 8be0a557-81ca-0410-aade-88e2702be925
+
+picker_thumb.png
+file
+
+
+
+
+2012-09-30T20:16:14.000000Z
+96aa37e578d0428346e4c7170ac9a230
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+192
+
+hue_thumb.png
+file
+
+
+
+
+2012-09-30T20:16:14.000000Z
+b1a887427b558af46f17262784da3583
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+195
 
 picker_mask.png
 file
@@ -127,72 +195,4 @@ tsmaryka
 
 
 3079
-
-picker_thumb.png
-file
-
-
-
-
-2012-09-30T20:16:14.000000Z
-96aa37e578d0428346e4c7170ac9a230
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-192
-
-hue_thumb.png
-file
-
-
-
-
-2012-09-30T20:16:14.000000Z
-b1a887427b558af46f17262784da3583
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-195
 

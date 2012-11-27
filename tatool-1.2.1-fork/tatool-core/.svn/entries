@@ -1,15 +1,15 @@
 10
 
 dir
-18
+20
 https://svn.csc.uvic.ca/HITC/tatool-1.2.1-fork/tatool-core
 https://svn.csc.uvic.ca/HITC
 
 
 
-2012-11-24T03:50:17.168985Z
-18
-lkchan
+2012-11-25T03:48:05.121060Z
+19
+tsmaryka
 has-props
 
 
@@ -25,6 +25,40 @@ has-props
 
 
 8be0a557-81ca-0410-aade-88e2702be925
+
+.classpath
+file
+
+
+
+
+2012-11-19T04:01:00.000000Z
+abe1c0547de0e6a9c1b158191d35e835
+2012-11-19T03:58:00.289492Z
+11
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1433
 
 .project
 file
@@ -68,7 +102,7 @@ dir
 
 pom.xml
 file
-19
+
 
 
 
@@ -102,38 +136,4 @@ tsmaryka
 
 .settings
 dir
-
-.classpath
-file
-
-
-
-
-2012-11-19T04:01:00.000000Z
-abe1c0547de0e6a9c1b158191d35e835
-2012-11-19T03:58:00.289492Z
-11
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1433
 

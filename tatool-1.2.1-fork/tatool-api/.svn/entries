@@ -1,15 +1,15 @@
 10
 
 dir
-18
+20
 https://svn.csc.uvic.ca/HITC/tatool-1.2.1-fork/tatool-api
 https://svn.csc.uvic.ca/HITC
 
 
 
-2012-11-24T03:50:17.168985Z
-18
-lkchan
+2012-11-25T03:48:05.121060Z
+19
+tsmaryka
 has-props
 
 
@@ -25,43 +25,6 @@ has-props
 
 
 8be0a557-81ca-0410-aade-88e2702be925
-
-src
-dir
-
-pom.xml
-file
-
-
-
-
-2012-11-19T01:31:01.000000Z
-b58c6e28b590be59d85b9c80758a91d8
-2012-11-17T23:35:49.884342Z
-7
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1324
 
 .settings
 dir
@@ -133,4 +96,41 @@ lkchan
 
 
 562
+
+src
+dir
+
+pom.xml
+file
+
+
+
+
+2012-11-24T00:09:34.000000Z
+b58c6e28b590be59d85b9c80758a91d8
+2012-11-17T23:35:49.884342Z
+7
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1324
 

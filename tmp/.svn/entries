@@ -1,7 +1,7 @@
 10
 
 dir
-18
+20
 https://svn.csc.uvic.ca/HITC/tmp
 https://svn.csc.uvic.ca/HITC
 
@@ -26,6 +26,9 @@ tsmaryka
 
 8be0a557-81ca-0410-aade-88e2702be925
 
+sessions
+dir
+
 sockets
 dir
 
@@ -33,8 +36,5 @@ pids
 dir
 
 cache
-dir
-
-sessions
 dir
 

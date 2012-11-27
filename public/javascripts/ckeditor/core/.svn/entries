@@ -1,7 +1,7 @@
 10
 
 dir
-18
+20
 https://svn.csc.uvic.ca/HITC/public/javascripts/ckeditor/core
 https://svn.csc.uvic.ca/HITC
 
@@ -25,6 +25,108 @@ tsmaryka
 
 
 8be0a557-81ca-0410-aade-88e2702be925
+
+lang.js
+file
+
+
+
+
+2012-09-30T20:16:12.000000Z
+9e208774875d7bf7693f605847172aa8
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3459
+
+editor_basic.js
+file
+
+
+
+
+2012-09-30T20:16:12.000000Z
+f3fa81e5e0b4183fe023bf34113770d7
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1260
+
+scriptloader.js
+file
+
+
+
+
+2012-09-30T20:16:12.000000Z
+d3029be905a6b49a131eff008761d1a7
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4677
 
 eventInfo.js
 file
@@ -94,17 +196,14 @@ tsmaryka
 
 51146
 
-dom
-dir
-
-skin.js
+ckeditor.js
 file
 
 
 
 
 2012-09-30T20:16:12.000000Z
-3ce074939bbcc047fcb5120dee44da18
+e8566b694439454022570ac0b7bcc12c
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -129,16 +228,16 @@ tsmaryka
 
 
 
-9102
+5519
 
-ckeditor_basic.js
+config.js
 file
 
 
 
 
 2012-09-30T20:16:12.000000Z
-f2684b8010a03dd210cf383871d50b9d
+b49a8402f513b90e2fc4d0d7f78f27bd
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -163,78 +262,10 @@ tsmaryka
 
 
 
-2802
-
-loader.js
-file
-
-
-
-
-2012-09-30T20:16:12.000000Z
-e5e7e9e65e8d2fbcf46e5a0618aea7da
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8347
+10836
 
 creators
 dir
-
-plugindefinition.js
-file
-
-
-
-
-2012-09-30T20:16:12.000000Z
-6b39ff6c7af163d196e12fdc70180dfb
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2523
 
 dataprocessor.js
 file
@@ -270,14 +301,14 @@ tsmaryka
 
 2870
 
-editable.js
+focusmanager.js
 file
 
 
 
 
 2012-09-30T20:16:12.000000Z
-14dfd7b69486b8201aca97fc71bd9921
+5cfbe3daefcab4290448f96e4bf581cd
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -302,16 +333,16 @@ tsmaryka
 
 
 
-52757
+6878
 
-keystrokehandler.js
+template.js
 file
 
 
 
 
 2012-09-30T20:16:12.000000Z
-774022def030e7af0dfa2c8032852763
+3e4a561d4d940fd6a3b22324de055948
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -336,7 +367,75 @@ tsmaryka
 
 
 
-3804
+2403
+
+_bootstrap.js
+file
+
+
+
+
+2012-09-30T20:16:12.000000Z
+6ba6e7a5f7f5c01ae017a97c840b7aac
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2423
+
+ui.js
+file
+
+
+
+
+2012-09-30T20:16:12.000000Z
+7932625c538f05a19dd196db70f252a5
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4261
 
 dom.js
 file
@@ -371,6 +470,40 @@ tsmaryka
 
 
 346
+
+htmlparser.js
+file
+
+
+
+
+2012-09-30T20:16:12.000000Z
+18f6ee7ebac66ad1f08cc665b6ae709f
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6361
 
 event.js
 file
@@ -440,40 +573,6 @@ tsmaryka
 
 3452
 
-lang.js
-file
-
-
-
-
-2012-09-30T20:16:12.000000Z
-9e208774875d7bf7693f605847172aa8
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3459
-
 resourcemanager.js
 file
 
@@ -542,6 +641,40 @@ tsmaryka
 
 53630
 
+editor.js
+file
+
+
+
+
+2012-09-30T20:16:12.000000Z
+9546df14a0504dff27fa161366d6ac49
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+37886
+
 commanddefinition.js
 file
 
@@ -576,40 +709,6 @@ tsmaryka
 
 3774
 
-editor_basic.js
-file
-
-
-
-
-2012-09-30T20:16:12.000000Z
-f3fa81e5e0b4183fe023bf34113770d7
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1260
-
 env.js
 file
 
@@ -643,40 +742,6 @@ tsmaryka
 
 
 7981
-
-scriptloader.js
-file
-
-
-
-
-2012-09-30T20:16:12.000000Z
-d3029be905a6b49a131eff008761d1a7
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4677
 
 htmldataprocessor.js
 file
@@ -780,48 +845,17 @@ tsmaryka
 
 25970
 
-ckeditor.js
-file
-
-
-
-
-2012-09-30T20:16:12.000000Z
-e8566b694439454022570ac0b7bcc12c
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5519
+dom
+dir
 
-config.js
+skin.js
 file
 
 
 
 
 2012-09-30T20:16:12.000000Z
-b49a8402f513b90e2fc4d0d7f78f27bd
+3ce074939bbcc047fcb5120dee44da18
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -846,19 +880,53 @@ tsmaryka
 
 
 
-10836
+9102
+
+ckeditor_basic.js
+file
+
+
+
+
+2012-09-30T20:16:12.000000Z
+f2684b8010a03dd210cf383871d50b9d
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2802
 
 htmlparser
 dir
 
-focusmanager.js
+loader.js
 file
 
 
 
 
 2012-09-30T20:16:12.000000Z
-5cfbe3daefcab4290448f96e4bf581cd
+e5e7e9e65e8d2fbcf46e5a0618aea7da
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -883,16 +951,16 @@ tsmaryka
 
 
 
-6878
+8347
 
-template.js
+plugindefinition.js
 file
 
 
 
 
 2012-09-30T20:16:12.000000Z
-3e4a561d4d940fd6a3b22324de055948
+6b39ff6c7af163d196e12fdc70180dfb
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -917,7 +985,41 @@ tsmaryka
 
 
 
-2403
+2523
+
+editable.js
+file
+
+
+
+
+2012-09-30T20:16:12.000000Z
+14dfd7b69486b8201aca97fc71bd9921
+2012-09-30T20:27:53.150972Z
+1
+tsmaryka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+52757
 
 dtd.js
 file
@@ -953,74 +1055,6 @@ tsmaryka
 
 7389
 
-_bootstrap.js
-file
-
-
-
-
-2012-09-30T20:16:12.000000Z
-6ba6e7a5f7f5c01ae017a97c840b7aac
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2423
-
-ui.js
-file
-
-
-
-
-2012-09-30T20:16:12.000000Z
-7932625c538f05a19dd196db70f252a5
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4261
-
 command.js
 file
 
@@ -1055,14 +1089,14 @@ tsmaryka
 
 7149
 
-htmlparser.js
+keystrokehandler.js
 file
 
 
 
 
 2012-09-30T20:16:12.000000Z
-18f6ee7ebac66ad1f08cc665b6ae709f
+774022def030e7af0dfa2c8032852763
 2012-09-30T20:27:53.150972Z
 1
 tsmaryka
@@ -1087,39 +1121,5 @@ tsmaryka
 
 
 
-6361
-
-editor.js
-file
-
-
-
-
-2012-09-30T20:16:12.000000Z
-9546df14a0504dff27fa161366d6ac49
-2012-09-30T20:27:53.150972Z
-1
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-37886
+3804
 

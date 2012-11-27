@@ -27,6 +27,14 @@
   </card>
 </def>
 
+<def tag="card" for="DataPoint">
+  <card class="data-point" param="default" merge>
+    <header: param>
+      <h4 param="heading"><name/></h4>
+    </header:>
+  </card>
+</def>
+
 <def tag="card" for="Manager">
   <card class="manager" param="default" merge>
     <header: param>
@@ -72,6 +80,14 @@
 
 <def tag="card" for="StudyOwnership">
   <card class="study-ownership" param="default" merge>
+    <header: param>
+      <h4 param="heading"><name/></h4>
+    </header:>
+  </card>
+</def>
+
+<def tag="card" for="TestModule">
+  <card class="test-module" param="default" merge>
     <header: param>
       <h4 param="heading"><name/></h4>
     </header:>

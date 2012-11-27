@@ -63,6 +63,7 @@
 					<archive>
 						<manifest>
 							<mainClass>ca.uvic.hitc.app.DemoHitCApp</mainClass>
+							<addClasspath>true</addClasspath>
 						</manifest>
 					</archive>
 				</configuration>

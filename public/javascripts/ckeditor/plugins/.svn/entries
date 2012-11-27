@@ -1,7 +1,7 @@
 10
 
 dir
-18
+20
 https://svn.csc.uvic.ca/HITC/public/javascripts/ckeditor/plugins
 https://svn.csc.uvic.ca/HITC
 
@@ -26,6 +26,36 @@ tsmaryka
 
 8be0a557-81ca-0410-aade-88e2702be925
 
+elementspath
+dir
+
+wsc
+dir
+
+pastefromword
+dir
+
+print
+dir
+
+link
+dir
+
+dialogui
+dir
+
+templates
+dir
+
+dialog
+dir
+
+xml
+dir
+
+selectionmark
+dir
+
 showborders
 dir
 
@@ -41,10 +71,10 @@ dir
 richcombo
 dir
 
-adobeair
+stylesheetparser
 dir
 
-stylesheetparser
+adobeair
 dir
 
 selectall
@@ -53,10 +83,10 @@ dir
 contextmenu
 dir
 
-button
+divarea
 dir
 
-divarea
+button
 dir
 
 specialchar
@@ -86,13 +116,13 @@ dir
 colordialog
 dir
 
-devtools
+clipboard
 dir
 
 panel
 dir
 
-clipboard
+devtools
 dir
 
 blockquote
@@ -107,10 +137,13 @@ dir
 floatingspace
 dir
 
+fakeobjects
+dir
+
 find
 dir
 
-fakeobjects
+scayt
 dir
 
 maximize
@@ -119,16 +152,13 @@ dir
 iframedialog
 dir
 
-scayt
-dir
-
 a11yhelp
 dir
 
-enterkey
+newpage
 dir
 
-newpage
+enterkey
 dir
 
 format
@@ -158,10 +188,10 @@ dir
 about
 dir
 
-showblocks
+bbcode
 dir
 
-bbcode
+showblocks
 dir
 
 pastetext
@@ -218,10 +248,10 @@ dir
 horizontalrule
 dir
 
-dialogadvtab
+indent
 dir
 
-indent
+dialogadvtab
 dir
 
 div
@@ -243,35 +273,5 @@ table
 dir
 
 magicline
-dir
-
-elementspath
-dir
-
-wsc
-dir
-
-print
-dir
-
-pastefromword
-dir
-
-link
-dir
-
-dialogui
-dir
-
-templates
-dir
-
-dialog
-dir
-
-xml
-dir
-
-selectionmark
 dir
 

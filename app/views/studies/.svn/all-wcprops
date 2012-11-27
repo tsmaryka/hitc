@@ -1,17 +1,17 @@
 K 25
 svn:wc:ra_dav:version-url
-V 34
-/HITC/!svn/ver/4/app/views/studies
+V 35
+/HITC/!svn/ver/20/app/views/studies
 END
 show.dryml
 K 25
 svn:wc:ra_dav:version-url
-V 45
-/HITC/!svn/ver/4/app/views/studies/show.dryml
+V 46
+/HITC/!svn/ver/20/app/views/studies/show.dryml
 END
 index.dryml
 K 25
 svn:wc:ra_dav:version-url
-V 46
-/HITC/!svn/ver/4/app/views/studies/index.dryml
+V 47
+/HITC/!svn/ver/20/app/views/studies/index.dryml
 END

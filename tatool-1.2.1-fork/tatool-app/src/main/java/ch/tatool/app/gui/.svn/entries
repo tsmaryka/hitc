@@ -1,15 +1,15 @@
 10
 
 dir
-18
+20
 https://svn.csc.uvic.ca/HITC/tatool-1.2.1-fork/tatool-app/src/main/java/ch/tatool/app/gui
 https://svn.csc.uvic.ca/HITC
 
 
 
-2012-11-24T03:50:17.168985Z
-18
-lkchan
+2012-11-25T03:48:05.121060Z
+19
+tsmaryka
 
 
 
@@ -25,142 +25,6 @@ lkchan
 
 
 8be0a557-81ca-0410-aade-88e2702be925
-
-ModuleInfoPanel.java
-file
-
-
-
-
-2012-11-19T01:31:00.000000Z
-d77402e7d645602a7dd5f0bec1cc16f7
-2012-11-17T21:57:09.946176Z
-6
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6782
-
-LoginFrame.java
-file
-
-
-
-
-2012-11-24T03:55:17.000000Z
-8e079ecff99e84f8d663fcf1d2735688
-2012-11-24T03:50:17.168985Z
-18
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-15880
-
-ProgressDialog.java
-file
-
-
-
-
-2012-11-19T01:31:00.000000Z
-db1eea68461a0b6e9029a37dfa90b1db
-2012-11-17T21:57:09.946176Z
-6
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3207
-
-LoginFrame.form
-file
-
-
-
-
-2012-11-19T01:31:00.000000Z
-ffd3d9813041baed32accfccc8e80657
-2012-11-17T21:57:09.946176Z
-6
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8432
 
 ProgressDialog.form
 file
@@ -334,7 +198,7 @@ lkchan
 
 ModuleManagerFrame.java
 file
-19
+
 
 
 
@@ -501,4 +365,140 @@ lkchan
 
 
 7364
+
+ModuleInfoPanel.java
+file
+
+
+
+
+2012-11-19T01:31:00.000000Z
+d77402e7d645602a7dd5f0bec1cc16f7
+2012-11-17T21:57:09.946176Z
+6
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6782
+
+LoginFrame.java
+file
+
+
+
+
+2012-11-24T03:55:17.000000Z
+8e079ecff99e84f8d663fcf1d2735688
+2012-11-24T03:50:17.168985Z
+18
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15880
+
+ProgressDialog.java
+file
+
+
+
+
+2012-11-19T01:31:00.000000Z
+db1eea68461a0b6e9029a37dfa90b1db
+2012-11-17T21:57:09.946176Z
+6
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3207
+
+LoginFrame.form
+file
+
+
+
+
+2012-11-19T01:31:00.000000Z
+ffd3d9813041baed32accfccc8e80657
+2012-11-17T21:57:09.946176Z
+6
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8432
 

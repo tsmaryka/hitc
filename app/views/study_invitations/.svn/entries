@@ -1,14 +1,14 @@
 10
 
 dir
-18
+20
 https://svn.csc.uvic.ca/HITC/app/views/study_invitations
 https://svn.csc.uvic.ca/HITC
 
 
 
-2012-11-05T07:35:44.438654Z
-4
+2012-11-27T07:20:06.039307Z
+20
 tsmaryka
 
 
@@ -32,33 +32,11 @@ file
 
 
 
-2012-11-05T05:59:36.000000Z
-cf6fde6bde3edb47cb41cc40f0a7ee3a
-2012-11-05T07:35:44.438654Z
-4
+
+d2fbf3e6f231256d60e3fb37a95bb2d3
+2012-11-27T07:20:06.039307Z
+20
 tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-326
 
 index.dryml
 file
@@ -66,31 +44,9 @@ file
 
 
 
-2012-11-05T06:09:57.000000Z
-5c680bdda0e6b710f6dfc29d966c3d42
-2012-11-05T07:35:44.438654Z
-4
+
+20d1e77879708e443acc6e6b451bdfb1
+2012-11-27T07:20:06.039307Z
+20
 tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-411
 

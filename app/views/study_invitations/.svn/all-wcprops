@@ -1,17 +1,17 @@
 K 25
 svn:wc:ra_dav:version-url
-V 44
-/HITC/!svn/ver/4/app/views/study_invitations
-END
-show.dryml
-K 25
-svn:wc:ra_dav:version-url
-V 55
-/HITC/!svn/ver/4/app/views/study_invitations/show.dryml
+V 45
+/HITC/!svn/ver/20/app/views/study_invitations
 END
 index.dryml
 K 25
 svn:wc:ra_dav:version-url
+V 57
+/HITC/!svn/ver/20/app/views/study_invitations/index.dryml
+END
+show.dryml
+K 25
+svn:wc:ra_dav:version-url
 V 56
-/HITC/!svn/ver/4/app/views/study_invitations/index.dryml
+/HITC/!svn/ver/20/app/views/study_invitations/show.dryml
 END

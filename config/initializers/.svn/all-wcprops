@@ -1,7 +1,25 @@
 K 25
 svn:wc:ra_dav:version-url
-V 36
-/HITC/!svn/ver/5/config/initializers
+V 37
+/HITC/!svn/ver/20/config/initializers
+END
+mime_types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/HITC/!svn/ver/20/config/initializers/mime_types.rb
+END
+dryml_taglibs.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/HITC/!svn/ver/1/config/initializers/dryml_taglibs.rb
+END
+inflections.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/HITC/!svn/ver/1/config/initializers/inflections.rb
 END
 session_store.rb
 K 25
@@ -26,22 +44,4 @@ K 25
 svn:wc:ra_dav:version-url
 V 59
 /HITC/!svn/ver/1/config/initializers/backtrace_silencers.rb
-END
-mime_types.rb
-K 25
-svn:wc:ra_dav:version-url
-V 50
-/HITC/!svn/ver/5/config/initializers/mime_types.rb
-END
-dryml_taglibs.rb
-K 25
-svn:wc:ra_dav:version-url
-V 53
-/HITC/!svn/ver/1/config/initializers/dryml_taglibs.rb
-END
-inflections.rb
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/HITC/!svn/ver/1/config/initializers/inflections.rb
 END

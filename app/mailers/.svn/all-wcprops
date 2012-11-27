@@ -1,17 +1,11 @@
 K 25
 svn:wc:ra_dav:version-url
-V 28
-/HITC/!svn/ver/4/app/mailers
+V 29
+/HITC/!svn/ver/20/app/mailers
 END
 user_mailer.rb
 K 25
 svn:wc:ra_dav:version-url
-V 43
-/HITC/!svn/ver/4/app/mailers/user_mailer.rb
-END
-test_mailer.rb
-K 25
-svn:wc:ra_dav:version-url
-V 43
-/HITC/!svn/ver/4/app/mailers/test_mailer.rb
+V 44
+/HITC/!svn/ver/20/app/mailers/user_mailer.rb
 END

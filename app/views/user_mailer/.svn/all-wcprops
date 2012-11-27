@@ -1,17 +1,17 @@
 K 25
 svn:wc:ra_dav:version-url
-V 38
-/HITC/!svn/ver/1/app/views/user_mailer
+V 39
+/HITC/!svn/ver/20/app/views/user_mailer
 END
 activation.erb
 K 25
 svn:wc:ra_dav:version-url
-V 53
-/HITC/!svn/ver/1/app/views/user_mailer/activation.erb
+V 54
+/HITC/!svn/ver/20/app/views/user_mailer/activation.erb
 END
 forgot_password.erb
 K 25
 svn:wc:ra_dav:version-url
-V 58
-/HITC/!svn/ver/1/app/views/user_mailer/forgot_password.erb
+V 59
+/HITC/!svn/ver/20/app/views/user_mailer/forgot_password.erb
 END

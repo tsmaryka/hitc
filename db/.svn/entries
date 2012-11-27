@@ -1,14 +1,14 @@
 10
 
 dir
-18
+20
 https://svn.csc.uvic.ca/HITC/db
 https://svn.csc.uvic.ca/HITC
 
 
 
-2012-11-05T07:35:44.438654Z
-4
+2012-11-27T07:20:06.039307Z
+20
 tsmaryka
 
 
@@ -35,33 +35,11 @@ file
 
 
 
-2012-11-05T05:15:42.000000Z
-4097e3f78fd10ab8027a669a97ca9bdb
-2012-11-05T07:35:44.438654Z
-4
+
+066c0d62f5e9d2deb8d0da5297fe3a1f
+2012-11-27T07:20:06.039307Z
+20
 tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5140
 
 test.sqlite3
 file

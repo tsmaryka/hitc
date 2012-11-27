@@ -1,25 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
-V 76
-/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/module
-END
-ModuleInfoProvider.java
-K 25
-svn:wc:ra_dav:version-url
-V 100
-/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/module/ModuleInfoProvider.java
-END
-ModuleCreatorRegistry.java
-K 25
-svn:wc:ra_dav:version-url
-V 103
-/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/module/ModuleCreatorRegistry.java
-END
-ExecutorInitializer.java
-K 25
-svn:wc:ra_dav:version-url
-V 101
-/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/module/ExecutorInitializer.java
+V 77
+/HITC/!svn/ver/19/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/module
 END
 ModuleScheduler.java
 K 25
@@ -44,4 +26,22 @@ K 25
 svn:wc:ra_dav:version-url
 V 104
 /HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/module/ModuleSchedulerMessage.java
+END
+ModuleInfoProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/module/ModuleInfoProvider.java
+END
+ModuleCreatorRegistry.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/module/ModuleCreatorRegistry.java
+END
+ExecutorInitializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/HITC/!svn/ver/6/tatool-1.2.1-fork/tatool-api/src/main/java/ch/tatool/module/ExecutorInitializer.java
 END

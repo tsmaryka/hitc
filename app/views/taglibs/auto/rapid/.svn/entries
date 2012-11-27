@@ -1,14 +1,14 @@
 10
 
 dir
-18
+20
 https://svn.csc.uvic.ca/HITC/app/views/taglibs/auto/rapid
 https://svn.csc.uvic.ca/HITC
 
 
 
-2012-11-06T21:25:38.367938Z
-5
+2012-11-27T07:20:06.039307Z
+20
 tsmaryka
 
 
@@ -26,73 +26,17 @@ tsmaryka
 
 8be0a557-81ca-0410-aade-88e2702be925
 
-forms.dryml
-file
-
-
-
-
-2012-11-06T20:48:39.000000Z
-0710821f908795c79e20abc90b6c0c70
-2012-11-06T21:25:38.367938Z
-5
-tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6200
-
 cards.dryml
 file
 
 
 
 
-2012-11-05T06:12:17.000000Z
-8ce61faa109f956d1c8a1be8e739d018
-2012-11-05T07:35:44.438654Z
-4
+
+ebb55776ab0b5740a0c0a574dd5c8f32
+2012-11-27T07:20:06.039307Z
+20
 tsmaryka
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1962
 
 pages.dryml
 file
@@ -100,31 +44,21 @@ file
 
 
 
-2012-11-06T20:48:39.000000Z
-3d7ef48add1e57666c4c1ba118cd1dd3
-2012-11-06T21:25:38.367938Z
-5
+
+21a35d8315b636207baf8644dd02003f
+2012-11-27T07:20:06.039307Z
+20
 tsmaryka
+
+forms.dryml
+file
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-33171
+aa6e2ac061ea9a05ee4ccd7fe8c8b15b
+2012-11-27T07:20:06.039307Z
+20
+tsmaryka
 

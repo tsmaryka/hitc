@@ -1,15 +1,15 @@
 10
 
 dir
-18
+20
 https://svn.csc.uvic.ca/HITC/hitc-tatool-client
 https://svn.csc.uvic.ca/HITC
 
 
 
-2012-11-23T23:41:58.272875Z
-17
-lkchan
+2012-11-27T07:20:06.039307Z
+20
+tsmaryka
 has-props
 
 
@@ -25,6 +25,40 @@ has-props
 
 
 8be0a557-81ca-0410-aade-88e2702be925
+
+.classpath
+file
+
+
+
+
+2012-11-19T04:01:14.000000Z
+b0b1930c526e201d47704be87d94dbd6
+2012-11-19T03:58:00.289492Z
+11
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1431
 
 .project
 file
@@ -103,68 +137,12 @@ file
 
 
 
-2012-11-23T06:25:03.000000Z
-54610c1a67348b52d66537faeade5825
-2012-11-19T07:43:19.544708Z
-13
-lkchan
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2521
+8cd512c415e88af99a3bd3094200dbd0
+2012-11-27T07:20:06.039307Z
+20
+tsmaryka
 
 .settings
 dir
-
-.classpath
-file
-
-
-
-
-2012-11-19T04:01:14.000000Z
-b0b1930c526e201d47704be87d94dbd6
-2012-11-19T03:58:00.289492Z
-11
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1431
 

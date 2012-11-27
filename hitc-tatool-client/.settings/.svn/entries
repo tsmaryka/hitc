@@ -1,7 +1,7 @@
 10
 
 dir
-18
+20
 https://svn.csc.uvic.ca/HITC/hitc-tatool-client/.settings
 https://svn.csc.uvic.ca/HITC
 
@@ -25,40 +25,6 @@ lkchan
 
 
 8be0a557-81ca-0410-aade-88e2702be925
-
-org.eclipse.jdt.core.prefs
-file
-
-
-
-
-2012-11-19T04:02:29.000000Z
-eb43c52fa7846accb7b49329aaca1bc5
-2012-11-19T03:58:00.289492Z
-11
-lkchan
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-243
 
 org.eclipse.m2e.core.prefs
 file
@@ -93,4 +59,38 @@ lkchan
 
 
 90
+
+org.eclipse.jdt.core.prefs
+file
+
+
+
+
+2012-11-19T04:02:29.000000Z
+eb43c52fa7846accb7b49329aaca1bc5
+2012-11-19T03:58:00.289492Z
+11
+lkchan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+243
 

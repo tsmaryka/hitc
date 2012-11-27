@@ -1,7 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 47
-/HITC/!svn/ver/18/tatool-1.2.1-fork/tatool-core
+/HITC/!svn/ver/19/tatool-1.2.1-fork/tatool-core
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/HITC/!svn/ver/11/tatool-1.2.1-fork/tatool-core/.classpath
 END
 .project
 K 25
@@ -14,10 +20,4 @@ K 25
 svn:wc:ra_dav:version-url
 V 55
 /HITC/!svn/ver/19/tatool-1.2.1-fork/tatool-core/pom.xml
-END
-.classpath
-K 25
-svn:wc:ra_dav:version-url
-V 58
-/HITC/!svn/ver/11/tatool-1.2.1-fork/tatool-core/.classpath
 END
